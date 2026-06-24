@@ -1052,3 +1052,4 @@
 {"source":"live_entry","ticker":"LMFA","action":"BUY","entry_price":0.148,"shares":1200,"stop":0.146,"target":0.15,"confidence":0.75,"features":[],"timestamp":"2026-06-24T15:24:33.387883+00:00","model_version":"scalper_v1"}
 {"source":"scan_pick","ticker":"ROC","action":"SCAN_PICK","scan_score":91.0,"confidence":0.5,"features":[],"timestamp":"2026-06-24T15:34:41.214075","model_version":"scalper_v1"}
 {"source":"live_entry","ticker":"CCXIU","action":"BUY","entry_price":13.21786015,"shares":56,"stop":12.935,"target":13.2925,"confidence":0.65,"features":[],"timestamp":"2026-06-24T15:38:34.026276+00:00","model_version":"scalper_v1"}
+{"source":"scan_pick","ticker":"FMFC","action":"SCAN_PICK","scan_score":87.5,"confidence":0.5,"features":[],"timestamp":"2026-06-24T16:31:50.154708","model_version":"scalper_v1"}
