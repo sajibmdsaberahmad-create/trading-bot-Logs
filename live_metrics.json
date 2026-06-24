@@ -1,37 +1,49 @@
 {
   "mode": "HANOON",
-  "account_equity": 999571.11,
-  "available_cash": 999571.11,
-  "position_value": 0.0,
-  "nav": 1000.0,
+  "account_equity": 1021685.15,
+  "available_cash": 1021685.15,
+  "position_value": 304.0,
+  "nav": 1319.59,
   "deployed_pct": 0.0,
-  "current_ticker": "NONE",
-  "position": "NONE",
+  "current_ticker": "CCXI",
+  "position": "25 CCXI",
   "win_rate": 0.0,
-  "trades_today": 0,
-  "top_pick": "BDL",
-  "top_score": 67.6,
-  "next_best": null,
-  "next_best_score": 0.0,
+  "trades_today": 8,
+  "top_pick": "CCXIU",
+  "top_score": 54.2,
+  "next_best": "CCXIU",
+  "next_best_score": 4110.8,
   "scan_results": [
     {
-      "ticker": "FMFC",
-      "price": 0.376,
-      "score": 87.5,
-      "reason": "uptrend | strong_mom_13.9 | vo"
+      "ticker": "PLSM",
+      "price": 0.0,
+      "score": 96.0,
+      "reason": "scanner:HOT_BY_VOLUME#0"
     },
     {
-      "ticker": "BDL",
-      "price": 46.0,
-      "score": 67.6,
-      "reason": "uptrend | strong_mom_2.2 | vol"
+      "ticker": "FRTT",
+      "price": 0.0,
+      "score": 93.8,
+      "reason": "scanner:HOT_BY_VOLUME#1"
     },
     {
       "ticker": "CCXI",
-      "price": 12.42,
-      "score": 34.3,
-      "reason": "uptrend | vol_2.7x | 1m_up"
+      "price": 0.0,
+      "score": 91.6,
+      "reason": "scanner:HOT_BY_VOLUME#2"
+    },
+    {
+      "ticker": "AAGR",
+      "price": 0.0,
+      "score": 89.4,
+      "reason": "scanner:HOT_BY_VOLUME#3"
+    },
+    {
+      "ticker": "FMFC",
+      "price": 0.0,
+      "score": 87.2,
+      "reason": "scanner:HOT_BY_VOLUME#4"
     }
   ],
-  "timestamp": "2026-06-24T16:34:51.598085+00:00"
+  "timestamp": "2026-06-24T18:30:36.354613+00:00"
 }

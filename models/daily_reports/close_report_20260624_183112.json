@@ -1,0 +1,57 @@
+{
+  "timestamp": "2026-06-24T18:31:12.950696+00:00",
+  "mode": "HANOON",
+  "ticker": "CCXIU",
+  "ib_account": 1021687.01,
+  "ib_start": 998932.17,
+  "ib_change": 22754.84,
+  "ib_change_pct": 2.28,
+  "bot_cash": 1319.29,
+  "bot_nav": 1319.29,
+  "day_pnl": 319.29,
+  "day_pnl_pct": 31.93,
+  "baseline": 1000.0,
+  "trades": 8,
+  "wins": 0,
+  "losses": 1,
+  "position": null,
+  "scan_count": 30,
+  "top_pick": "CCXIU",
+  "weights": {
+    "momentum": 3.404486622112097,
+    "volume": 25.533649665840727,
+    "institutional": 34.04486622112096,
+    "vwap_slope": 8.51121655528024,
+    "atr_bonus": 8.51121655528024,
+    "mean_reversion": 8.51121655528024,
+    "trend_filter": 17.02243311056048,
+    "price_rising": 13.617946488448387,
+    "rsi_filter": 5.106729933168146,
+    "volatility_gate": 6.808973244224194,
+    "_meta": {
+      "train_timestamp": "2026-06-24T14:05:06.638024",
+      "buffer_total": 1031,
+      "buffer_win_rate": 0.508,
+      "sources": {
+        "backtest": 580,
+        "market_context": 1,
+        "scan_pick": 31,
+        "ai_scan": 320,
+        "live_entry": 71,
+        "consciousness": 5,
+        "live_trade": 23
+      }
+    }
+  },
+  "journal": [
+    {
+      "ticker": "CCXI",
+      "entry": 12.17,
+      "exit": 12.16,
+      "shares": 25.0,
+      "pnl_usd": -0.25,
+      "pnl_pct": -0.08,
+      "result": "loss"
+    }
+  ]
+}

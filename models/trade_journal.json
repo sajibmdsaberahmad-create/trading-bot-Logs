@@ -115,5 +115,14 @@
     "pnl_usd": -3.8,
     "pnl_pct": -0.38,
     "result": "loss"
+  },
+  {
+    "ticker": "CCXI",
+    "entry": 12.17,
+    "exit": 12.16,
+    "shares": 25.0,
+    "pnl_usd": -0.25,
+    "pnl_pct": -0.08,
+    "result": "loss"
   }
 ]
