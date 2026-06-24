@@ -1,7 +1,7 @@
 {
   "mode": "HANOON",
-  "account_equity": 999571.09,
-  "available_cash": 999571.09,
+  "account_equity": 999571.11,
+  "available_cash": 999571.11,
   "position_value": 0.0,
   "nav": 1000.0,
   "deployed_pct": 0.0,
@@ -33,5 +33,5 @@
       "reason": "uptrend | vol_2.7x | 1m_up"
     }
   ],
-  "timestamp": "2026-06-24T16:32:36.985757+00:00"
+  "timestamp": "2026-06-24T16:34:51.598085+00:00"
 }
