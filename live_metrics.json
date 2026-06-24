@@ -1,18 +1,18 @@
 {
   "mode": "HANOON",
-  "account_equity": 1021685.15,
-  "available_cash": 1021685.15,
-  "position_value": 304.0,
-  "nav": 1319.59,
+  "account_equity": 998909.18,
+  "available_cash": 998909.18,
+  "position_value": 0.0,
+  "nav": 996.83,
   "deployed_pct": 0.0,
-  "current_ticker": "CCXI",
-  "position": "25 CCXI",
+  "current_ticker": "NONE",
+  "position": "NONE",
   "win_rate": 0.0,
-  "trades_today": 8,
-  "top_pick": "CCXIU",
-  "top_score": 54.2,
-  "next_best": "CCXIU",
-  "next_best_score": 4110.8,
+  "trades_today": 1,
+  "top_pick": "FMFC",
+  "top_score": 87.2,
+  "next_best": "CCXI",
+  "next_best_score": 300.5,
   "scan_results": [
     {
       "ticker": "PLSM",
@@ -45,5 +45,6 @@
       "reason": "scanner:HOT_BY_VOLUME#4"
     }
   ],
-  "timestamp": "2026-06-24T18:30:36.354613+00:00"
+  "timestamp": "2026-06-24T19:07:55.090329+00:00",
+  "ai_narrative": "```json\n{\n  \"gut_feel\": 0.7,\n  \"intuition\": \"The mood is anxious but there's a strong opportunity in the top picks and recent volume-based hits, warranting cautious optimism.\",\n  \"position\": \"NONE\",\n  \"current_ticker\": \"\",\n  \"mode\": \"HANOON\"\n}\n```"
 }
