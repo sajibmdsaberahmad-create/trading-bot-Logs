@@ -1,9 +1,9 @@
 {
   "mode": "HANOON",
-  "account_equity": 999444.51,
-  "available_cash": 999444.51,
-  "position_value": 734.16,
-  "nav": 993.22,
+  "account_equity": 999571.37,
+  "available_cash": 999571.37,
+  "position_value": 733.6,
+  "nav": 992.66,
   "deployed_pct": 0.1,
   "current_ticker": "CCXIU",
   "position": "56 CCXIU",
@@ -39,5 +39,5 @@
       "reason": "Volume is extremely low (0), w"
     }
   ],
-  "timestamp": "2026-06-24T16:03:09.966770+00:00"
+  "timestamp": "2026-06-24T16:08:55.375680+00:00"
 }
