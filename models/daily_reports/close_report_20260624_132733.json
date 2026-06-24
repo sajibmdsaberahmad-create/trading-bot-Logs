@@ -1,0 +1,66 @@
+{
+  "timestamp": "2026-06-24T13:27:33.699612+00:00",
+  "mode": "HANOON",
+  "ticker": "VTAK",
+  "ib_account": 986315.96,
+  "ib_start": 1001535.39,
+  "ib_change": -15219.43,
+  "ib_change_pct": -1.52,
+  "bot_cash": -36945.92,
+  "bot_nav": -23576.96,
+  "day_pnl": -24576.96,
+  "day_pnl_pct": -2457.7,
+  "baseline": 1000.0,
+  "trades": 13,
+  "wins": 0,
+  "losses": 2,
+  "position": "9284 VTAK",
+  "scan_count": 5,
+  "top_pick": "VTAK",
+  "weights": {
+    "momentum": 3.3677524829812135,
+    "volume": 25.258143622359103,
+    "institutional": 33.677524829812135,
+    "vwap_slope": 8.419381207453034,
+    "atr_bonus": 8.419381207453034,
+    "mean_reversion": 8.419381207453034,
+    "trend_filter": 16.838762414906068,
+    "price_rising": 13.471009931924854,
+    "rsi_filter": 5.051628724471821,
+    "volatility_gate": 6.735504965962427,
+    "_meta": {
+      "train_timestamp": "2026-06-24T13:12:44.566608",
+      "buffer_total": 965,
+      "buffer_win_rate": 0.539,
+      "sources": {
+        "backtest": 580,
+        "market_context": 1,
+        "scan_pick": 25,
+        "ai_scan": 320,
+        "live_entry": 27,
+        "consciousness": 3,
+        "live_trade": 9
+      }
+    }
+  },
+  "journal": [
+    {
+      "ticker": null,
+      "entry": 1.4,
+      "exit": 0.0,
+      "shares": 1443.0,
+      "pnl_usd": -2020.2,
+      "pnl_pct": -100.0,
+      "result": "loss"
+    },
+    {
+      "ticker": null,
+      "entry": 1.3938294927681392,
+      "exit": 0.0,
+      "shares": 7924.0,
+      "pnl_usd": -11044.7,
+      "pnl_pct": -100.0,
+      "result": "loss"
+    }
+  ]
+}

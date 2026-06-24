@@ -1,0 +1,75 @@
+{
+  "timestamp": "2026-06-24T13:02:37.458752+00:00",
+  "mode": "HANOON",
+  "ticker": "HYFM",
+  "ib_account": 1004583.79,
+  "ib_start": 1004583.76,
+  "ib_change": 0.03,
+  "ib_change_pct": 0.0,
+  "bot_cash": -2002.04,
+  "bot_nav": -1002.36,
+  "day_pnl": -2002.36,
+  "day_pnl_pct": -200.24,
+  "baseline": 1000.0,
+  "trades": 3,
+  "wins": 0,
+  "losses": 3,
+  "position": null,
+  "scan_count": 5,
+  "top_pick": "HYFM",
+  "weights": {
+    "momentum": 3.2567432031092354,
+    "volume": 24.425574023319264,
+    "institutional": 32.56743203109235,
+    "vwap_slope": 8.141858007773088,
+    "atr_bonus": 8.141858007773088,
+    "mean_reversion": 8.141858007773088,
+    "trend_filter": 16.283716015546176,
+    "price_rising": 13.026972812436941,
+    "rsi_filter": 4.8851148046638535,
+    "volatility_gate": 6.513486406218471,
+    "_meta": {
+      "train_timestamp": "2026-06-24T13:01:58.696130",
+      "buffer_total": 948,
+      "buffer_win_rate": 0.549,
+      "sources": {
+        "backtest": 580,
+        "market_context": 1,
+        "scan_pick": 22,
+        "ai_scan": 320,
+        "live_entry": 16,
+        "consciousness": 3,
+        "live_trade": 6
+      }
+    }
+  },
+  "journal": [
+    {
+      "ticker": "HYFM",
+      "entry": 0.88,
+      "exit": 0.88,
+      "shares": 1136.0,
+      "pnl_usd": 0.0,
+      "pnl_pct": 0.0,
+      "result": "loss"
+    },
+    {
+      "ticker": "HYFM",
+      "entry": 0.88,
+      "exit": 0.88,
+      "shares": 1136.0,
+      "pnl_usd": 0.0,
+      "pnl_pct": 0.0,
+      "result": "loss"
+    },
+    {
+      "ticker": "HYFM",
+      "entry": 0.88,
+      "exit": 0.88,
+      "shares": 1136.0,
+      "pnl_usd": 0.0,
+      "pnl_pct": 0.0,
+      "result": "loss"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "timestamp": "2026-06-24T13:06:18.449100+00:00",
+  "mode": "HANOON",
+  "ticker": "WEN",
+  "ib_account": 1001613.81,
+  "ib_start": 1004583.76,
+  "ib_change": -2969.95,
+  "ib_change_pct": -0.3,
+  "bot_cash": -1969.89,
+  "bot_nav": -1969.89,
+  "day_pnl": -2969.89,
+  "day_pnl_pct": -296.99,
+  "baseline": 1000.0,
+  "trades": 3,
+  "wins": 0,
+  "losses": 1,
+  "position": null,
+  "scan_count": 5,
+  "top_pick": "WEN",
+  "weights": {
+    "momentum": 3.316205251098848,
+    "volume": 24.87153938324136,
+    "institutional": 33.16205251098848,
+    "vwap_slope": 8.29051312774712,
+    "atr_bonus": 8.29051312774712,
+    "mean_reversion": 8.29051312774712,
+    "trend_filter": 16.58102625549424,
+    "price_rising": 13.264821004395392,
+    "rsi_filter": 4.974307876648273,
+    "volatility_gate": 6.632410502197696,
+    "_meta": {
+      "train_timestamp": "2026-06-24T13:05:40.944005",
+      "buffer_total": 953,
+      "buffer_win_rate": 0.546,
+      "sources": {
+        "backtest": 580,
+        "market_context": 1,
+        "scan_pick": 23,
+        "ai_scan": 320,
+        "live_entry": 19,
+        "consciousness": 3,
+        "live_trade": 7
+      }
+    }
+  },
+  "journal": [
+    {
+      "ticker": null,
+      "entry": 8.16,
+      "exit": 0.0,
+      "shares": 363.0,
+      "pnl_usd": -2962.08,
+      "pnl_pct": -100.0,
+      "result": "loss"
+    }
+  ]
+}

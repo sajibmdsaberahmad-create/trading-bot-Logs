@@ -1,0 +1,89 @@
+[
+  {
+    "timestamp": "2026-06-20T22:01:23.608031",
+    "event": "WARMUP",
+    "ticker": "SPY",
+    "sizing_mode": "risk_based",
+    "initial_cash": 1000.0,
+    "git_commit": "not_a_git_repository",
+    "versioned_model_path": "models/ppo_trader_warmup_20260620_220123.zip",
+    "hyperparameters": {
+      "PPO_LR": 0.00025,
+      "PPO_ENT_COEF": 0.01,
+      "PPO_N_STEPS": 1024,
+      "PPO_BATCH_SIZE": 128,
+      "PPO_CLIP_RANGE": 0.15,
+      "WINDOW_SIZE": 30
+    },
+    "metrics": {
+      "warmup_timesteps": 200000,
+      "final_portfolio_value": 1179.85,
+      "ppo_return_pct": 17.99,
+      "bh_return_pct": 22.47,
+      "alpha_vs_bh_pct": -4.49,
+      "action_counts": {
+        "HOLD": 144,
+        "BUY": 142,
+        "SELL": 51
+      }
+    }
+  },
+  {
+    "timestamp": "2026-06-20T22:39:26.754986",
+    "event": "WARMUP",
+    "ticker": "SPY",
+    "sizing_mode": "risk_based",
+    "initial_cash": 1000.0,
+    "git_commit": "2d94a8d0ca43139ac83381cdc74f6372a7165ec0",
+    "versioned_model_path": "models/ppo_trader_warmup_20260620_223926.zip",
+    "hyperparameters": {
+      "PPO_LR": 0.00025,
+      "PPO_ENT_COEF": 0.01,
+      "PPO_N_STEPS": 1024,
+      "PPO_BATCH_SIZE": 128,
+      "PPO_CLIP_RANGE": 0.15,
+      "WINDOW_SIZE": 30
+    },
+    "metrics": {
+      "warmup_timesteps": 200000,
+      "final_portfolio_value": 1060.34,
+      "ppo_return_pct": 6.03,
+      "bh_return_pct": 22.47,
+      "alpha_vs_bh_pct": -16.44,
+      "action_counts": {
+        "HOLD": 118,
+        "BUY": 121,
+        "SELL": 98
+      }
+    }
+  },
+  {
+    "timestamp": "2026-06-20T22:43:51.365959",
+    "event": "WARMUP",
+    "ticker": "SPY",
+    "sizing_mode": "risk_based",
+    "initial_cash": 1000.0,
+    "git_commit": "afa4f3ea3d5194c6076d027d49a67f295b7442d9",
+    "versioned_model_path": "models/ppo_trader_warmup_20260620_224351.zip",
+    "hyperparameters": {
+      "PPO_LR": 0.00025,
+      "PPO_ENT_COEF": 0.01,
+      "PPO_N_STEPS": 2048,
+      "PPO_BATCH_SIZE": 256,
+      "PPO_CLIP_RANGE": 0.15,
+      "WINDOW_SIZE": 30
+    },
+    "metrics": {
+      "warmup_timesteps": 500000,
+      "final_portfolio_value": 1024.86,
+      "ppo_return_pct": 2.49,
+      "bh_return_pct": 66.64,
+      "alpha_vs_bh_pct": -64.16,
+      "action_counts": {
+        "HOLD": 245,
+        "BUY": 240,
+        "SELL": 229
+      }
+    }
+  }
+]

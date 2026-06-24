@@ -1,0 +1,75 @@
+{
+  "timestamp": "2026-06-24T14:11:35.317730+00:00",
+  "mode": "HANOON",
+  "ticker": "EVGN",
+  "ib_account": 1016239.58,
+  "ib_start": 1016290.73,
+  "ib_change": -51.15,
+  "ib_change_pct": -0.01,
+  "bot_cash": -1226.99,
+  "bot_nav": -1226.99,
+  "day_pnl": -2226.99,
+  "day_pnl_pct": -222.7,
+  "baseline": 1000.0,
+  "trades": 3,
+  "wins": 2,
+  "losses": 1,
+  "position": null,
+  "scan_count": 5,
+  "top_pick": "EVGN",
+  "weights": {
+    "momentum": 3.404486622112097,
+    "volume": 25.533649665840727,
+    "institutional": 34.04486622112096,
+    "vwap_slope": 8.51121655528024,
+    "atr_bonus": 8.51121655528024,
+    "mean_reversion": 8.51121655528024,
+    "trend_filter": 17.02243311056048,
+    "price_rising": 13.617946488448387,
+    "rsi_filter": 5.106729933168146,
+    "volatility_gate": 6.808973244224194,
+    "_meta": {
+      "train_timestamp": "2026-06-24T14:05:06.638024",
+      "buffer_total": 1031,
+      "buffer_win_rate": 0.508,
+      "sources": {
+        "backtest": 580,
+        "market_context": 1,
+        "scan_pick": 31,
+        "ai_scan": 320,
+        "live_entry": 71,
+        "consciousness": 5,
+        "live_trade": 23
+      }
+    }
+  },
+  "journal": [
+    {
+      "ticker": null,
+      "entry": 4.69,
+      "exit": 4.69,
+      "shares": 159.0,
+      "pnl_usd": 0.0,
+      "pnl_pct": 0.0,
+      "result": "loss"
+    },
+    {
+      "ticker": null,
+      "entry": 4.55,
+      "exit": 4.62,
+      "shares": 162.0,
+      "pnl_usd": 11.34,
+      "pnl_pct": 1.54,
+      "result": "win"
+    },
+    {
+      "ticker": null,
+      "entry": 4.58,
+      "exit": 4.62,
+      "shares": 162.0,
+      "pnl_usd": 6.48,
+      "pnl_pct": 0.87,
+      "result": "win"
+    }
+  ]
+}
