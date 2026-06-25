@@ -1,49 +1,49 @@
 {
   "mode": "HANOON",
-  "account_equity": 1022672.72,
-  "available_cash": 1022672.72,
-  "position_value": 0.0,
-  "nav": 1000.0,
-  "deployed_pct": 0.0,
-  "current_ticker": "NONE",
-  "position": "NONE",
+  "account_equity": 1014738.61,
+  "available_cash": 1014738.61,
+  "position_value": 2864.82,
+  "nav": 3293.35,
+  "deployed_pct": 0.3,
+  "current_ticker": "KUST",
+  "position": "1077 KUST",
   "win_rate": 0.0,
-  "trades_today": 0,
-  "top_pick": "WAVE",
-  "top_score": 96.0,
-  "next_best": null,
-  "next_best_score": 0.0,
+  "trades_today": 14,
+  "top_pick": "PBK",
+  "top_score": 82.8,
+  "next_best": "PBK",
+  "next_best_score": 157.5,
   "scan_results": [
     {
-      "ticker": "WAVE",
+      "ticker": "KUST",
       "price": 0.0,
       "score": 96.0,
       "reason": "scanner:HOT_BY_VOLUME#0"
     },
     {
-      "ticker": "INLF",
+      "ticker": "WAVE",
       "price": 0.0,
       "score": 93.8,
       "reason": "scanner:HOT_BY_VOLUME#1"
     },
     {
-      "ticker": "FMFC",
+      "ticker": "INMB",
       "price": 0.0,
       "score": 91.6,
       "reason": "scanner:HOT_BY_VOLUME#2"
     },
     {
-      "ticker": "MUZ",
+      "ticker": "WYY",
       "price": 0.0,
       "score": 89.4,
       "reason": "scanner:HOT_BY_VOLUME#3"
     },
     {
-      "ticker": "YXI",
+      "ticker": "DCX",
       "price": 0.0,
       "score": 87.2,
       "reason": "scanner:HOT_BY_VOLUME#4"
     }
   ],
-  "timestamp": "2026-06-25T06:08:12.625630+00:00"
+  "timestamp": "2026-06-25T12:06:28.228960+00:00"
 }
