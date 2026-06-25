@@ -1,49 +1,49 @@
 {
   "mode": "HANOON",
-  "account_equity": 991146.91,
-  "available_cash": 991146.91,
+  "account_equity": 996772.5,
+  "available_cash": 996772.5,
   "position_value": 0.0,
-  "nav": 1025754.74,
+  "nav": 996772.5,
   "deployed_pct": 0.0,
-  "current_ticker": "NEXR",
-  "position": "421 NEXR",
+  "current_ticker": "NONE",
+  "position": "NONE",
   "win_rate": 0.0,
-  "trades_today": 11,
-  "top_pick": "GDC",
-  "top_score": 102.0,
+  "trades_today": 0,
+  "top_pick": "SOFI",
+  "top_score": 92.0,
   "next_best": null,
   "next_best_score": 0.0,
   "scan_results": [
     {
-      "ticker": "GDC",
+      "ticker": "SOFI",
       "price": 0.0,
-      "score": 102.0,
-      "reason": "scanner:MOST_ACTIVE#0"
+      "score": 92.0,
+      "reason": "scanner:live#0"
     },
     {
-      "ticker": "SOXS",
+      "ticker": "PLTR",
       "price": 0.0,
-      "score": 99.8,
-      "reason": "scanner:MOST_ACTIVE#1"
+      "score": 89.8,
+      "reason": "scanner:live#1"
     },
     {
-      "ticker": "NEXR",
+      "ticker": "MARA",
       "price": 0.0,
-      "score": 97.6,
-      "reason": "scanner:MOST_ACTIVE#2"
+      "score": 87.6,
+      "reason": "scanner:live#2"
     },
     {
-      "ticker": "TZA",
+      "ticker": "RIOT",
       "price": 0.0,
-      "score": 95.4,
-      "reason": "scanner:MOST_ACTIVE#3"
+      "score": 85.4,
+      "reason": "scanner:live#3"
     },
     {
-      "ticker": "GPUS",
+      "ticker": "COIN",
       "price": 0.0,
-      "score": 93.2,
-      "reason": "scanner:MOST_ACTIVE#4"
+      "score": 83.2,
+      "reason": "scanner:live#4"
     }
   ],
-  "timestamp": "2026-06-25T16:31:00.486901+00:00"
+  "timestamp": "2026-06-25T18:27:09.061569+00:00"
 }
