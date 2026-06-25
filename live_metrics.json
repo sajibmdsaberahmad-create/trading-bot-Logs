@@ -1,49 +1,49 @@
 {
   "mode": "HANOON",
-  "account_equity": 1014738.61,
-  "available_cash": 1014738.61,
-  "position_value": 2864.82,
-  "nav": 3293.35,
-  "deployed_pct": 0.3,
-  "current_ticker": "KUST",
-  "position": "1077 KUST",
+  "account_equity": 991146.91,
+  "available_cash": 991146.91,
+  "position_value": 0.0,
+  "nav": 1025754.74,
+  "deployed_pct": 0.0,
+  "current_ticker": "NEXR",
+  "position": "421 NEXR",
   "win_rate": 0.0,
-  "trades_today": 14,
-  "top_pick": "PBK",
-  "top_score": 82.8,
-  "next_best": "PBK",
-  "next_best_score": 157.5,
+  "trades_today": 11,
+  "top_pick": "GDC",
+  "top_score": 102.0,
+  "next_best": null,
+  "next_best_score": 0.0,
   "scan_results": [
     {
-      "ticker": "KUST",
+      "ticker": "GDC",
       "price": 0.0,
-      "score": 96.0,
-      "reason": "scanner:HOT_BY_VOLUME#0"
+      "score": 102.0,
+      "reason": "scanner:MOST_ACTIVE#0"
     },
     {
-      "ticker": "WAVE",
+      "ticker": "SOXS",
       "price": 0.0,
-      "score": 93.8,
-      "reason": "scanner:HOT_BY_VOLUME#1"
+      "score": 99.8,
+      "reason": "scanner:MOST_ACTIVE#1"
     },
     {
-      "ticker": "INMB",
+      "ticker": "NEXR",
       "price": 0.0,
-      "score": 91.6,
-      "reason": "scanner:HOT_BY_VOLUME#2"
+      "score": 97.6,
+      "reason": "scanner:MOST_ACTIVE#2"
     },
     {
-      "ticker": "WYY",
+      "ticker": "TZA",
       "price": 0.0,
-      "score": 89.4,
-      "reason": "scanner:HOT_BY_VOLUME#3"
+      "score": 95.4,
+      "reason": "scanner:MOST_ACTIVE#3"
     },
     {
-      "ticker": "DCX",
+      "ticker": "GPUS",
       "price": 0.0,
-      "score": 87.2,
-      "reason": "scanner:HOT_BY_VOLUME#4"
+      "score": 93.2,
+      "reason": "scanner:MOST_ACTIVE#4"
     }
   ],
-  "timestamp": "2026-06-25T12:06:28.228960+00:00"
+  "timestamp": "2026-06-25T16:31:00.486901+00:00"
 }
