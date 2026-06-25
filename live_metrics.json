@@ -1,7 +1,7 @@
 {
   "mode": "HANOON",
-  "account_equity": 1022672.63,
-  "available_cash": 1022672.63,
+  "account_equity": 1022672.72,
+  "available_cash": 1022672.72,
   "position_value": 0.0,
   "nav": 1000.0,
   "deployed_pct": 0.0,
@@ -10,40 +10,40 @@
   "win_rate": 0.0,
   "trades_today": 0,
   "top_pick": "WAVE",
-  "top_score": 93.8,
+  "top_score": 96.0,
   "next_best": null,
   "next_best_score": 0.0,
   "scan_results": [
     {
-      "ticker": "FMFC",
+      "ticker": "WAVE",
       "price": 0.0,
       "score": 96.0,
       "reason": "scanner:HOT_BY_VOLUME#0"
     },
     {
-      "ticker": "WAVE",
+      "ticker": "INLF",
       "price": 0.0,
       "score": 93.8,
       "reason": "scanner:HOT_BY_VOLUME#1"
     },
     {
-      "ticker": "PLSM",
+      "ticker": "FMFC",
       "price": 0.0,
       "score": 91.6,
       "reason": "scanner:HOT_BY_VOLUME#2"
     },
     {
-      "ticker": "INLF",
+      "ticker": "MUZ",
       "price": 0.0,
       "score": 89.4,
       "reason": "scanner:HOT_BY_VOLUME#3"
     },
     {
-      "ticker": "FRTT",
+      "ticker": "YXI",
       "price": 0.0,
       "score": 87.2,
       "reason": "scanner:HOT_BY_VOLUME#4"
     }
   ],
-  "timestamp": "2026-06-25T05:53:08.841217+00:00"
+  "timestamp": "2026-06-25T06:08:12.625630+00:00"
 }
