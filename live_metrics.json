@@ -1,50 +1,49 @@
 {
   "mode": "HANOON",
-  "account_equity": 998909.18,
-  "available_cash": 998909.18,
+  "account_equity": 1022672.63,
+  "available_cash": 1022672.63,
   "position_value": 0.0,
-  "nav": 996.83,
+  "nav": 1000.0,
   "deployed_pct": 0.0,
   "current_ticker": "NONE",
   "position": "NONE",
   "win_rate": 0.0,
-  "trades_today": 1,
-  "top_pick": "FMFC",
-  "top_score": 87.2,
-  "next_best": "CCXI",
-  "next_best_score": 300.5,
+  "trades_today": 0,
+  "top_pick": "WAVE",
+  "top_score": 93.8,
+  "next_best": null,
+  "next_best_score": 0.0,
   "scan_results": [
     {
-      "ticker": "PLSM",
+      "ticker": "FMFC",
       "price": 0.0,
       "score": 96.0,
       "reason": "scanner:HOT_BY_VOLUME#0"
     },
     {
-      "ticker": "FRTT",
+      "ticker": "WAVE",
       "price": 0.0,
       "score": 93.8,
       "reason": "scanner:HOT_BY_VOLUME#1"
     },
     {
-      "ticker": "CCXI",
+      "ticker": "PLSM",
       "price": 0.0,
       "score": 91.6,
       "reason": "scanner:HOT_BY_VOLUME#2"
     },
     {
-      "ticker": "AAGR",
+      "ticker": "INLF",
       "price": 0.0,
       "score": 89.4,
       "reason": "scanner:HOT_BY_VOLUME#3"
     },
     {
-      "ticker": "FMFC",
+      "ticker": "FRTT",
       "price": 0.0,
       "score": 87.2,
       "reason": "scanner:HOT_BY_VOLUME#4"
     }
   ],
-  "timestamp": "2026-06-24T19:07:55.090329+00:00",
-  "ai_narrative": "```json\n{\n  \"gut_feel\": 0.7,\n  \"intuition\": \"The mood is anxious but there's a strong opportunity in the top picks and recent volume-based hits, warranting cautious optimism.\",\n  \"position\": \"NONE\",\n  \"current_ticker\": \"\",\n  \"mode\": \"HANOON\"\n}\n```"
+  "timestamp": "2026-06-25T05:53:08.841217+00:00"
 }

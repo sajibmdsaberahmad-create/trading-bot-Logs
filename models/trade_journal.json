@@ -133,5 +133,50 @@
     "pnl_usd": -0.08,
     "pnl_pct": -0.66,
     "result": "loss"
+  },
+  {
+    "ticker": "TAGG",
+    "entry": 42.67,
+    "exit": 42.65,
+    "shares": 1.0,
+    "pnl_usd": -0.02,
+    "pnl_pct": -0.05,
+    "result": "loss"
+  },
+  {
+    "ticker": "SCAG",
+    "entry": 0.8342,
+    "exit": 0.8338,
+    "shares": 24.0,
+    "pnl_usd": -0.01,
+    "pnl_pct": -0.05,
+    "result": "loss"
+  },
+  {
+    "ticker": "XOCT",
+    "entry": 39.32,
+    "exit": 39.32,
+    "shares": 1.0,
+    "pnl_usd": 0.0,
+    "pnl_pct": 0.0,
+    "result": "loss"
+  },
+  {
+    "ticker": "EVGN",
+    "entry": 0.4264,
+    "exit": 0.4259,
+    "shares": 43.0,
+    "pnl_usd": -0.02,
+    "pnl_pct": -0.12,
+    "result": "loss"
+  },
+  {
+    "ticker": "XOCT",
+    "entry": 39.32,
+    "exit": 39.32,
+    "shares": 1.0,
+    "pnl_usd": 0.0,
+    "pnl_pct": 0.0,
+    "result": "loss"
   }
 ]
