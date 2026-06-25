@@ -145,3 +145,27 @@
 {"timestamp":"2026-06-25T17:42:14.973271+00:00","event":"spike_top_intrabar","ticker":"GDC","pnl_usd":0.0,"source":"buffer","extended":false,"last_gain_pct":0.00758,"last_vol_ratio":1.0,"prev_gain_pct":0.00763,"prev_vol_ratio":1.0,"spike_detected":true,"intrabar":true,"gain_pct":0.00757575757575753,"vol_ratio":126309.0,"near_high":true,"reason":"spike_top_intrabar: +0.76% vol=126309.0x"}
 {"timestamp":"2026-06-25T17:43:28.550596+00:00","event":"council_exit","ticker":"BITO","pnl_usd":-94.65,"source":"buffer","reason":"council_exit: Ollama exit 95% (PPO hold)"}
 {"timestamp":"2026-06-25T17:44:36.766759+00:00","event":"council_exit","ticker":"SOXS","pnl_usd":0.0,"source":"buffer","reason":"council_exit: Ollama exit 98% (PPO hold)"}
+{"timestamp":"2026-06-25T18:33:19.187849+00:00","event":"trailing_profit","ticker":"PLTR","pnl_usd":-16138.87,"pnl_pct":-0.2493,"primary_goal":true,"reason":"trailing_profit","price":108.46}
+{"timestamp":"2026-06-25T18:33:38.641320+00:00","event":"trailing_profit","ticker":"PLTR","pnl_usd":0.0,"source":"buffer","reason":"trailing_profit"}
+{"timestamp":"2026-06-25T18:40:32.136277+00:00","event":"trailing_profit","ticker":"LCID","pnl_usd":-58118.38,"pnl_pct":-0.8129,"primary_goal":true,"reason":"trailing_profit","price":5.115}
+{"timestamp":"2026-06-25T18:40:47.407958+00:00","event":"trailing_profit","ticker":"LCID","pnl_usd":-58131.45,"source":"buffer","reason":"trailing_profit"}
+{"timestamp":"2026-06-25T18:44:09.420666+00:00","event":"spike_detected","ticker":"RIOT","pnl_usd":119.7,"pnl_pct":0.0033,"primary_goal":true,"extended":false,"last_gain_pct":0.00587,"last_vol_ratio":1.901,"spike_detected":true,"bar":"last","gain_pct":0.005867253392005872,"vol_ratio":1.9008962316342395,"near_high":true,"price":27.43}
+{"timestamp":"2026-06-25T18:44:09.423529+00:00","event":"hunt_signal","ticker":"RIOT","pnl_usd":119.7,"pnl_pct":0.0033,"primary_goal":true,"extended":false,"last_gain_pct":0.00587,"last_vol_ratio":1.901,"spike_detected":true,"bar":"last","gain_pct":0.005867253392005872,"vol_ratio":1.9008962316342395,"near_high":true,"reason":"spike_top_exit: +0.59% vol=1.9x","price":27.43}
+{"timestamp":"2026-06-25T18:44:09.425390+00:00","event":"spike_top_exit","ticker":"RIOT","pnl_usd":119.7,"pnl_pct":0.0033,"primary_goal":true,"extended":false,"last_gain_pct":0.00587,"last_vol_ratio":1.901,"spike_detected":true,"bar":"last","gain_pct":0.005867253392005872,"vol_ratio":1.9008962316342395,"near_high":true,"reason":"spike_top_exit: +0.59% vol=1.9x","price":27.43}
+{"timestamp":"2026-06-25T18:44:30.791510+00:00","event":"spike_top_exit","ticker":"RIOT","pnl_usd":113.09,"source":"buffer","reason":"spike_top_exit: +0.59% vol=1.9x"}
+{"timestamp":"2026-06-25T18:59:22.599050+00:00","event":"trailing_profit","ticker":"LCID","pnl_usd":-239239.82,"pnl_pct":-0.9229,"primary_goal":true,"reason":"trailing_profit","price":5.115}
+{"timestamp":"2026-06-25T18:59:41.514590+00:00","event":"trailing_profit","ticker":"LCID","pnl_usd":0.0,"source":"buffer","reason":"trailing_profit"}
+{"timestamp":"2026-06-25T19:01:04.159889+00:00","event":"trailing_profit","ticker":"LCID","pnl_usd":-210322.74,"pnl_pct":-0.9229,"primary_goal":true,"reason":"trailing_profit","price":5.115}
+{"timestamp":"2026-06-25T19:01:21.595685+00:00","event":"trailing_profit","ticker":"LCID","pnl_usd":0.0,"source":"buffer","reason":"trailing_profit"}
+{"timestamp":"2026-06-25T19:02:27.351308+00:00","event":"trailing_profit","ticker":"LCID","pnl_usd":-216957.07,"pnl_pct":-0.923,"primary_goal":true,"reason":"trailing_profit","price":5.11}
+{"timestamp":"2026-06-25T19:02:45.104544+00:00","event":"trailing_profit","ticker":"LCID","pnl_usd":0.0,"source":"buffer","reason":"trailing_profit"}
+{"timestamp":"2026-06-25T19:03:03.321850+00:00","event":"trailing_profit","ticker":"QS","pnl_usd":-105601.44,"pnl_pct":-0.8942,"primary_goal":true,"reason":"trailing_profit","price":7.02}
+{"timestamp":"2026-06-25T19:03:17.622843+00:00","event":"trailing_profit","ticker":"QS","pnl_usd":0.0,"source":"buffer","reason":"trailing_profit"}
+{"timestamp":"2026-06-25T19:03:49.729900+00:00","event":"trailing_profit","ticker":"RIOT","pnl_usd":-56603.51,"pnl_pct":-0.5877,"primary_goal":true,"reason":"trailing_profit","price":27.37}
+{"timestamp":"2026-06-25T19:04:05.488883+00:00","event":"trailing_profit","ticker":"RIOT","pnl_usd":0.0,"source":"buffer","reason":"trailing_profit"}
+{"timestamp":"2026-06-25T19:04:40.257163+00:00","event":"trailing_profit","ticker":"QS","pnl_usd":-85775.2,"pnl_pct":-0.8942,"primary_goal":true,"reason":"trailing_profit","price":7.02}
+{"timestamp":"2026-06-25T19:04:55.591932+00:00","event":"trailing_profit","ticker":"QS","pnl_usd":0.0,"source":"buffer","reason":"trailing_profit"}
+{"timestamp":"2026-06-25T19:05:23.224970+00:00","event":"trailing_profit","ticker":"RIOT","pnl_usd":-60217.89,"pnl_pct":-0.5879,"primary_goal":true,"reason":"trailing_profit","price":27.3535}
+{"timestamp":"2026-06-25T19:05:46.858924+00:00","event":"trailing_profit","ticker":"RIOT","pnl_usd":0.0,"source":"buffer","reason":"trailing_profit"}
+{"timestamp":"2026-06-25T19:07:08.875605+00:00","event":"hard_take_profit","ticker":"RIOT","pnl_usd":-359.56,"pnl_pct":-0.002,"primary_goal":true,"reason":"hard_take_profit","price":66.2501}
+{"timestamp":"2026-06-25T19:07:34.015194+00:00","event":"hard_take_profit","ticker":"RIOT","pnl_usd":0.0,"source":"buffer","reason":"hard_take_profit"}
