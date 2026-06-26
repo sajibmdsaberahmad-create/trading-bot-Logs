@@ -1,50 +1,49 @@
 {
   "mode": "HANOON",
-  "account_equity": 990411.06,
-  "available_cash": 990411.06,
-  "position_value": 0.0,
-  "nav": 990411.01,
-  "deployed_pct": 0.0,
-  "current_ticker": "NONE",
-  "position": "NONE",
+  "account_equity": 994703.39,
+  "available_cash": 994703.39,
+  "position_value": 15446.75,
+  "nav": 917682.95,
+  "deployed_pct": 1.6,
+  "current_ticker": "PLTR",
+  "position": "137 PLTR",
   "win_rate": 0.0,
-  "trades_today": 0,
-  "top_pick": "PLTR",
-  "top_score": 89.8,
+  "trades_today": 13,
+  "top_pick": "MARA",
+  "top_score": 87.6,
   "next_best": null,
   "next_best_score": 0.0,
   "scan_results": [
     {
       "ticker": "SOFI",
-      "price": 17.68,
+      "price": 17.62,
       "score": 92.0,
       "reason": "scanner:live#0"
     },
     {
       "ticker": "PLTR",
-      "price": 113.13,
+      "price": 112.75,
       "score": 89.8,
       "reason": "scanner:live#1"
     },
     {
       "ticker": "MARA",
-      "price": 14.84,
+      "price": 14.68,
       "score": 87.6,
       "reason": "scanner:live#2"
     },
     {
       "ticker": "RIOT",
-      "price": 28.4,
+      "price": 28.1339,
       "score": 85.4,
       "reason": "scanner:live#3"
     },
     {
       "ticker": "COIN",
-      "price": 147.72,
+      "price": 147.07,
       "score": 83.2,
       "reason": "scanner:live#4"
     }
   ],
-  "timestamp": "2026-06-26T18:26:08.182606+00:00",
-  "ai_narrative": ""
+  "timestamp": "2026-06-26T18:39:35.340419+00:00"
 }
