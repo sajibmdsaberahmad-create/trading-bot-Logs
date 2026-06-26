@@ -5752,3 +5752,9 @@
 {"source":"scan_pick","ticker":"SOFI","action":"SCAN_PICK","scan_score":92.0,"confidence":0.5,"features":[],"timestamp":"2026-06-26T17:39:41.681699","model_version":"scalper_v1"}
 {"source":"scan_pick","ticker":"SOFI","action":"SCAN_PICK","scan_score":92.0,"confidence":0.5,"features":[],"timestamp":"2026-06-26T17:45:56.902794","model_version":"scalper_v1"}
 {"source":"scan_pick","ticker":"SOFI","action":"SCAN_PICK","scan_score":92.0,"confidence":0.5,"features":[],"timestamp":"2026-06-26T17:50:30.039031","model_version":"scalper_v1"}
+{"source":"scan_pick","ticker":"SOFI","action":"SCAN_PICK","scan_score":92.0,"confidence":0.5,"features":[],"timestamp":"2026-06-26T17:56:59.123676","model_version":"scalper_v1"}
+{"source":"scan_pick","ticker":"SOFI","action":"SCAN_PICK","scan_score":92.0,"confidence":0.5,"features":[],"timestamp":"2026-06-26T18:00:43.696816","model_version":"scalper_v1"}
+{"source":"scan_pick","ticker":"SOFI","action":"SCAN_PICK","scan_score":92.0,"confidence":0.5,"features":[],"timestamp":"2026-06-26T18:03:32.414943","model_version":"scalper_v1"}
+{"source":"scan_pick","ticker":"INLF","action":"SCAN_PICK","scan_score":102.0,"confidence":0.5,"features":[],"timestamp":"2026-06-26T18:13:43.710340","model_version":"scalper_v1"}
+{"source":"scan_complete","ticker":"INLF","action":"SCAN_COMPLETE","scan_score":102.0,"confidence":0.5,"features":[],"timestamp":"2026-06-26T18:13:43.712805+00:00","model_version":"scalper_v1"}
+{"source":"scan_pick","ticker":"SOFI","action":"SCAN_PICK","scan_score":92.0,"confidence":0.5,"features":[],"timestamp":"2026-06-26T18:17:40.840431","model_version":"scalper_v1"}

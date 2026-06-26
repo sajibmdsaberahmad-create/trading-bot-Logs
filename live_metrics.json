@@ -3,7 +3,7 @@
   "account_equity": 990411.06,
   "available_cash": 990411.06,
   "position_value": 0.0,
-  "nav": 990411.06,
+  "nav": 990411.01,
   "deployed_pct": 0.0,
   "current_ticker": "NONE",
   "position": "NONE",
@@ -16,34 +16,35 @@
   "scan_results": [
     {
       "ticker": "SOFI",
-      "price": 17.8,
+      "price": 17.68,
       "score": 92.0,
       "reason": "scanner:live#0"
     },
     {
       "ticker": "PLTR",
-      "price": 113.43,
+      "price": 113.13,
       "score": 89.8,
       "reason": "scanner:live#1"
     },
     {
       "ticker": "MARA",
-      "price": 14.87,
+      "price": 14.84,
       "score": 87.6,
       "reason": "scanner:live#2"
     },
     {
       "ticker": "RIOT",
-      "price": 28.45,
+      "price": 28.4,
       "score": 85.4,
       "reason": "scanner:live#3"
     },
     {
       "ticker": "COIN",
-      "price": 148.46,
+      "price": 147.72,
       "score": 83.2,
       "reason": "scanner:live#4"
     }
   ],
-  "timestamp": "2026-06-26T17:50:35.769348+00:00"
+  "timestamp": "2026-06-26T18:26:08.182606+00:00",
+  "ai_narrative": ""
 }
