@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-06-26T12:36:19.631447+00:00",
+  "mode": "HANOON",
+  "ticker": "SOFI",
+  "ib_account": 792119.22,
+  "ib_start": 792119.04,
+  "ib_change": 0.18,
+  "ib_change_pct": 0.0,
+  "bot_cash": 792119.04,
+  "bot_nav": 792119.04,
+  "day_pnl": 0.0,
+  "day_pnl_pct": 0.0,
+  "baseline": 792119.04,
+  "trades": 0,
+  "wins": 0,
+  "losses": 0,
+  "position": null,
+  "scan_count": 10,
+  "top_pick": "SOFI",
+  "weights": {
+    "momentum": 0.5,
+    "volume": 0.5,
+    "institutional": 0.5,
+    "vwap_slope": 0.5,
+    "atr_bonus": 0.5,
+    "mean_reversion": 0.5,
+    "trend_filter": 0.5,
+    "price_rising": 0.5,
+    "rsi_filter": 0.5,
+    "volatility_gate": 0.5,
+    "_meta": {
+      "train_timestamp": "2026-06-25T20:07:36.050503",
+      "buffer_total": 5652,
+      "buffer_win_rate": 0.251,
+      "returns_win_rate": 0.207,
+      "combined_win_rate": 0.229
+    }
+  },
+  "journal": []
+}
