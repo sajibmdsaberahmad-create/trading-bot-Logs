@@ -1,14 +1,14 @@
 {
   "mode": "HANOON",
-  "account_equity": 1996.75,
+  "account_equity": 1998.64,
   "available_cash": 1000.0,
-  "position_value": 996.75,
-  "nav": 988.7,
-  "deployed_pct": 49.9,
+  "position_value": 998.64,
+  "nav": 967.63,
+  "deployed_pct": 50.0,
   "current_ticker": "MARA",
-  "position": "75 MARA",
+  "position": "76 MARA",
   "win_rate": 0.0,
-  "trades_today": 1,
+  "trades_today": 2,
   "top_pick": "MARA",
   "top_score": 85.0,
   "next_best": "SOFI",
@@ -16,16 +16,16 @@
   "scan_results": [
     {
       "ticker": "MARA",
-      "price": 13.29,
+      "price": 13.14,
       "score": 85.0,
       "reason": "replay_intraday"
     },
     {
       "ticker": "SOFI",
-      "price": 17.02,
+      "price": 16.93,
       "score": 84.5,
       "reason": "replay_intraday"
     }
   ],
-  "timestamp": "2026-06-27T07:05:31.072634+00:00"
+  "timestamp": "2026-06-27T07:09:16.161211+00:00"
 }

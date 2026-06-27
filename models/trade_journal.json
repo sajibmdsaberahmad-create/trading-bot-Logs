@@ -11213,5 +11213,30 @@
     "entry_mode": "replay_sim",
     "limit_px": 13.29,
     "peak_px": 13.4273
+  },
+  {
+    "source": "replay_live",
+    "ticker": "MARA",
+    "entry": 13.2564,
+    "entry_fill": 13.2564,
+    "exit": 12.984,
+    "exit_fill": 12.984,
+    "quote_entry": 13.14,
+    "quote_exit": 13.0576,
+    "shares": 76.0,
+    "pnl_usd": -22.7,
+    "pnl_pct": -0.022531321514590637,
+    "result": "loss",
+    "reason": "replay_stop",
+    "exit_reason": "replay_stop",
+    "regime": "unknown",
+    "hold_sec": 0.9133961200714111,
+    "entry_slippage_pct": 0.008858,
+    "exit_slippage_pct": -0.005637,
+    "stop": 13.0576,
+    "target": 13.6541,
+    "entry_mode": "replay_sim",
+    "limit_px": 13.14,
+    "peak_px": 13.29
   }
 ]
