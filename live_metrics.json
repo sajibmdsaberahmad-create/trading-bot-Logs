@@ -3,47 +3,30 @@
   "account_equity": 1000.0,
   "available_cash": 1000.0,
   "position_value": 0.0,
-  "nav": 2032.62,
+  "nav": 1000.0,
   "deployed_pct": 0.0,
   "current_ticker": "NONE",
   "position": "NONE",
   "win_rate": 0.0,
-  "trades_today": 1,
-  "top_pick": "PLTR",
-  "top_score": 82.5,
+  "trades_today": 0,
+  "top_pick": "MARA",
+  "top_score": 85.0,
   "next_best": null,
   "next_best_score": 0.0,
   "scan_results": [
     {
-      "ticker": "ASTS",
-      "price": 86.155,
+      "ticker": "MARA",
+      "price": 13.16,
       "score": 85.0,
       "reason": "replay_intraday"
     },
     {
-      "ticker": "COIN",
-      "price": 183.23,
+      "ticker": "SOFI",
+      "price": 16.96,
       "score": 84.5,
-      "reason": "replay_intraday"
-    },
-    {
-      "ticker": "LCID",
-      "price": 6.39,
-      "score": 84.0,
-      "reason": "replay_intraday"
-    },
-    {
-      "ticker": "MARA",
-      "price": 13.98,
-      "score": 83.5,
-      "reason": "replay_intraday"
-    },
-    {
-      "ticker": "NVDA",
-      "price": 203.98,
-      "score": 83.0,
       "reason": "replay_intraday"
     }
   ],
-  "timestamp": "2026-06-27T07:00:04.240723+00:00"
+  "timestamp": "2026-06-27T07:03:39.872496+00:00",
+  "ai_narrative": ""
 }
