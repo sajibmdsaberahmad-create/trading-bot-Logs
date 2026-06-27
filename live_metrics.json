@@ -16,17 +16,17 @@
   "scan_results": [
     {
       "ticker": "MARA",
-      "price": 13.16,
+      "price": 14.0,
       "score": 85.0,
       "reason": "replay_intraday"
     },
     {
       "ticker": "SOFI",
-      "price": 16.96,
+      "price": 17.24,
       "score": 84.5,
       "reason": "replay_intraday"
     }
   ],
-  "timestamp": "2026-06-27T07:03:39.872496+00:00",
+  "timestamp": "2026-06-27T07:05:26.066693+00:00",
   "ai_narrative": ""
 }
