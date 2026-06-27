@@ -1,49 +1,49 @@
 {
   "mode": "HANOON",
-  "account_equity": 909299.69,
-  "available_cash": 909299.69,
+  "account_equity": 1000.0,
+  "available_cash": 1000.0,
   "position_value": 0.0,
-  "nav": 909299.62,
+  "nav": 1000.0,
   "deployed_pct": 0.0,
   "current_ticker": "NONE",
   "position": "NONE",
   "win_rate": 0.0,
   "trades_today": 0,
-  "top_pick": "SOFI",
-  "top_score": 92.0,
+  "top_pick": "PLTR",
+  "top_score": 82.5,
   "next_best": null,
   "next_best_score": 0.0,
   "scan_results": [
     {
-      "ticker": "SOFI",
-      "price": 0.0,
-      "score": 92.0,
-      "reason": "scanner:live#0"
-    },
-    {
-      "ticker": "PLTR",
-      "price": 0.0,
-      "score": 89.8,
-      "reason": "scanner:live#1"
-    },
-    {
-      "ticker": "MARA",
-      "price": 0.0,
-      "score": 87.6,
-      "reason": "scanner:live#2"
-    },
-    {
-      "ticker": "RIOT",
-      "price": 0.0,
-      "score": 85.4,
-      "reason": "scanner:live#3"
+      "ticker": "ASTS",
+      "price": 86.155,
+      "score": 85.0,
+      "reason": "replay_intraday"
     },
     {
       "ticker": "COIN",
-      "price": 0.0,
-      "score": 83.2,
-      "reason": "scanner:live#4"
+      "price": 182.33,
+      "score": 84.5,
+      "reason": "replay_intraday"
+    },
+    {
+      "ticker": "LCID",
+      "price": 6.415,
+      "score": 84.0,
+      "reason": "replay_intraday"
+    },
+    {
+      "ticker": "MARA",
+      "price": 13.98,
+      "score": 83.5,
+      "reason": "replay_intraday"
+    },
+    {
+      "ticker": "NVDA",
+      "price": 203.98,
+      "score": 83.0,
+      "reason": "replay_intraday"
     }
   ],
-  "timestamp": "2026-06-26T20:34:12.595509+00:00"
+  "timestamp": "2026-06-27T05:46:51.902247+00:00"
 }
