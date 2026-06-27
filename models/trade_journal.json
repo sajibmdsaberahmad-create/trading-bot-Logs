@@ -11113,5 +11113,30 @@
     "entry_mode": "replay_sim",
     "limit_px": 147.5,
     "peak_px": 148.17
+  },
+  {
+    "source": "replay_live",
+    "ticker": "QS",
+    "entry": 7.0541,
+    "entry_fill": 7.0541,
+    "exit": 8.3832,
+    "exit_fill": 8.3832,
+    "quote_entry": 7.0541,
+    "quote_exit": 7.2657,
+    "shares": 125.0,
+    "pnl_usd": 164.21,
+    "pnl_pct": 0.18622928509639927,
+    "result": "win",
+    "reason": "replay_target",
+    "exit_reason": "replay_target",
+    "regime": "unknown",
+    "hold_sec": 265.99629402160645,
+    "entry_slippage_pct": 0.0,
+    "exit_slippage_pct": 0.153805,
+    "stop": 6.9483,
+    "target": 7.2657,
+    "entry_mode": "replay_sim",
+    "limit_px": null,
+    "peak_px": 7.0541
   }
 ]
