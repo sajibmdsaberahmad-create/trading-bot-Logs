@@ -11163,5 +11163,30 @@
     "entry_mode": "replay_sim",
     "limit_px": 8.46,
     "peak_px": 8.4869
+  },
+  {
+    "source": "replay_live",
+    "ticker": "LCID",
+    "entry": 6.4579,
+    "entry_fill": 6.4579,
+    "exit": 6.4022,
+    "exit_fill": 6.4022,
+    "quote_entry": 6.4403,
+    "quote_exit": 6.4237,
+    "shares": 155.0,
+    "pnl_usd": -10.63,
+    "pnl_pct": -0.010619651149943761,
+    "result": "loss",
+    "reason": "replay_stop",
+    "exit_reason": "replay_stop",
+    "regime": "unknown",
+    "hold_sec": 0.14359092712402344,
+    "entry_slippage_pct": 0.002733,
+    "exit_slippage_pct": -0.003347,
+    "stop": 6.4237,
+    "target": 6.5263,
+    "entry_mode": "replay_sim",
+    "limit_px": 6.4403,
+    "peak_px": 6.4579
   }
 ]

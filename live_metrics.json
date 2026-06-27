@@ -1,16 +1,16 @@
 {
   "mode": "HANOON",
-  "account_equity": 1998.28,
+  "account_equity": 1000.0,
   "available_cash": 1000.0,
-  "position_value": 998.28,
-  "nav": 2042.68,
-  "deployed_pct": 50.0,
-  "current_ticker": "QS",
-  "position": "118 QS",
+  "position_value": 0.0,
+  "nav": 2032.62,
+  "deployed_pct": 0.0,
+  "current_ticker": "NONE",
+  "position": "NONE",
   "win_rate": 0.0,
   "trades_today": 1,
-  "top_pick": "QS",
-  "top_score": 81.5,
+  "top_pick": "PLTR",
+  "top_score": 82.5,
   "next_best": null,
   "next_best_score": 0.0,
   "scan_results": [
@@ -22,13 +22,13 @@
     },
     {
       "ticker": "COIN",
-      "price": 182.82,
+      "price": 183.23,
       "score": 84.5,
       "reason": "replay_intraday"
     },
     {
       "ticker": "LCID",
-      "price": 6.37,
+      "price": 6.39,
       "score": 84.0,
       "reason": "replay_intraday"
     },
@@ -45,5 +45,5 @@
       "reason": "replay_intraday"
     }
   ],
-  "timestamp": "2026-06-27T06:56:47.059097+00:00"
+  "timestamp": "2026-06-27T07:00:04.240723+00:00"
 }
