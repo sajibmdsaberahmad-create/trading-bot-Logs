@@ -9,20 +9,20 @@
   "position": "NONE",
   "win_rate": 0.0,
   "trades_today": 47,
-  "top_pick": "MARA",
-  "top_score": 87.6,
+  "top_pick": "SOFI",
+  "top_score": 92.0,
   "next_best": "PLTR",
   "next_best_score": 53.9,
   "scan_results": [
     {
       "ticker": "SOFI",
-      "price": 18.06,
+      "price": 18.09,
       "score": 92.0,
       "reason": "scanner:live#0"
     },
     {
       "ticker": "PLTR",
-      "price": 116.7,
+      "price": 116.8,
       "score": 89.8,
       "reason": "scanner:live#1"
     },
@@ -45,5 +45,5 @@
       "reason": "scanner:live#4"
     }
   ],
-  "timestamp": "2026-06-29T11:30:28.142440+00:00"
+  "timestamp": "2026-06-29T11:31:12.406438+00:00"
 }
