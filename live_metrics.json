@@ -3,12 +3,12 @@
   "account_equity": 909299.42,
   "available_cash": 909299.42,
   "position_value": 0.0,
-  "nav": 959874.92,
+  "nav": 961463.23,
   "deployed_pct": 0.0,
   "current_ticker": "NONE",
   "position": "NONE",
   "win_rate": 0.0,
-  "trades_today": 31,
+  "trades_today": 32,
   "top_pick": "SOFI",
   "top_score": 92.0,
   "next_best": "PLTR",
@@ -28,7 +28,7 @@
     },
     {
       "ticker": "MARA",
-      "price": 14.69,
+      "price": 14.68,
       "score": 87.6,
       "reason": "scanner:live#2"
     },
@@ -45,5 +45,5 @@
       "reason": "scanner:live#4"
     }
   ],
-  "timestamp": "2026-06-29T10:33:37.795220+00:00"
+  "timestamp": "2026-06-29T10:34:28.339744+00:00"
 }
