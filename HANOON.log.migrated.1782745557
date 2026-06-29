@@ -6815,3 +6815,6 @@ and the repository exists.
 2026-06-29 15:46:04 ET | INFO     | HANOON | ✅ grandmaster push success: auto: 76 change(s) — results_1min_latest.csv, results_latest
 2026-06-29 15:46:23 ET | INFO     | HANOON | ✅ logs push success: auto: 74 change(s) — results_1min_latest.csv, results_latest
 2026-06-29 15:47:03 ET | INFO     | HANOON | ✅ grandmaster push success: auto: 74 change(s) — results_1min_latest.csv, results_latest
+2026-06-29 15:47:21 ET | INFO     | HANOON | ✅ logs push success: auto: 73 change(s) — results_1min_latest.csv, results_latest
+2026-06-29 15:47:47 ET | INFO     | HANOON | Push rejected — pulling --rebase origin main then retrying
+2026-06-29 15:47:50 ET | INFO     | HANOON | ✅ grandmaster push success: auto: 73 change(s) — results_1min_latest.csv, results_latest
