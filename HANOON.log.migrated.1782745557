@@ -6611,3 +6611,12 @@ Please make sure you have the correct access rights
 and the repository exists.
 
 2026-06-29 12:05:34 ET | INFO     | HANOON | ✅ grandmaster push success: auto: 82 change(s) — EARN_START.command, results_1min_latest
+2026-06-29 12:05:54 ET | INFO     | HANOON | ✅ logs push success: auto: 81 change(s) — EARN_START.command, results_1min_latest
+2026-06-29 12:06:05 ET | WARNING  | HANOON | grandmaster clone failed: Cloning into '/var/folders/q0/rncg1qw52cl1m6_v1sw3pz340000gn/T/grandmaster_push_u3uzbqa1'...
+2026-06-29 12:06:05 ET | INFO     | HANOON | 📦 Initialized empty grandmaster repo — first push
+2026-06-29 12:06:05 ET | WARNING  | HANOON | grandmaster push failed: fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
