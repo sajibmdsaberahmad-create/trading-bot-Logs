@@ -1,34 +1,34 @@
 {
   "mode": "HANOON",
-  "account_equity": 1150561.91,
-  "available_cash": 1150561.91,
-  "position_value": 0.0,
-  "nav": 984694.28,
-  "deployed_pct": 0.0,
-  "current_ticker": "NONE",
-  "position": "NONE",
+  "account_equity": 1150460.48,
+  "available_cash": 1150460.48,
+  "position_value": 20000.0,
+  "nav": 985074.68,
+  "deployed_pct": 1.7,
+  "current_ticker": "TZA",
+  "position": "5000 TZA",
   "win_rate": 0.0,
-  "trades_today": 128,
-  "top_pick": "TZA",
-  "top_score": 91.0,
-  "next_best": "SOAR",
-  "next_best_score": 57.2,
+  "trades_today": 129,
+  "top_pick": "TNMG",
+  "top_score": 97.6,
+  "next_best": "TNMG",
+  "next_best_score": 58.6,
   "scan_results": [
     {
       "ticker": "INLF",
-      "price": 0.062,
+      "price": 0.0618,
       "score": 102.0,
       "reason": "scanner:MOST_ACTIVE#0"
     },
     {
       "ticker": "SOXS",
-      "price": 4.34,
+      "price": 4.35,
       "score": 99.8,
       "reason": "scanner:MOST_ACTIVE#1"
     },
     {
       "ticker": "TNMG",
-      "price": 0.94,
+      "price": 0.9888,
       "score": 97.6,
       "reason": "scanner:MOST_ACTIVE#2"
     },
@@ -45,5 +45,5 @@
       "reason": "scanner:MOST_ACTIVE#4"
     }
   ],
-  "timestamp": "2026-06-29T14:29:13.632654+00:00"
+  "timestamp": "2026-06-29T14:29:35.562736+00:00"
 }
