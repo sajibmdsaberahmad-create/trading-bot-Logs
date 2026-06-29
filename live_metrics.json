@@ -1,7 +1,7 @@
 {
   "mode": "HANOON",
-  "account_equity": 982357.44,
-  "available_cash": 982357.44,
+  "account_equity": 982357.38,
+  "available_cash": 982357.38,
   "position_value": 0.0,
   "nav": 970.18,
   "deployed_pct": 0.0,
@@ -9,41 +9,41 @@
   "position": "NONE",
   "win_rate": 0.0,
   "trades_today": 5,
-  "top_pick": "TNMG",
-  "top_score": 95.4,
+  "top_pick": "MSTU",
+  "top_score": 80.8,
   "next_best": null,
   "next_best_score": 0.0,
   "scan_results": [
     {
-      "ticker": "INLF",
-      "price": 0.0658,
-      "score": 102.0,
-      "reason": "scanner:MOST_ACTIVE#0"
-    },
-    {
-      "ticker": "SOXS",
-      "price": 3.75,
-      "score": 99.8,
-      "reason": "scanner:MOST_ACTIVE#1"
-    },
-    {
       "ticker": "TZA",
-      "price": 3.86,
+      "price": 3.87,
       "score": 97.6,
       "reason": "scanner:MOST_ACTIVE#2"
     },
     {
-      "ticker": "BITO",
-      "price": 8.18,
-      "score": 93.2,
-      "reason": "scanner:MOST_ACTIVE#4"
-    },
-    {
       "ticker": "SOAR",
-      "price": 0.1856,
+      "price": 0.1846,
       "score": 91.0,
       "reason": "scanner:MOST_ACTIVE#5"
+    },
+    {
+      "ticker": "SRFM",
+      "price": 0.8775,
+      "score": 86.6,
+      "reason": "scanner:MOST_ACTIVE#7"
+    },
+    {
+      "ticker": "AAL",
+      "price": 17.82,
+      "score": 84.4,
+      "reason": "scanner:MOST_ACTIVE#8"
+    },
+    {
+      "ticker": "CMCSA",
+      "price": 24.48,
+      "score": 82.2,
+      "reason": "scanner:MOST_ACTIVE#9"
     }
   ],
-  "timestamp": "2026-06-29T19:21:57.345128+00:00"
+  "timestamp": "2026-06-29T19:31:15.281260+00:00"
 }
