@@ -1,14 +1,14 @@
 {
   "mode": "HANOON",
-  "account_equity": 909299.39,
-  "available_cash": 909299.39,
+  "account_equity": 909299.4,
+  "available_cash": 909299.4,
   "position_value": 0.0,
-  "nav": 913813.45,
+  "nav": 915359.93,
   "deployed_pct": 0.0,
   "current_ticker": "NONE",
   "position": "NONE",
   "win_rate": 0.0,
-  "trades_today": 3,
+  "trades_today": 4,
   "top_pick": "SOFI",
   "top_score": 92.0,
   "next_best": null,
@@ -45,5 +45,5 @@
       "reason": "scanner:live#4"
     }
   ],
-  "timestamp": "2026-06-29T09:08:57.719934+00:00"
+  "timestamp": "2026-06-29T09:09:26.946677+00:00"
 }
