@@ -1,49 +1,49 @@
 {
   "mode": "HANOON",
-  "account_equity": 1169650.51,
-  "available_cash": 1169650.51,
+  "account_equity": 982381.49,
+  "available_cash": 982381.49,
   "position_value": 0.0,
-  "nav": 966473.94,
+  "nav": 1169498.34,
   "deployed_pct": 0.0,
-  "current_ticker": "TZA",
+  "current_ticker": "NONE",
   "position": "NONE",
   "win_rate": 0.0,
-  "trades_today": 140,
-  "top_pick": "SOAR",
+  "trades_today": 0,
+  "top_pick": "TZA",
   "top_score": 95.4,
-  "next_best": "SOAR",
-  "next_best_score": 288.8,
+  "next_best": null,
+  "next_best_score": 0.0,
   "scan_results": [
     {
       "ticker": "INLF",
-      "price": 0.0592,
+      "price": 0.0593,
       "score": 102.0,
       "reason": "scanner:MOST_ACTIVE#0"
     },
     {
       "ticker": "SOXS",
-      "price": 4.31,
+      "price": 4.14,
       "score": 99.8,
       "reason": "scanner:MOST_ACTIVE#1"
     },
     {
       "ticker": "TNMG",
-      "price": 0.9693,
+      "price": 0.995,
       "score": 97.6,
       "reason": "scanner:MOST_ACTIVE#2"
     },
     {
-      "ticker": "SOAR",
-      "price": 0.1742,
+      "ticker": "TZA",
+      "price": 3.93,
       "score": 95.4,
       "reason": "scanner:MOST_ACTIVE#3"
     },
     {
-      "ticker": "SRFM",
-      "price": 1.095,
+      "ticker": "SOAR",
+      "price": 0.1732,
       "score": 93.2,
       "reason": "scanner:MOST_ACTIVE#4"
     }
   ],
-  "timestamp": "2026-06-29T14:49:58.784972+00:00"
+  "timestamp": "2026-06-29T14:59:21.717013+00:00"
 }
