@@ -1,9 +1,9 @@
 {
   "mode": "HANOON",
-  "account_equity": 909299.75,
-  "available_cash": 909299.75,
+  "account_equity": 909299.14,
+  "available_cash": 909299.14,
   "position_value": 0.0,
-  "nav": 909299.75,
+  "nav": 909299.16,
   "deployed_pct": 0.0,
   "current_ticker": "NONE",
   "position": "NONE",
@@ -45,5 +45,6 @@
       "reason": "scanner:live#4"
     }
   ],
-  "timestamp": "2026-06-27T12:33:13.398145+00:00"
+  "timestamp": "2026-06-29T07:41:38.988428+00:00",
+  "ai_narrative": ""
 }
