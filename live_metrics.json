@@ -1,40 +1,40 @@
 {
   "mode": "HANOON",
-  "account_equity": 1026170.8,
-  "available_cash": 1026170.8,
-  "position_value": 0.0,
-  "nav": 1066781.86,
-  "deployed_pct": 0.0,
-  "current_ticker": "NONE",
-  "position": "NONE",
+  "account_equity": 1005545.96,
+  "available_cash": 1005545.96,
+  "position_value": 20600.0,
+  "nav": 1066761.26,
+  "deployed_pct": 2.0,
+  "current_ticker": "SOXS",
+  "position": "5000 SOXS",
   "win_rate": 0.0,
-  "trades_today": 91,
-  "top_pick": "SOXS",
-  "top_score": 95.4,
+  "trades_today": 92,
+  "top_pick": "TNMG",
+  "top_score": 97.6,
   "next_best": "PLTR",
   "next_best_score": 256.6,
   "scan_results": [
     {
       "ticker": "INLF",
-      "price": 0.0677,
+      "price": 0.0679,
       "score": 102.0,
       "reason": "scanner:MOST_ACTIVE#0"
     },
     {
       "ticker": "SOAR",
-      "price": 0.1596,
+      "price": 0.1597,
       "score": 99.8,
       "reason": "scanner:MOST_ACTIVE#1"
     },
     {
       "ticker": "TNMG",
-      "price": 0.85,
+      "price": 0.8989,
       "score": 97.6,
       "reason": "scanner:MOST_ACTIVE#2"
     },
     {
       "ticker": "SOXS",
-      "price": 4.1,
+      "price": 4.12,
       "score": 95.4,
       "reason": "scanner:MOST_ACTIVE#3"
     },
@@ -45,5 +45,5 @@
       "reason": "scanner:MOST_ACTIVE#4"
     }
   ],
-  "timestamp": "2026-06-29T13:36:32.542494+00:00"
+  "timestamp": "2026-06-29T13:36:57.349818+00:00"
 }
