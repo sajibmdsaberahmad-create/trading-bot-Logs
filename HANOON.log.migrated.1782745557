@@ -6735,3 +6735,5 @@ fatal: Could not read from remote repository.
 Please make sure you have the correct access rights
 and the repository exists.
 
+2026-06-29 15:06:02 ET | INFO     | HANOON | Push rejected — pulling --rebase origin main then retrying
+2026-06-29 15:06:06 ET | INFO     | HANOON | ✅ logs push success: auto: 77 change(s) — results_1min_latest.csv, results_latest
