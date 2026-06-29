@@ -1,22 +1,22 @@
 {
   "mode": "HANOON",
-  "account_equity": 909299.44,
-  "available_cash": 909299.44,
+  "account_equity": 909299.4,
+  "available_cash": 909299.4,
   "position_value": 0.0,
-  "nav": 928735.36,
+  "nav": 930449.12,
   "deployed_pct": 0.0,
   "current_ticker": "NONE",
   "position": "NONE",
   "win_rate": 0.0,
-  "trades_today": 12,
+  "trades_today": 13,
   "top_pick": "SOFI",
   "top_score": 92.0,
   "next_best": "PLTR",
-  "next_best_score": 53.9,
+  "next_best_score": 1251.3,
   "scan_results": [
     {
       "ticker": "SOFI",
-      "price": 18.03,
+      "price": 18.02,
       "score": 92.0,
       "reason": "scanner:live#0"
     },
@@ -28,7 +28,7 @@
     },
     {
       "ticker": "MARA",
-      "price": 14.69,
+      "price": 14.7,
       "score": 87.6,
       "reason": "scanner:live#2"
     },
@@ -45,6 +45,5 @@
       "reason": "scanner:live#4"
     }
   ],
-  "timestamp": "2026-06-29T09:43:57.618197+00:00",
-  "ai_narrative": ""
+  "timestamp": "2026-06-29T09:45:03.719753+00:00"
 }
