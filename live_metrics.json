@@ -1,14 +1,14 @@
 {
   "mode": "HANOON",
-  "account_equity": 982381.23,
-  "available_cash": 982381.23,
+  "account_equity": 982321.19,
+  "available_cash": 982321.19,
   "position_value": 0.0,
-  "nav": 1000.0,
+  "nav": 997.88,
   "deployed_pct": 0.0,
   "current_ticker": "NONE",
   "position": "NONE",
   "win_rate": 0.0,
-  "trades_today": 0,
+  "trades_today": 1,
   "top_pick": "TZA",
   "top_score": 95.4,
   "next_best": null,
@@ -16,7 +16,7 @@
   "scan_results": [
     {
       "ticker": "INLF",
-      "price": 0.0647,
+      "price": 0.0626,
       "score": 102.0,
       "reason": "scanner:MOST_ACTIVE#0"
     },
@@ -28,23 +28,22 @@
     },
     {
       "ticker": "TNMG",
-      "price": 1.025,
+      "price": 1.0379,
       "score": 97.6,
       "reason": "scanner:MOST_ACTIVE#2"
     },
     {
       "ticker": "TZA",
-      "price": 3.92,
+      "price": 3.93,
       "score": 95.4,
       "reason": "scanner:MOST_ACTIVE#3"
     },
     {
       "ticker": "BITO",
-      "price": 8.11,
+      "price": 8.1,
       "score": 93.2,
       "reason": "scanner:MOST_ACTIVE#4"
     }
   ],
-  "timestamp": "2026-06-29T16:09:24.141096+00:00",
-  "ai_narrative": ""
+  "timestamp": "2026-06-29T16:14:41.034253+00:00"
 }
