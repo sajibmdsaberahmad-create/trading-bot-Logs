@@ -1,14 +1,14 @@
 {
   "mode": "HANOON",
-  "account_equity": 909299.35,
-  "available_cash": 909299.35,
+  "account_equity": 909299.36,
+  "available_cash": 909299.36,
   "position_value": 0.0,
-  "nav": 955235.47,
+  "nav": 881592.94,
   "deployed_pct": 0.0,
   "current_ticker": "NONE",
   "position": "NONE",
   "win_rate": 0.0,
-  "trades_today": 28,
+  "trades_today": 29,
   "top_pick": "SOFI",
   "top_score": 92.0,
   "next_best": "PLTR",
@@ -22,7 +22,7 @@
     },
     {
       "ticker": "PLTR",
-      "price": 115.18,
+      "price": 115.22,
       "score": 89.8,
       "reason": "scanner:live#1"
     },
@@ -45,5 +45,6 @@
       "reason": "scanner:live#4"
     }
   ],
-  "timestamp": "2026-06-29T10:30:05.758293+00:00"
+  "timestamp": "2026-06-29T10:31:25.375825+00:00",
+  "ai_narrative": ""
 }
