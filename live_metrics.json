@@ -1,14 +1,14 @@
 {
   "mode": "HANOON",
-  "account_equity": 1027572.97,
-  "available_cash": 1027572.97,
+  "account_equity": 1027399.29,
+  "available_cash": 1027399.29,
   "position_value": 0.0,
-  "nav": 1043951.0,
+  "nav": 1043907.9,
   "deployed_pct": 0.0,
   "current_ticker": "NONE",
   "position": "NONE",
   "win_rate": 0.0,
-  "trades_today": 106,
+  "trades_today": 107,
   "top_pick": "SOXS",
   "top_score": 99.8,
   "next_best": "PLTR",
@@ -16,25 +16,25 @@
   "scan_results": [
     {
       "ticker": "INLF",
-      "price": 0.0621,
+      "price": 0.0616,
       "score": 102.0,
       "reason": "scanner:MOST_ACTIVE#0"
     },
     {
       "ticker": "SOXS",
-      "price": 4.31,
+      "price": 4.32,
       "score": 99.8,
       "reason": "scanner:MOST_ACTIVE#1"
     },
     {
       "ticker": "TNMG",
-      "price": 0.9067,
+      "price": 0.8859,
       "score": 97.6,
       "reason": "scanner:MOST_ACTIVE#2"
     },
     {
       "ticker": "SOAR",
-      "price": 0.1497,
+      "price": 0.1479,
       "score": 95.4,
       "reason": "scanner:MOST_ACTIVE#3"
     },
@@ -45,5 +45,5 @@
       "reason": "scanner:MOST_ACTIVE#4"
     }
   ],
-  "timestamp": "2026-06-29T13:57:36.957742+00:00"
+  "timestamp": "2026-06-29T14:00:29.537014+00:00"
 }
