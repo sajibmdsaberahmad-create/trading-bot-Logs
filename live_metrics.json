@@ -1,7 +1,7 @@
 {
   "mode": "HANOON",
-  "account_equity": 982321.12,
-  "available_cash": 982321.12,
+  "account_equity": 982321.09,
+  "available_cash": 982321.09,
   "position_value": 0.0,
   "nav": 1000.0,
   "deployed_pct": 0.0,
@@ -9,41 +9,41 @@
   "position": "NONE",
   "win_rate": 0.0,
   "trades_today": 0,
-  "top_pick": "INLF",
-  "top_score": 102.0,
+  "top_pick": "CMCSA",
+  "top_score": 86.6,
   "next_best": null,
   "next_best_score": 0.0,
   "scan_results": [
     {
       "ticker": "INLF",
-      "price": 0.0637,
+      "price": 0.0648,
       "score": 102.0,
       "reason": "scanner:MOST_ACTIVE#0"
     },
     {
       "ticker": "SOXS",
-      "price": 3.82,
+      "price": 3.75,
       "score": 99.8,
       "reason": "scanner:MOST_ACTIVE#1"
     },
     {
       "ticker": "TZA",
-      "price": 3.92,
+      "price": 3.89,
       "score": 97.6,
       "reason": "scanner:MOST_ACTIVE#2"
     },
     {
       "ticker": "BITO",
-      "price": 8.12,
+      "price": 8.19,
       "score": 93.2,
       "reason": "scanner:MOST_ACTIVE#4"
     },
     {
       "ticker": "SOAR",
-      "price": 0.1671,
+      "price": 0.1807,
       "score": 91.0,
       "reason": "scanner:MOST_ACTIVE#5"
     }
   ],
-  "timestamp": "2026-06-29T16:51:51.719709+00:00"
+  "timestamp": "2026-06-29T18:03:35.132582+00:00"
 }
