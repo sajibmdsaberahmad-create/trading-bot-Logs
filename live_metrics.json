@@ -3,16 +3,16 @@
   "account_equity": 909299.5,
   "available_cash": 909299.5,
   "position_value": 0.0,
-  "nav": 928984.47,
+  "nav": 930489.13,
   "deployed_pct": 0.0,
   "current_ticker": "NONE",
   "position": "NONE",
   "win_rate": 0.0,
-  "trades_today": 14,
+  "trades_today": 15,
   "top_pick": "SOFI",
   "top_score": 92.0,
-  "next_best": "PLTR",
-  "next_best_score": 167.3,
+  "next_best": "RIOT",
+  "next_best_score": 228.2,
   "scan_results": [
     {
       "ticker": "SOFI",
@@ -45,6 +45,5 @@
       "reason": "scanner:live#4"
     }
   ],
-  "timestamp": "2026-06-29T08:26:56.498309+00:00",
-  "ai_narrative": ""
+  "timestamp": "2026-06-29T08:29:03.171740+00:00"
 }
