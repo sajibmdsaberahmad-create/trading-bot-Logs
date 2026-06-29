@@ -6480,3 +6480,25 @@ and the repository exists.
 2026-06-29 11:06:42 ET | INFO     | HANOON | 📡 Streams: 0 tick + 4 5s-bars (2 deferred) [INLF,SOXS,TNMG,TZA,SOAR,BITO]
 2026-06-29 11:06:42 ET | INFO     | HANOON | 📡 Streams: 0 tick + 4 5s-bars (2 deferred) [INLF,SOXS,TNMG,TZA,SOAR,BITO]
 2026-06-29 11:06:42 ET | INFO     | HANOON | 📡 Streams: 0 tick + 4 5s-bars (2 deferred) [INLF,SOXS,TNMG,TZA,SOAR,BITO]
+2026-06-29 11:06:42 ET | INFO     | HANOON | 📡 Streams: 0 tick + 4 5s-bars (2 deferred) [INLF,SOXS,TNMG,TZA,SOAR,BITO]
+2026-06-29 11:06:42 ET | INFO     | HANOON | 📡 Streams: 0 tick + 4 5s-bars (2 deferred) [INLF,SOXS,TNMG,TZA,SOAR,BITO]
+2026-06-29 11:06:42 ET | INFO     | HANOON | 📡 Streams: 0 tick + 4 5s-bars (2 deferred) [INLF,SOXS,TNMG,TZA,SOAR,BITO]
+2026-06-29 11:06:42 ET | INFO     | HANOON | 📡 Streams: 0 tick + 4 5s-bars (2 deferred) [INLF,SOXS,TNMG,TZA,SOAR,BITO]
+2026-06-29 11:06:43 ET | INFO     | HANOON | 📡 Streams: 0 tick + 4 5s-bars (2 deferred) [INLF,SOXS,TNMG,TZA,SOAR,BITO]
+2026-06-29 11:06:43 ET | INFO     | HANOON | 📡 Streams: 0 tick + 4 5s-bars (2 deferred) [INLF,SOXS,TNMG,TZA,SOAR,BITO]
+2026-06-29 11:06:43 ET | INFO     | HANOON | 📡 Streams: 0 tick + 4 5s-bars (2 deferred) [INLF,SOXS,TNMG,TZA,SOAR,BITO]
+2026-06-29 11:06:43 ET | INFO     | HANOON | 📡 Streams: 0 tick + 4 5s-bars (2 deferred) [INLF,SOXS,TNMG,TZA,SOAR,BITO]
+2026-06-29 11:06:43 ET | INFO     | HANOON | 📡 Streams: 0 tick + 4 5s-bars (2 deferred) [INLF,SOXS,TNMG,TZA,SOAR,BITO]
+2026-06-29 11:06:43 ET | INFO     | HANOON | 📡 Streams: 0 tick + 4 5s-bars (2 deferred) [INLF,SOXS,TNMG,TZA,SOAR,BITO]
+2026-06-29 11:06:43 ET | INFO     | HANOON |   ⏱️ COUNCIL force-clear TZA/entry_decision (6s) — mechanical rules resume
+2026-06-29 11:06:43 ET | INFO     | HANOON | 📡 Streams: 0 tick + 4 5s-bars (2 deferred) [INLF,SOXS,TNMG,TZA,SOAR,BITO]
+2026-06-29 11:06:43 ET | INFO     | HANOON | ⚡ SPIKE: TZA @ $3.94 | vol=1049731.0x | score=95 | micro=5% pred→$3.94 | attempting entry...
+2026-06-29 11:06:44 ET | INFO     | HANOON | ✅ logs push success: auto: 76 change(s) — EARN_START.command, results_1min_latest
+2026-06-29 11:06:46 ET | INFO     | HANOON |   🧠 COUNCIL TZA: PPO conf=54% (neutral) — awaiting council (in_flight) | council:in_flight
+2026-06-29 11:06:46 ET | INFO     | HANOON |   ⏱️ COUNCIL force-clear GPUS/entry_decision (6s) — mechanical rules resume
+2026-06-29 11:06:46 ET | INFO     | HANOON | 📡 Streams: 0 tick + 4 5s-bars (2 deferred) [INLF,SOXS,TNMG,TZA,SOAR,BITO]
+2026-06-29 11:06:46 ET | INFO     | HANOON | ⚡ SPIKE: GPUS @ $0.16 | vol=6.3x | score=82 | micro=32% pred→$0.16 | attempting entry...
+2026-06-29 11:06:46 ET | INFO     | HANOON |   📊 QUALITY advisory GPUS: profit_prob=36% (target 48%) fakeout_risk=28% (max 62%)
+2026-06-29 11:07:28 ET | INFO     | HANOON | ✅ grandmaster push success: auto: 76 change(s) — EARN_START.command, results_1min_latest
+2026-06-29 11:08:24 ET | INFO     | HANOON | ✅ grandmaster push success: auto: 82 change(s) — EARN_START.command, results_1min_latest
+2026-06-29 11:09:04 ET | INFO     | HANOON | ✅ grandmaster push success: auto: 82 change(s) — EARN_START.command, results_1min_latest
