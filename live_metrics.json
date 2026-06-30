@@ -1,40 +1,40 @@
 {
   "mode": "HANOON",
-  "account_equity": 978962.77,
-  "available_cash": 978962.77,
+  "account_equity": 972310.52,
+  "available_cash": 972310.52,
   "position_value": 0.0,
-  "nav": 978962.77,
+  "nav": 972310.52,
   "deployed_pct": 0.0,
   "current_ticker": "NONE",
   "position": "NONE",
   "win_rate": 0.0,
-  "trades_today": 4,
-  "top_pick": "TZA",
-  "top_score": 91.0,
+  "trades_today": 0,
+  "top_pick": "YHC",
+  "top_score": 93.2,
   "next_best": null,
   "next_best_score": 0.0,
   "scan_results": [
     {
       "ticker": "SOXS",
-      "price": 3.26,
+      "price": 3.21,
       "score": 102.0,
       "reason": "scanner:MOST_ACTIVE#0"
     },
     {
       "ticker": "BIYA",
-      "price": 0.4487,
+      "price": 0.458,
       "score": 99.8,
       "reason": "scanner:MOST_ACTIVE#1"
     },
     {
       "ticker": "EDBL",
-      "price": 0.1866,
+      "price": 0.1863,
       "score": 97.6,
       "reason": "scanner:MOST_ACTIVE#2"
     },
     {
       "ticker": "INLF",
-      "price": 0.0567,
+      "price": 0.056,
       "score": 95.4,
       "reason": "scanner:MOST_ACTIVE#3"
     },
@@ -45,5 +45,5 @@
       "reason": "scanner:MOST_ACTIVE#4"
     }
   ],
-  "timestamp": "2026-06-30T18:29:44.698918+00:00"
+  "timestamp": "2026-06-30T18:48:20.430176+00:00"
 }
