@@ -6830,3 +6830,33 @@ and the repository exists.
 2026-06-29 15:52:20 ET | INFO     | HANOON | ✅ grandmaster push success: auto: 73 change(s) — results_1min_latest.csv, results_latest
 2026-06-29 15:52:39 ET | INFO     | HANOON | ✅ logs push success: auto: 75 change(s) — results_1min_latest.csv, results_latest
 2026-06-29 15:53:35 ET | INFO     | HANOON | ✅ grandmaster push success: auto: 75 change(s) — results_1min_latest.csv, results_latest
+2026-06-29 15:53:56 ET | INFO     | HANOON | ✅ logs push success: auto: 76 change(s) — results_1min_latest.csv, results_latest
+2026-06-29 15:54:36 ET | INFO     | HANOON | ✅ grandmaster push success: auto: 76 change(s) — results_1min_latest.csv, results_latest
+2026-06-29 15:54:45 ET | WARNING  | HANOON | grandmaster clone failed: Cloning into '/var/folders/q0/rncg1qw52cl1m6_v1sw3pz340000gn/T/grandmaster_push_4ahdhwwk'...
+fatal: unable to access 'https://github.com/sajibmdsaberahmad-create/trading-bot-Grandmaster.git/': Could not resolve host: github.com
+2026-06-29 15:54:45 ET | INFO     | HANOON | 📦 Initialized empty grandmaster repo — first push
+2026-06-29 15:54:45 ET | WARNING  | HANOON | grandmaster push failed: fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+2026-06-29 15:54:47 ET | WARNING  | HANOON | logs clone failed: Cloning into '/var/folders/q0/rncg1qw52cl1m6_v1sw3pz340000gn/T/logs_push_up6n13gh'...
+fatal: unable to access 'https://github.com/sajibmdsaberahmad-create/trading-bot-Logs.git/': Could not resolve host: github.com
+2026-06-29 15:54:47 ET | INFO     | HANOON | 📦 Initialized empty logs repo — first push
+2026-06-29 15:54:48 ET | WARNING  | HANOON | logs push failed: fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+2026-06-29 15:54:48 ET | WARNING  | HANOON | grandmaster clone failed: Cloning into '/var/folders/q0/rncg1qw52cl1m6_v1sw3pz340000gn/T/grandmaster_push_hb1gkdt0'...
+fatal: unable to access 'https://github.com/sajibmdsaberahmad-create/trading-bot-Grandmaster.git/': Could not resolve host: github.com
+2026-06-29 15:54:49 ET | INFO     | HANOON | 📦 Initialized empty grandmaster repo — first push
+2026-06-29 15:54:49 ET | WARNING  | HANOON | grandmaster push failed: fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+2026-06-29 15:54:49 ET | INFO     | HANOON | Git sync daemon stopped
