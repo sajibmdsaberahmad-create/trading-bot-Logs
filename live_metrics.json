@@ -1,49 +1,49 @@
 {
   "mode": "HANOON",
-  "account_equity": 982450.38,
-  "available_cash": 982450.38,
+  "account_equity": 982449.73,
+  "available_cash": 982449.73,
   "position_value": 0.0,
-  "nav": 982450.38,
+  "nav": 982449.73,
   "deployed_pct": 0.0,
   "current_ticker": "NONE",
   "position": "NONE",
   "win_rate": 0.0,
   "trades_today": 9,
-  "top_pick": "INTZ",
-  "top_score": 86.6,
+  "top_pick": "YHC",
+  "top_score": 91.0,
   "next_best": "INLF",
   "next_best_score": 57.2,
   "scan_results": [
     {
       "ticker": "EDBL",
-      "price": 0.2348,
+      "price": 0.2219,
       "score": 99.8,
       "reason": "scanner:MOST_ACTIVE#1"
     },
     {
       "ticker": "BIYA",
-      "price": 0.3557,
+      "price": 0.3365,
       "score": 97.6,
       "reason": "scanner:MOST_ACTIVE#2"
     },
     {
       "ticker": "TZA",
-      "price": 3.81,
+      "price": 3.83,
       "score": 88.8,
       "reason": "scanner:MOST_ACTIVE#6"
     },
     {
       "ticker": "BITO",
-      "price": 7.9,
-      "score": 82.2,
-      "reason": "scanner:MOST_ACTIVE#9"
+      "price": 7.92,
+      "score": 86.6,
+      "reason": "scanner:MOST_ACTIVE#7"
     },
     {
       "ticker": "MSTU",
-      "price": 1.5294,
+      "price": 1.56,
       "score": 80.0,
       "reason": "scanner:MOST_ACTIVE#10"
     }
   ],
-  "timestamp": "2026-06-30T15:23:20.382356+00:00"
+  "timestamp": "2026-06-30T15:37:39.572593+00:00"
 }
