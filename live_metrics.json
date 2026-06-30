@@ -1,28 +1,28 @@
 {
   "mode": "HANOON",
-  "account_equity": 981617.3,
-  "available_cash": 981617.3,
-  "position_value": 662.76,
-  "nav": 981617.3,
+  "account_equity": 981262.88,
+  "available_cash": 981262.88,
+  "position_value": 664.44,
+  "nav": 981262.88,
   "deployed_pct": 0.1,
   "current_ticker": "BITO",
   "position": "84 BITO",
   "win_rate": 0.0,
   "trades_today": 4,
-  "top_pick": "TZA",
-  "top_score": 91.0,
+  "top_pick": "SOXS",
+  "top_score": 102.0,
   "next_best": null,
   "next_best_score": 0.0,
   "scan_results": [
     {
       "ticker": "EDBL",
-      "price": 0.2114,
+      "price": 0.2074,
       "score": 99.8,
       "reason": "scanner:MOST_ACTIVE#1"
     },
     {
       "ticker": "BIYA",
-      "price": 0.3511,
+      "price": 0.3768,
       "score": 97.6,
       "reason": "scanner:MOST_ACTIVE#2"
     },
@@ -34,16 +34,16 @@
     },
     {
       "ticker": "INLF",
-      "price": 0.0546,
+      "price": 0.055,
       "score": 87.4,
       "reason": "scanner:MOST_ACTIVE#3 war_pena"
     },
     {
       "ticker": "BITO",
-      "price": 7.89,
+      "price": 7.91,
       "score": 86.6,
       "reason": "scanner:MOST_ACTIVE#7"
     }
   ],
-  "timestamp": "2026-06-30T16:27:57.643532+00:00"
+  "timestamp": "2026-06-30T16:32:45.069045+00:00"
 }
