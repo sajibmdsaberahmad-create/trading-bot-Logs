@@ -1,49 +1,49 @@
 {
   "mode": "HANOON",
-  "account_equity": 984466.09,
-  "available_cash": 984466.09,
+  "account_equity": 984115.18,
+  "available_cash": 984115.18,
   "position_value": 0.0,
-  "nav": 984466.09,
+  "nav": 984115.18,
   "deployed_pct": 0.0,
   "current_ticker": "NONE",
   "position": "NONE",
   "win_rate": 0.0,
-  "trades_today": 1,
-  "top_pick": "INTZ",
-  "top_score": 89.0,
+  "trades_today": 2,
+  "top_pick": "EDBL",
+  "top_score": 97.8,
   "next_best": null,
   "next_best_score": 0.0,
   "scan_results": [
     {
       "ticker": "JEM",
-      "price": 3.2,
+      "price": 3.12,
       "score": 100.0,
       "reason": "scanner:TOP_PERC_GAIN#0"
     },
     {
       "ticker": "EDBL",
-      "price": 0.331,
+      "price": 0.3629,
       "score": 97.8,
       "reason": "scanner:TOP_PERC_GAIN#1"
     },
     {
       "ticker": "BIYA",
-      "price": 0.4951,
+      "price": 0.5282,
       "score": 95.6,
       "reason": "scanner:TOP_PERC_GAIN#2"
     },
     {
-      "ticker": "BTCT",
-      "price": 1.1102,
+      "ticker": "AVXX",
+      "price": 8.29,
       "score": 93.4,
       "reason": "scanner:TOP_PERC_GAIN#3"
     },
     {
-      "ticker": "AVXX",
-      "price": 8.43,
+      "ticker": "BTCT",
+      "price": 1.13,
       "score": 91.2,
       "reason": "scanner:TOP_PERC_GAIN#4"
     }
   ],
-  "timestamp": "2026-06-30T11:48:20.843889+00:00"
+  "timestamp": "2026-06-30T11:57:53.233584+00:00"
 }
