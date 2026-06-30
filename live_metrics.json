@@ -1,18 +1,18 @@
 {
   "mode": "HANOON",
-  "account_equity": 978403.09,
-  "available_cash": 978403.09,
-  "position_value": 458.78,
-  "nav": 978403.09,
+  "account_equity": 978870.79,
+  "available_cash": 978870.79,
+  "position_value": 459.94,
+  "nav": 978870.79,
   "deployed_pct": 0.0,
   "current_ticker": "BITO",
   "position": "58 BITO",
   "win_rate": 0.0,
-  "trades_today": 3,
-  "top_pick": "TZA",
-  "top_score": 91.0,
-  "next_best": null,
-  "next_best_score": 0.0,
+  "trades_today": 4,
+  "top_pick": "SOXS",
+  "top_score": 102.0,
+  "next_best": "SOXS",
+  "next_best_score": 252.3,
   "scan_results": [
     {
       "ticker": "SOXS",
@@ -22,28 +22,28 @@
     },
     {
       "ticker": "BIYA",
-      "price": 0.4451,
+      "price": 0.4515,
       "score": 99.8,
       "reason": "scanner:MOST_ACTIVE#1"
     },
     {
       "ticker": "EDBL",
-      "price": 0.2084,
+      "price": 0.2057,
       "score": 97.6,
       "reason": "scanner:MOST_ACTIVE#2"
     },
     {
       "ticker": "INLF",
-      "price": 0.0585,
+      "price": 0.0584,
       "score": 95.4,
       "reason": "scanner:MOST_ACTIVE#3"
     },
     {
       "ticker": "YHC",
-      "price": 0.0949,
+      "price": 0.0936,
       "score": 93.2,
       "reason": "scanner:MOST_ACTIVE#4"
     }
   ],
-  "timestamp": "2026-06-30T18:03:53.724074+00:00"
+  "timestamp": "2026-06-30T18:08:08.469998+00:00"
 }
