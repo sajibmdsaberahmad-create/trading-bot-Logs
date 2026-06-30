@@ -1,14 +1,14 @@
 {
   "mode": "HANOON",
-  "account_equity": 982186.0,
-  "available_cash": 982186.0,
+  "account_equity": 981830.48,
+  "available_cash": 981830.48,
   "position_value": 0.0,
-  "nav": 982186.0,
+  "nav": 981830.48,
   "deployed_pct": 0.0,
   "current_ticker": "NONE",
   "position": "NONE",
   "win_rate": 0.0,
-  "trades_today": 1,
+  "trades_today": 0,
   "top_pick": "ABVX",
   "top_score": 84.6,
   "next_best": null,
@@ -16,35 +16,34 @@
   "scan_results": [
     {
       "ticker": "JEM",
-      "price": 3.4307,
+      "price": 5.05,
       "score": 100.0,
       "reason": "scanner:TOP_PERC_GAIN#0"
     },
     {
       "ticker": "SVRE",
-      "price": 7.61,
+      "price": 5.99,
       "score": 97.8,
       "reason": "scanner:TOP_PERC_GAIN#1"
     },
     {
       "ticker": "CELZ",
-      "price": 1.76,
-      "score": 93.4,
-      "reason": "scanner:TOP_PERC_GAIN#3"
+      "price": 1.712,
+      "score": 95.6,
+      "reason": "scanner:TOP_PERC_GAIN#2"
     },
     {
       "ticker": "BIYA",
-      "price": 0.4495,
+      "price": 0.442,
       "score": 91.2,
       "reason": "scanner:TOP_PERC_GAIN#4"
     },
     {
       "ticker": "AVXX",
-      "price": 7.7,
+      "price": 7.83,
       "score": 89.0,
       "reason": "scanner:TOP_PERC_GAIN#5"
     }
   ],
-  "timestamp": "2026-06-30T12:56:51.698398+00:00",
-  "ai_narrative": ""
+  "timestamp": "2026-06-30T13:06:00.406520+00:00"
 }
