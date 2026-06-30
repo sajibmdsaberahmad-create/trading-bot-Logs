@@ -1,49 +1,49 @@
 {
   "mode": "HANOON",
-  "account_equity": 976960.33,
-  "available_cash": 976960.33,
+  "account_equity": 978803.93,
+  "available_cash": 978803.93,
   "position_value": 0.0,
-  "nav": 976960.33,
+  "nav": 978803.93,
   "deployed_pct": 0.0,
   "current_ticker": "NONE",
   "position": "NONE",
   "win_rate": 0.0,
-  "trades_today": 0,
-  "top_pick": "SOXS",
-  "top_score": 102.0,
+  "trades_today": 1,
+  "top_pick": "EDBL",
+  "top_score": 97.6,
   "next_best": null,
   "next_best_score": 0.0,
   "scan_results": [
     {
       "ticker": "SOXS",
-      "price": 3.28,
+      "price": 3.27,
       "score": 102.0,
       "reason": "scanner:MOST_ACTIVE#0"
     },
     {
       "ticker": "BIYA",
-      "price": 0.445,
+      "price": 0.4507,
       "score": 99.8,
       "reason": "scanner:MOST_ACTIVE#1"
     },
     {
       "ticker": "EDBL",
-      "price": 0.1914,
+      "price": 0.1888,
       "score": 97.6,
       "reason": "scanner:MOST_ACTIVE#2"
     },
     {
       "ticker": "INLF",
-      "price": 0.0558,
+      "price": 0.0559,
       "score": 95.4,
       "reason": "scanner:MOST_ACTIVE#3"
     },
     {
       "ticker": "YHC",
-      "price": 0.0937,
+      "price": 0.0931,
       "score": 93.2,
       "reason": "scanner:MOST_ACTIVE#4"
     }
   ],
-  "timestamp": "2026-06-30T18:20:56.593125+00:00"
+  "timestamp": "2026-06-30T18:22:10.369565+00:00"
 }
