@@ -1,49 +1,49 @@
 {
   "mode": "HANOON",
-  "account_equity": 982357.36,
-  "available_cash": 982357.36,
+  "account_equity": 984466.58,
+  "available_cash": 984466.58,
   "position_value": 0.0,
-  "nav": 970.18,
+  "nav": 1000.0,
   "deployed_pct": 0.0,
   "current_ticker": "NONE",
   "position": "NONE",
   "win_rate": 0.0,
-  "trades_today": 5,
-  "top_pick": "BITO",
-  "top_score": 93.2,
+  "trades_today": 0,
+  "top_pick": "ASTS",
+  "top_score": 70.8,
   "next_best": null,
   "next_best_score": 0.0,
   "scan_results": [
     {
-      "ticker": "TZA",
-      "price": 3.87,
-      "score": 97.6,
-      "reason": "scanner:MOST_ACTIVE#2"
+      "ticker": "SOFI",
+      "price": 18.17,
+      "score": 92.0,
+      "reason": "scanner:live#0"
     },
     {
-      "ticker": "SOAR",
-      "price": 0.1826,
-      "score": 91.0,
-      "reason": "scanner:MOST_ACTIVE#5"
+      "ticker": "MARA",
+      "price": 13.93,
+      "score": 80.7,
+      "reason": "scanner:live#2 war_penalty"
     },
     {
-      "ticker": "AAL",
-      "price": 17.82,
-      "score": 86.6,
-      "reason": "scanner:MOST_ACTIVE#7"
+      "ticker": "RIOT",
+      "price": 27.75,
+      "score": 77.4,
+      "reason": "scanner:live#3 war_penalty"
     },
     {
-      "ticker": "CMCSA",
-      "price": 24.43,
-      "score": 84.4,
-      "reason": "scanner:MOST_ACTIVE#8"
+      "ticker": "ASTS",
+      "price": 89.12,
+      "score": 70.8,
+      "reason": "scanner:live#6 war_penalty"
     },
     {
-      "ticker": "NVDA",
-      "price": 194.77,
-      "score": 82.2,
-      "reason": "scanner:MOST_ACTIVE#9"
+      "ticker": "CHPT",
+      "price": 6.1,
+      "score": 70.0,
+      "reason": "scanner:live#10"
     }
   ],
-  "timestamp": "2026-06-29T19:46:23.447832+00:00"
+  "timestamp": "2026-06-30T08:25:11.915702+00:00"
 }
