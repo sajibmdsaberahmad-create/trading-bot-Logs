@@ -1,7 +1,7 @@
 {
   "mode": "HANOON",
-  "account_equity": 984467.05,
-  "available_cash": 984467.05,
+  "account_equity": 984467.06,
+  "available_cash": 984467.06,
   "position_value": 0.0,
   "nav": 1000.0,
   "deployed_pct": 0.0,
@@ -16,34 +16,34 @@
   "scan_results": [
     {
       "ticker": "JEM",
-      "price": 2.68,
+      "price": 2.8401,
       "score": 100.0,
       "reason": "scanner:TOP_PERC_GAIN#0"
     },
     {
       "ticker": "BTCT",
-      "price": 1.26,
+      "price": 1.2,
       "score": 97.8,
       "reason": "scanner:TOP_PERC_GAIN#1"
     },
     {
       "ticker": "AVXX",
-      "price": 7.75,
+      "price": 8.19,
       "score": 95.6,
       "reason": "scanner:TOP_PERC_GAIN#2"
     },
     {
-      "ticker": "INTZ",
-      "price": 0.9699,
+      "ticker": "CUPR",
+      "price": 6.74,
       "score": 93.4,
       "reason": "scanner:TOP_PERC_GAIN#3"
     },
     {
-      "ticker": "ABVX",
-      "price": 130.28,
+      "ticker": "INTZ",
+      "price": 0.963,
       "score": 91.2,
       "reason": "scanner:TOP_PERC_GAIN#4"
     }
   ],
-  "timestamp": "2026-06-30T10:56:59.218857+00:00"
+  "timestamp": "2026-06-30T11:07:15.790596+00:00"
 }
