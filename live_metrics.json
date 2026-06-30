@@ -1,49 +1,49 @@
 {
   "mode": "HANOON",
-  "account_equity": 975393.16,
-  "available_cash": 975393.16,
-  "position_value": 3239.9,
-  "nav": 975393.16,
+  "account_equity": 975724.51,
+  "available_cash": 975724.51,
+  "position_value": 3241.69,
+  "nav": 975724.51,
   "deployed_pct": 0.3,
   "current_ticker": "AAL",
   "position": "179 AAL",
   "win_rate": 0.0,
-  "trades_today": 2,
-  "top_pick": "INTZ",
-  "top_score": 82.2,
+  "trades_today": 3,
+  "top_pick": "TZA",
+  "top_score": 91.0,
   "next_best": null,
   "next_best_score": 0.0,
   "scan_results": [
     {
       "ticker": "SOXS",
-      "price": 3.27,
+      "price": 3.28,
       "score": 102.0,
       "reason": "scanner:MOST_ACTIVE#0"
     },
     {
       "ticker": "BIYA",
-      "price": 0.4501,
+      "price": 0.4478,
       "score": 99.8,
       "reason": "scanner:MOST_ACTIVE#1"
     },
     {
       "ticker": "EDBL",
-      "price": 0.1885,
+      "price": 0.185,
       "score": 97.6,
       "reason": "scanner:MOST_ACTIVE#2"
     },
     {
       "ticker": "INLF",
-      "price": 0.0568,
+      "price": 0.0567,
       "score": 95.4,
       "reason": "scanner:MOST_ACTIVE#3"
     },
     {
       "ticker": "YHC",
-      "price": 0.093,
+      "price": 0.087,
       "score": 93.2,
       "reason": "scanner:MOST_ACTIVE#4"
     }
   ],
-  "timestamp": "2026-06-30T18:23:16.994906+00:00"
+  "timestamp": "2026-06-30T18:25:06.089480+00:00"
 }
