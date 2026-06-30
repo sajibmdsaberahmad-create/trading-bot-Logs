@@ -1,50 +1,49 @@
 {
   "mode": "HANOON",
-  "account_equity": 981675.3,
-  "available_cash": 981675.3,
+  "account_equity": 981643.75,
+  "available_cash": 981643.75,
   "position_value": 0.0,
-  "nav": 981675.3,
+  "nav": 981643.75,
   "deployed_pct": 0.0,
   "current_ticker": "NONE",
   "position": "NONE",
   "win_rate": 0.0,
-  "trades_today": 4,
-  "top_pick": "EDBL",
-  "top_score": 102.0,
-  "next_best": "INTZ",
-  "next_best_score": 473.2,
+  "trades_today": 5,
+  "top_pick": "BIYA",
+  "top_score": 97.6,
+  "next_best": "EDBL",
+  "next_best_score": 61.2,
   "scan_results": [
     {
       "ticker": "EDBL",
-      "price": 0.3525,
+      "price": 0.3069,
       "score": 102.0,
       "reason": "scanner:MOST_ACTIVE#0"
     },
     {
       "ticker": "BIYA",
-      "price": 0.4957,
+      "price": 0.5417,
       "score": 97.6,
       "reason": "scanner:MOST_ACTIVE#2"
     },
     {
       "ticker": "INTZ",
-      "price": 0.9605,
+      "price": 0.954,
       "score": 88.8,
       "reason": "scanner:MOST_ACTIVE#6"
     },
     {
       "ticker": "BTCT",
-      "price": 1.02,
+      "price": 0.8764,
       "score": 86.6,
       "reason": "scanner:MOST_ACTIVE#7"
     },
     {
       "ticker": "GPUS",
-      "price": 0.1512,
+      "price": 0.1518,
       "score": 84.4,
       "reason": "scanner:MOST_ACTIVE#8"
     }
   ],
-  "timestamp": "2026-06-30T13:48:54.093774+00:00",
-  "ai_narrative": ""
+  "timestamp": "2026-06-30T13:54:07.655042+00:00"
 }
