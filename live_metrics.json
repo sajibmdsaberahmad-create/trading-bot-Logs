@@ -1,49 +1,49 @@
 {
   "mode": "HANOON",
-  "account_equity": 981643.69,
-  "available_cash": 981643.69,
+  "account_equity": 981641.92,
+  "available_cash": 981641.92,
   "position_value": 0.0,
-  "nav": 981643.69,
+  "nav": 981641.92,
   "deployed_pct": 0.0,
   "current_ticker": "NONE",
   "position": "NONE",
   "win_rate": 0.0,
   "trades_today": 5,
-  "top_pick": "INTZ",
-  "top_score": 88.8,
+  "top_pick": "BIYA",
+  "top_score": 97.6,
   "next_best": "EDBL",
   "next_best_score": 61.2,
   "scan_results": [
     {
       "ticker": "EDBL",
-      "price": 0.2576,
+      "price": 0.2513,
       "score": 102.0,
       "reason": "scanner:MOST_ACTIVE#0"
     },
     {
       "ticker": "BIYA",
-      "price": 0.5357,
+      "price": 0.5741,
       "score": 97.6,
       "reason": "scanner:MOST_ACTIVE#2"
     },
     {
       "ticker": "INTZ",
-      "price": 0.9723,
+      "price": 0.991,
       "score": 88.8,
       "reason": "scanner:MOST_ACTIVE#6"
     },
     {
       "ticker": "MSTU",
-      "price": 1.59,
+      "price": 1.63,
       "score": 84.4,
       "reason": "scanner:MOST_ACTIVE#8"
     },
     {
-      "ticker": "GPUS",
-      "price": 0.152,
+      "ticker": "TZA",
+      "price": 3.83,
       "score": 82.2,
       "reason": "scanner:MOST_ACTIVE#9"
     }
   ],
-  "timestamp": "2026-06-30T14:08:08.219747+00:00"
+  "timestamp": "2026-06-30T14:19:14.561366+00:00"
 }
