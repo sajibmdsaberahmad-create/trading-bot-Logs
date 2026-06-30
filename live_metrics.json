@@ -1,7 +1,7 @@
 {
   "mode": "HANOON",
-  "account_equity": 984467.26,
-  "available_cash": 984467.26,
+  "account_equity": 984466.92,
+  "available_cash": 984466.92,
   "position_value": 0.0,
   "nav": 1000.0,
   "deployed_pct": 0.0,
@@ -9,42 +9,41 @@
   "position": "NONE",
   "win_rate": 0.0,
   "trades_today": 0,
-  "top_pick": "COIN",
-  "top_score": 83.2,
+  "top_pick": "AVAV",
+  "top_score": 84.6,
   "next_best": null,
   "next_best_score": 0.0,
   "scan_results": [
     {
-      "ticker": "SOFI",
-      "price": 18.21,
-      "score": 92.0,
-      "reason": "scanner:live#0"
+      "ticker": "JEM",
+      "price": 2.5301,
+      "score": 100.0,
+      "reason": "scanner:TOP_PERC_GAIN#0"
     },
     {
-      "ticker": "PLTR",
-      "price": 116.3,
-      "score": 89.8,
-      "reason": "scanner:live#1"
+      "ticker": "BTCT",
+      "price": 1.2701,
+      "score": 97.8,
+      "reason": "scanner:TOP_PERC_GAIN#1"
     },
     {
-      "ticker": "MARA",
-      "price": 13.9,
-      "score": 87.6,
-      "reason": "scanner:live#2"
+      "ticker": "INTZ",
+      "price": 0.9669,
+      "score": 95.6,
+      "reason": "scanner:TOP_PERC_GAIN#2"
     },
     {
-      "ticker": "RIOT",
-      "price": 27.7,
-      "score": 85.4,
-      "reason": "scanner:live#3"
+      "ticker": "AVXX",
+      "price": 7.33,
+      "score": 93.4,
+      "reason": "scanner:TOP_PERC_GAIN#3"
     },
     {
-      "ticker": "COIN",
-      "price": 149.78,
-      "score": 83.2,
-      "reason": "scanner:live#4"
+      "ticker": "PAVS",
+      "price": 8.08,
+      "score": 91.2,
+      "reason": "scanner:TOP_PERC_GAIN#4"
     }
   ],
-  "timestamp": "2026-06-30T10:02:38.082696+00:00",
-  "ai_narrative": ""
+  "timestamp": "2026-06-30T10:14:39.560258+00:00"
 }
