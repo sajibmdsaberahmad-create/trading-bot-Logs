@@ -1,49 +1,49 @@
 {
   "mode": "HANOON",
-  "account_equity": 981652.7,
-  "available_cash": 981652.7,
+  "account_equity": 981653.83,
+  "available_cash": 981653.83,
   "position_value": 0.0,
-  "nav": 981652.7,
+  "nav": 981653.83,
   "deployed_pct": 0.0,
   "current_ticker": "NONE",
   "position": "NONE",
   "win_rate": 0.0,
-  "trades_today": 1,
+  "trades_today": 0,
   "top_pick": "BACCR",
-  "top_score": 82.4,
+  "top_score": 84.6,
   "next_best": null,
   "next_best_score": 0.0,
   "scan_results": [
     {
       "ticker": "JEM",
-      "price": 4.3995,
+      "price": 4.57,
       "score": 100.0,
       "reason": "scanner:TOP_PERC_GAIN#0"
     },
     {
-      "ticker": "SVRE",
-      "price": 6.37,
+      "ticker": "CELZ",
+      "price": 2.47,
       "score": 97.8,
       "reason": "scanner:TOP_PERC_GAIN#1"
     },
     {
-      "ticker": "CELZ",
-      "price": 2.5301,
-      "score": 95.6,
-      "reason": "scanner:TOP_PERC_GAIN#2"
+      "ticker": "EDBL",
+      "price": 0.2958,
+      "score": 93.4,
+      "reason": "scanner:TOP_PERC_GAIN#3"
     },
     {
       "ticker": "BIYA",
-      "price": 0.4606,
+      "price": 0.4931,
       "score": 91.2,
       "reason": "scanner:TOP_PERC_GAIN#4"
     },
     {
-      "ticker": "AVXX",
-      "price": 7.82,
+      "ticker": "BTCT",
+      "price": 1.06,
       "score": 89.0,
       "reason": "scanner:TOP_PERC_GAIN#5"
     }
   ],
-  "timestamp": "2026-06-30T13:12:44.573315+00:00"
+  "timestamp": "2026-06-30T13:23:14.082659+00:00"
 }
