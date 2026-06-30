@@ -1,28 +1,28 @@
 {
   "mode": "HANOON",
-  "account_equity": 982296.41,
-  "available_cash": 982296.41,
-  "position_value": 0.0,
-  "nav": 982296.41,
-  "deployed_pct": 0.0,
-  "current_ticker": "NONE",
-  "position": "NONE",
+  "account_equity": 980956.52,
+  "available_cash": 980956.52,
+  "position_value": 666.75,
+  "nav": 980956.52,
+  "deployed_pct": 0.1,
+  "current_ticker": "TZA",
+  "position": "175 TZA",
   "win_rate": 0.0,
-  "trades_today": 0,
-  "top_pick": "BIYA",
-  "top_score": 97.6,
+  "trades_today": 1,
+  "top_pick": "EDBL",
+  "top_score": 99.8,
   "next_best": null,
   "next_best_score": 0.0,
   "scan_results": [
     {
       "ticker": "EDBL",
-      "price": 0.2128,
+      "price": 0.2126,
       "score": 99.8,
       "reason": "scanner:MOST_ACTIVE#1"
     },
     {
       "ticker": "BIYA",
-      "price": 0.3494,
+      "price": 0.351,
       "score": 97.6,
       "reason": "scanner:MOST_ACTIVE#2"
     },
@@ -45,5 +45,5 @@
       "reason": "scanner:MOST_ACTIVE#7"
     }
   ],
-  "timestamp": "2026-06-30T16:20:57.544242+00:00"
+  "timestamp": "2026-06-30T16:21:13.662585+00:00"
 }
