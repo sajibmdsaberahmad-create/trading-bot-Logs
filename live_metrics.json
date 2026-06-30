@@ -1,7 +1,7 @@
 {
   "mode": "HANOON",
-  "account_equity": 984467.11,
-  "available_cash": 984467.11,
+  "account_equity": 984466.91,
+  "available_cash": 984466.91,
   "position_value": 0.0,
   "nav": 1000.0,
   "deployed_pct": 0.0,
@@ -9,41 +9,41 @@
   "position": "NONE",
   "win_rate": 0.0,
   "trades_today": 0,
-  "top_pick": "CAST",
-  "top_score": 82.4,
+  "top_pick": "ABVX",
+  "top_score": 91.2,
   "next_best": null,
   "next_best_score": 0.0,
   "scan_results": [
     {
       "ticker": "JEM",
-      "price": 2.6701,
+      "price": 2.6099,
       "score": 100.0,
       "reason": "scanner:TOP_PERC_GAIN#0"
     },
     {
       "ticker": "BTCT",
-      "price": 1.25,
+      "price": 1.27,
       "score": 97.8,
       "reason": "scanner:TOP_PERC_GAIN#1"
     },
     {
       "ticker": "AVXX",
-      "price": 7.39,
+      "price": 7.47,
       "score": 95.6,
       "reason": "scanner:TOP_PERC_GAIN#2"
     },
     {
       "ticker": "INTZ",
-      "price": 0.9757,
+      "price": 0.9858,
       "score": 93.4,
       "reason": "scanner:TOP_PERC_GAIN#3"
     },
     {
       "ticker": "ABVX",
-      "price": 127.94,
+      "price": 128.6,
       "score": 91.2,
       "reason": "scanner:TOP_PERC_GAIN#4"
     }
   ],
-  "timestamp": "2026-06-30T10:28:42.978869+00:00"
+  "timestamp": "2026-06-30T10:32:56.700165+00:00"
 }
