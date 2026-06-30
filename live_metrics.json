@@ -16,34 +16,35 @@
   "scan_results": [
     {
       "ticker": "JEM",
-      "price": 3.4695,
+      "price": 3.4307,
       "score": 100.0,
       "reason": "scanner:TOP_PERC_GAIN#0"
     },
     {
       "ticker": "SVRE",
-      "price": 7.54,
+      "price": 7.61,
       "score": 97.8,
       "reason": "scanner:TOP_PERC_GAIN#1"
     },
     {
       "ticker": "CELZ",
-      "price": 1.798,
+      "price": 1.76,
       "score": 93.4,
       "reason": "scanner:TOP_PERC_GAIN#3"
     },
     {
       "ticker": "BIYA",
-      "price": 0.454,
+      "price": 0.4495,
       "score": 91.2,
       "reason": "scanner:TOP_PERC_GAIN#4"
     },
     {
       "ticker": "AVXX",
-      "price": 7.79,
+      "price": 7.7,
       "score": 89.0,
       "reason": "scanner:TOP_PERC_GAIN#5"
     }
   ],
-  "timestamp": "2026-06-30T12:56:03.692442+00:00"
+  "timestamp": "2026-06-30T12:56:51.698398+00:00",
+  "ai_narrative": ""
 }
