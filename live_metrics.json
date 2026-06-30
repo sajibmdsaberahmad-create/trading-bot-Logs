@@ -1,49 +1,49 @@
 {
   "mode": "HANOON",
-  "account_equity": 982332.87,
-  "available_cash": 982332.87,
+  "account_equity": 982332.4,
+  "available_cash": 982332.4,
   "position_value": 0.0,
-  "nav": 982332.87,
+  "nav": 982332.4,
   "deployed_pct": 0.0,
   "current_ticker": "NONE",
   "position": "NONE",
   "win_rate": 0.0,
   "trades_today": 5,
-  "top_pick": "SOXS",
-  "top_score": 102.0,
+  "top_pick": "INTZ",
+  "top_score": 84.4,
   "next_best": "TZA",
   "next_best_score": 399.9,
   "scan_results": [
     {
       "ticker": "EDBL",
-      "price": 0.2031,
+      "price": 0.212,
       "score": 99.8,
       "reason": "scanner:MOST_ACTIVE#1"
     },
     {
       "ticker": "YHC",
-      "price": 0.1115,
+      "price": 0.1103,
       "score": 85.2,
       "reason": "scanner:MOST_ACTIVE#4 war_pena"
     },
     {
       "ticker": "JEM",
-      "price": 3.15,
+      "price": 3.19,
       "score": 82.2,
       "reason": "scanner:MOST_ACTIVE#9"
     },
     {
       "ticker": "SOXS",
-      "price": 3.33,
+      "price": 3.3,
       "score": 81.3,
       "reason": "scanner:MOST_ACTIVE#0 war_pena"
     },
     {
       "ticker": "MSTU",
-      "price": 1.56,
+      "price": 0.0,
       "score": 80.0,
       "reason": "scanner:MOST_ACTIVE#10"
     }
   ],
-  "timestamp": "2026-06-30T16:44:21.692798+00:00"
+  "timestamp": "2026-06-30T16:54:45.218223+00:00"
 }
