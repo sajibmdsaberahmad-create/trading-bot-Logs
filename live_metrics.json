@@ -9,41 +9,41 @@
   "position": "NONE",
   "win_rate": 0.0,
   "trades_today": 1,
-  "top_pick": "BTCT",
-  "top_score": 91.2,
+  "top_pick": "AVAV",
+  "top_score": 86.8,
   "next_best": null,
   "next_best_score": 0.0,
   "scan_results": [
     {
       "ticker": "JEM",
-      "price": 3.59,
+      "price": 3.51,
       "score": 100.0,
       "reason": "scanner:TOP_PERC_GAIN#0"
     },
     {
       "ticker": "EDBL",
-      "price": 0.3456,
+      "price": 0.329,
       "score": 97.8,
       "reason": "scanner:TOP_PERC_GAIN#1"
     },
     {
       "ticker": "BIYA",
-      "price": 0.4841,
+      "price": 0.489,
       "score": 95.6,
       "reason": "scanner:TOP_PERC_GAIN#2"
     },
     {
       "ticker": "AVXX",
-      "price": 8.52,
+      "price": 8.57,
       "score": 93.4,
       "reason": "scanner:TOP_PERC_GAIN#3"
     },
     {
       "ticker": "BTCT",
-      "price": 1.11,
+      "price": 1.1001,
       "score": 91.2,
       "reason": "scanner:TOP_PERC_GAIN#4"
     }
   ],
-  "timestamp": "2026-06-30T12:17:27.637897+00:00"
+  "timestamp": "2026-06-30T12:19:19.840273+00:00"
 }
