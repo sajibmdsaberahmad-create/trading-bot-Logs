@@ -1,9 +1,9 @@
 {
   "mode": "HANOON",
-  "account_equity": 978951.12,
-  "available_cash": 978951.12,
+  "account_equity": 978948.92,
+  "available_cash": 978948.92,
   "position_value": 0.0,
-  "nav": 978951.12,
+  "nav": 978948.92,
   "deployed_pct": 0.0,
   "current_ticker": "NONE",
   "position": "NONE",
@@ -22,29 +22,29 @@
     },
     {
       "ticker": "BIYA",
-      "price": 0.4378,
+      "price": 0.4436,
       "score": 99.8,
       "reason": "scanner:MOST_ACTIVE#1"
     },
     {
       "ticker": "EDBL",
-      "price": 0.2154,
+      "price": 0.214,
       "score": 97.6,
       "reason": "scanner:MOST_ACTIVE#2"
     },
     {
       "ticker": "INLF",
-      "price": 0.0605,
+      "price": 0.0595,
       "score": 95.4,
       "reason": "scanner:MOST_ACTIVE#3"
     },
     {
       "ticker": "YHC",
-      "price": 0.1012,
+      "price": 0.0992,
       "score": 93.2,
       "reason": "scanner:MOST_ACTIVE#4"
     }
   ],
-  "timestamp": "2026-06-30T17:42:55.013319+00:00",
+  "timestamp": "2026-06-30T17:49:08.827315+00:00",
   "ai_narrative": ""
 }
