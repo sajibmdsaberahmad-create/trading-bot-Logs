@@ -9,8 +9,8 @@
   "position": "NONE",
   "win_rate": 0.0,
   "trades_today": 0,
-  "top_pick": "PLTR",
-  "top_score": 89.8,
+  "top_pick": "COIN",
+  "top_score": 83.2,
   "next_best": null,
   "next_best_score": 0.0,
   "scan_results": [
@@ -22,7 +22,7 @@
     },
     {
       "ticker": "PLTR",
-      "price": 116.36,
+      "price": 116.3,
       "score": 89.8,
       "reason": "scanner:live#1"
     },
@@ -40,11 +40,11 @@
     },
     {
       "ticker": "COIN",
-      "price": 149.5,
+      "price": 149.78,
       "score": 83.2,
       "reason": "scanner:live#4"
     }
   ],
-  "timestamp": "2026-06-30T10:01:46.063301+00:00",
+  "timestamp": "2026-06-30T10:02:38.082696+00:00",
   "ai_narrative": ""
 }
