@@ -9,14 +9,14 @@
   "position": "NONE",
   "win_rate": 0.0,
   "trades_today": 5,
-  "top_pick": "INTZ",
-  "top_score": 84.4,
+  "top_pick": "SOXS",
+  "top_score": 102.0,
   "next_best": "TZA",
   "next_best_score": 399.9,
   "scan_results": [
     {
       "ticker": "EDBL",
-      "price": 0.212,
+      "price": 0.213,
       "score": 99.8,
       "reason": "scanner:MOST_ACTIVE#1"
     },
@@ -45,5 +45,5 @@
       "reason": "scanner:MOST_ACTIVE#10"
     }
   ],
-  "timestamp": "2026-06-30T16:54:45.218223+00:00"
+  "timestamp": "2026-06-30T16:55:05.858845+00:00"
 }
