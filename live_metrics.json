@@ -1,14 +1,14 @@
 {
   "mode": "HANOON",
-  "account_equity": 975724.51,
-  "available_cash": 975724.51,
-  "position_value": 3241.69,
-  "nav": 975724.51,
-  "deployed_pct": 0.3,
-  "current_ticker": "AAL",
-  "position": "179 AAL",
+  "account_equity": 978962.77,
+  "available_cash": 978962.77,
+  "position_value": 0.0,
+  "nav": 978962.77,
+  "deployed_pct": 0.0,
+  "current_ticker": "NONE",
+  "position": "NONE",
   "win_rate": 0.0,
-  "trades_today": 3,
+  "trades_today": 4,
   "top_pick": "TZA",
   "top_score": 91.0,
   "next_best": null,
@@ -16,19 +16,19 @@
   "scan_results": [
     {
       "ticker": "SOXS",
-      "price": 3.28,
+      "price": 3.26,
       "score": 102.0,
       "reason": "scanner:MOST_ACTIVE#0"
     },
     {
       "ticker": "BIYA",
-      "price": 0.4478,
+      "price": 0.4487,
       "score": 99.8,
       "reason": "scanner:MOST_ACTIVE#1"
     },
     {
       "ticker": "EDBL",
-      "price": 0.185,
+      "price": 0.1866,
       "score": 97.6,
       "reason": "scanner:MOST_ACTIVE#2"
     },
@@ -40,10 +40,10 @@
     },
     {
       "ticker": "YHC",
-      "price": 0.087,
+      "price": 0.0891,
       "score": 93.2,
       "reason": "scanner:MOST_ACTIVE#4"
     }
   ],
-  "timestamp": "2026-06-30T18:25:06.089480+00:00"
+  "timestamp": "2026-06-30T18:29:44.698918+00:00"
 }
