@@ -1,14 +1,14 @@
 {
   "mode": "HANOON",
-  "account_equity": 984113.41,
-  "available_cash": 984113.41,
+  "account_equity": 984466.09,
+  "available_cash": 984466.09,
   "position_value": 0.0,
-  "nav": 984113.41,
+  "nav": 984466.09,
   "deployed_pct": 0.0,
   "current_ticker": "NONE",
   "position": "NONE",
   "win_rate": 0.0,
-  "trades_today": 0,
+  "trades_today": 1,
   "top_pick": "JEM",
   "top_score": 100.0,
   "next_best": null,
@@ -16,34 +16,35 @@
   "scan_results": [
     {
       "ticker": "JEM",
-      "price": 3.1,
+      "price": 3.258,
       "score": 100.0,
       "reason": "scanner:TOP_PERC_GAIN#0"
     },
     {
       "ticker": "EDBL",
-      "price": 0.39,
+      "price": 0.3713,
       "score": 97.8,
       "reason": "scanner:TOP_PERC_GAIN#1"
     },
     {
       "ticker": "BIYA",
-      "price": 0.494,
+      "price": 0.4708,
       "score": 95.6,
       "reason": "scanner:TOP_PERC_GAIN#2"
     },
     {
       "ticker": "BTCT",
-      "price": 1.14,
+      "price": 1.12,
       "score": 93.4,
       "reason": "scanner:TOP_PERC_GAIN#3"
     },
     {
       "ticker": "AVXX",
-      "price": 8.37,
+      "price": 8.43,
       "score": 91.2,
       "reason": "scanner:TOP_PERC_GAIN#4"
     }
   ],
-  "timestamp": "2026-06-30T11:41:50.531446+00:00"
+  "timestamp": "2026-06-30T11:46:52.315133+00:00",
+  "ai_narrative": ""
 }
