@@ -1,7 +1,7 @@
 {
   "mode": "HANOON",
-  "account_equity": 984467.06,
-  "available_cash": 984467.06,
+  "account_equity": 984465.6,
+  "available_cash": 984465.6,
   "position_value": 0.0,
   "nav": 1000.0,
   "deployed_pct": 0.0,
@@ -9,14 +9,14 @@
   "position": "NONE",
   "win_rate": 0.0,
   "trades_today": 0,
-  "top_pick": "GVH",
-  "top_score": 80.2,
+  "top_pick": "ABVX",
+  "top_score": 91.2,
   "next_best": null,
   "next_best_score": 0.0,
   "scan_results": [
     {
       "ticker": "JEM",
-      "price": 2.8401,
+      "price": 0.0,
       "score": 100.0,
       "reason": "scanner:TOP_PERC_GAIN#0"
     },
@@ -28,22 +28,23 @@
     },
     {
       "ticker": "AVXX",
-      "price": 8.19,
+      "price": 8.12,
       "score": 95.6,
       "reason": "scanner:TOP_PERC_GAIN#2"
     },
     {
-      "ticker": "CUPR",
-      "price": 6.74,
+      "ticker": "INTZ",
+      "price": 0.9634,
       "score": 93.4,
       "reason": "scanner:TOP_PERC_GAIN#3"
     },
     {
-      "ticker": "INTZ",
-      "price": 0.963,
+      "ticker": "ABVX",
+      "price": 130.38,
       "score": 91.2,
       "reason": "scanner:TOP_PERC_GAIN#4"
     }
   ],
-  "timestamp": "2026-06-30T11:07:15.790596+00:00"
+  "timestamp": "2026-06-30T11:32:24.342522+00:00",
+  "ai_narrative": ""
 }
