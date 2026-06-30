@@ -1,49 +1,49 @@
 {
   "mode": "HANOON",
-  "account_equity": 984465.12,
-  "available_cash": 984465.12,
+  "account_equity": 984113.41,
+  "available_cash": 984113.41,
   "position_value": 0.0,
-  "nav": 1000.0,
+  "nav": 984113.41,
   "deployed_pct": 0.0,
   "current_ticker": "NONE",
   "position": "NONE",
   "win_rate": 0.0,
   "trades_today": 0,
-  "top_pick": "AVAV",
-  "top_score": 86.8,
+  "top_pick": "JEM",
+  "top_score": 100.0,
   "next_best": null,
   "next_best_score": 0.0,
   "scan_results": [
     {
-      "ticker": "BIYA",
-      "price": 0.4843,
+      "ticker": "JEM",
+      "price": 3.1,
+      "score": 100.0,
+      "reason": "scanner:TOP_PERC_GAIN#0"
+    },
+    {
+      "ticker": "EDBL",
+      "price": 0.39,
       "score": 97.8,
       "reason": "scanner:TOP_PERC_GAIN#1"
     },
     {
-      "ticker": "BTCT",
-      "price": 1.19,
+      "ticker": "BIYA",
+      "price": 0.494,
       "score": 95.6,
       "reason": "scanner:TOP_PERC_GAIN#2"
     },
     {
-      "ticker": "AVXX",
-      "price": 8.25,
+      "ticker": "BTCT",
+      "price": 1.14,
       "score": 93.4,
       "reason": "scanner:TOP_PERC_GAIN#3"
     },
     {
-      "ticker": "INTZ",
-      "price": 0.9539,
+      "ticker": "AVXX",
+      "price": 8.37,
       "score": 91.2,
       "reason": "scanner:TOP_PERC_GAIN#4"
-    },
-    {
-      "ticker": "ABVX",
-      "price": 129.48,
-      "score": 89.0,
-      "reason": "scanner:TOP_PERC_GAIN#5"
     }
   ],
-  "timestamp": "2026-06-30T11:34:34.779242+00:00"
+  "timestamp": "2026-06-30T11:41:50.531446+00:00"
 }
