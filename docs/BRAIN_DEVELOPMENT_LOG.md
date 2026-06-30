@@ -1,0 +1,2008 @@
+# Brain development log
+
+Auto-appended on each owned-brain event. See also [OWNED_BRAIN.md](OWNED_BRAIN.md).
+
+- `2026-07-01` **engineering** — stop.sh responsive shutdown (interruptible sleep, skip duplicate flush) — see [ENGINEERING_FIX_LOG.md](ENGINEERING_FIX_LOG.md)
+- `2026-07-01` **engineering** — IB 322 market-rule noise suppressed; logger `HANOON` — see [ENGINEERING_FIX_LOG.md](ENGINEERING_FIX_LOG.md)
+- `2026-07-01` **engineering** — IB Truth startup checklist (fresh snapshot before loop) — see [ENGINEERING_FIX_LOG.md](ENGINEERING_FIX_LOG.md)
+- `2026-07-01` **engineering** — Swing doctrine: maturity-scaled green entry/exit + summary doc — see [ENGINEERING_FIX_LOG.md](ENGINEERING_FIX_LOG.md) · [GREEN_CAPITAL_SWING_DOCTRINE.md](GREEN_CAPITAL_SWING_DOCTRINE.md)
+- `2026-07-01` **engineering** — Multi-bar ride + slippage-aware exit (book profit / cut loss early) — see [ENGINEERING_FIX_LOG.md](ENGINEERING_FIX_LOG.md)
+- `2026-07-01` **engineering** — Unified green doctrine: same war tactics on full-balance pre/post war (only sizing differs) — see [ENGINEERING_FIX_LOG.md](ENGINEERING_FIX_LOG.md)
+- `2026-07-01` **engineering** — Swing intel: multi-TF + IB news/fundamentals + web learn + policy train — see [ENGINEERING_FIX_LOG.md](ENGINEERING_FIX_LOG.md)
+- `2026-07-01` **engineering** — Capital phases + real IB swing (HN orderRef tags, multi-day trips) — see [ENGINEERING_FIX_LOG.md](ENGINEERING_FIX_LOG.md) · [HORIZON_ROADMAP.md](HORIZON_ROADMAP.md)
+- `2026-07-01` **engineering** — IB replaces local/Yahoo duplicates (macro, positions, session PnL) — see [ENGINEERING_FIX_LOG.md](ENGINEERING_FIX_LOG.md)
+- `2026-07-01` **engineering** — Fix exit executor SyntaxError + IB client_id=1 guard — see [ENGINEERING_FIX_LOG.md](ENGINEERING_FIX_LOG.md)
+- `2026-07-01` **engineering** — IB Truth extended (open orders, IB RealizedPnL primary) + trade horizon scalp/swing shadow — see [ENGINEERING_FIX_LOG.md](ENGINEERING_FIX_LOG.md) · [HORIZON_ROADMAP.md](HORIZON_ROADMAP.md)
+- `2026-07-01` **engineering** — War ledger multi-position open slots + deploy budget import hardening — see [ENGINEERING_FIX_LOG.md](ENGINEERING_FIX_LOG.md)
+- `2026-07-01` **engineering** — Multi-position monitor isolation: per-ticker risk plan bind, fill-px LIVE_PULSE, profit-hunt import — see [ENGINEERING_FIX_LOG.md](ENGINEERING_FIX_LOG.md)
+- `2026-06-30` **engineering** — Monolith split: scalper_runner + ai_commander mixins; git_sync learning module — see [ENGINEERING_FIX_LOG.md](ENGINEERING_FIX_LOG.md)
+- `2026-06-30` **engineering** — Balance-driven war trips: entries limited by settled cash bullets, not fixed daily cap — see [ENGINEERING_FIX_LOG.md](ENGINEERING_FIX_LOG.md)
+- `2026-06-30` **engineering** — War trip cap aligned with bullets + Halim trade Telegram voice — see [ENGINEERING_FIX_LOG.md](ENGINEERING_FIX_LOG.md)
+- `2026-06-30` **engineering** — Regime unknown fix: short-bar classify + spike fallback on live stream — see [ENGINEERING_FIX_LOG.md](ENGINEERING_FIX_LOG.md)
+- `2026-06-30` **engineering** — Codebase organization: AccountView, entry_pipeline, pytest, gitignore runtime journals, OPS docs — see [ENGINEERING_FIX_LOG.md](ENGINEERING_FIX_LOG.md)
+- `2026-06-30` **engineering** — IB fill sync: confirmed entries/exits, IB-grounded P&L (no orphan position phantom profits) — see [ENGINEERING_FIX_LOG.md](ENGINEERING_FIX_LOG.md)
+- `2026-06-30` **engineering** — Pre-market PreSubmitted fix: ext-hours limit entries + stuck limit retries — see [ENGINEERING_FIX_LOG.md](ENGINEERING_FIX_LOG.md)
+- `2026-06-30` **engineering** — Learning flywheel hardening: outcome PPO teacher, proxy holdout eval, brain stage quality gates, Halim promotion gate, balanced PPO reward sampling — see [ENGINEERING_FIX_LOG.md](ENGINEERING_FIX_LOG.md)
+
+- `2026-06-27 06:33 UTC` **brain_proxy_trained** · stage **adult** — Teacher proxy acc=100% (645 samples)
+- `2026-06-27 06:34 UTC` **brain_evolution** · stage **adult** — Evolution cli — stage adult, dataset 2023 pairs
+- `2026-06-27 07:17 UTC` **brain_ppo_teacher** — PPO teacher replay_close_LCID: WR 30%, source heuristic_fallback
+- `2026-06-27 07:22 UTC` **brain_ppo_teacher** — PPO teacher replay_close_QS: WR 26%, source heuristic_fallback
+- `2026-06-27 07:27 UTC` **brain_ppo_teacher** — PPO teacher replay_close_COIN: WR 19%, source heuristic_fallback
+- `2026-06-27 07:32 UTC` **brain_ppo_teacher** — PPO teacher replay_close_QS: WR 15%, source heuristic_fallback
+- `2026-06-27 07:38 UTC` **brain_ppo_teacher** — PPO teacher replay_close_LCID: WR 7%, source heuristic_fallback
+- `2026-06-27 07:43 UTC` **brain_ppo_teacher** — PPO teacher replay_close_QS: WR 9%, source heuristic_fallback
+- `2026-06-27 07:44 UTC` **brain_ppo_teacher** — PPO teacher standalone_flush: WR 14%, source heuristic_fallback
+- `2026-06-27 07:44 UTC` **brain_evolution** · stage **adult** — Evolution standalone_flush — stage adult, dataset 1990 pairs
+- `2026-06-27 07:48 UTC` **brain_ppo_teacher** — PPO teacher replay_session_end: WR 14%, source heuristic_fallback
+- `2026-06-27 07:48 UTC` **brain_evolution** · stage **adult** — Evolution replay_session_end — stage adult, dataset 1878 pairs
+- `2026-06-27 07:58 UTC` **brain_ppo_teacher** — PPO teacher standalone_flush: WR 14%, source heuristic_fallback
+- `2026-06-27 07:58 UTC` **brain_evolution** · stage **adult** — Evolution standalone_flush — stage adult, dataset 1878 pairs
+- `2026-06-27 07:58 UTC` **brain_ppo_teacher** — PPO teacher standalone_flush: WR 14%, source heuristic_fallback
+- `2026-06-27 07:58 UTC` **brain_evolution** · stage **adult** — Evolution standalone_flush — stage adult, dataset 1878 pairs
+- `2026-06-27 08:02 UTC` **brain_ppo_teacher** — PPO teacher standalone_flush: WR 13%, source heuristic_fallback
+- `2026-06-27 08:02 UTC` **brain_evolution** · stage **adult** — Evolution standalone_flush — stage adult, dataset 1878 pairs
+- `2026-06-27 08:04 UTC` **brain_ppo_teacher** — PPO teacher replay_session_end: WR 13%, source heuristic_fallback
+- `2026-06-27 08:04 UTC` **brain_evolution** · stage **adult** — Evolution replay_session_end — stage adult, dataset 1879 pairs
+- `2026-06-27 08:05 UTC` **brain_ppo_teacher** — PPO teacher standalone_flush: WR 13%, source heuristic_fallback
+- `2026-06-27 08:05 UTC` **brain_evolution** · stage **adult** — Evolution standalone_flush — stage adult, dataset 1879 pairs
+- `2026-06-27 08:28 UTC` **brain_ppo_teacher** — PPO teacher replay_close_PLTR: WR 13%, source heuristic_fallback
+- `2026-06-27 08:35 UTC` **brain_ppo_teacher** — PPO teacher replay_close_COIN: WR 15%, source heuristic_fallback
+- `2026-06-27 08:44 UTC` **brain_ppo_teacher** — PPO teacher replay_close_COIN: WR 19%, source heuristic_fallback
+- `2026-06-27 08:55 UTC` **brain_ppo_teacher** — PPO teacher replay_close_MARA: WR 26%, source heuristic_fallback
+- `2026-06-27 09:00 UTC` **brain_ppo_teacher** — PPO teacher replay_close_ASTS: WR 29%, source heuristic_fallback
+- `2026-06-27 09:06 UTC` **brain_ppo_teacher** — PPO teacher replay_close_MARA: WR 15%, source heuristic_fallback
+- `2026-06-27 09:11 UTC` **brain_ppo_teacher** — PPO teacher replay_teardown: WR 23%, source heuristic_fallback
+- `2026-06-27 09:11 UTC` **brain_evolution** · stage **adult** — Evolution replay_teardown — stage adult, dataset 2042 pairs
+- `2026-06-27 09:29 UTC` **brain_ppo_teacher** — PPO teacher replay_close_RIVN: WR 26%, source heuristic_fallback
+- `2026-06-27 09:31 UTC` **brain_ppo_teacher** — PPO teacher replay_teardown: WR 22%, source heuristic_fallback
+- `2026-06-27 09:32 UTC` **brain_evolution** · stage **adult** — Evolution replay_teardown — stage adult, dataset 2060 pairs
+- `2026-06-27 10:08 UTC` **brain_ppo_teacher** — PPO teacher replay_close_ASTS: WR 22%, source heuristic_fallback
+- `2026-06-27 10:12 UTC` **brain_ppo_teacher** — PPO teacher replay_close_ASTS: WR 25%, source heuristic_fallback
+- `2026-06-27 10:19 UTC` **brain_ppo_teacher** — PPO teacher replay_close_LCID: WR 31%, source heuristic_fallback
+- `2026-06-27 10:23 UTC` **brain_ppo_teacher** — PPO teacher replay_close_LCID: WR 31%, source heuristic_fallback
+- `2026-06-27 10:28 UTC` **brain_ppo_teacher** — PPO teacher replay_close_MARA: WR 31%, source heuristic_fallback
+- `2026-06-27 10:33 UTC` **brain_ppo_teacher** — PPO teacher replay_close_LCID: WR 26%, source heuristic_fallback
+- `2026-06-27 10:40 UTC` **brain_ppo_teacher** — PPO teacher replay_close_LCID: WR 28%, source heuristic_fallback
+- `2026-06-27 10:57 UTC` **brain_ppo_teacher** — PPO teacher replay_close_MARA: WR 36%, source heuristic_fallback
+- `2026-06-27 11:02 UTC` **brain_ppo_teacher** — PPO teacher replay_close_ASTS: WR 36%, source heuristic_fallback
+- `2026-06-27 11:07 UTC` **brain_ppo_teacher** — PPO teacher replay_close_MARA: WR 27%, source heuristic_fallback
+- `2026-06-27 11:14 UTC` **brain_ppo_teacher** — PPO teacher replay_close_LCID: WR 22%, source heuristic_fallback
+- `2026-06-27 11:22 UTC` **brain_ppo_teacher** — PPO teacher replay_close_ASTS: WR 29%, source heuristic_fallback
+- `2026-06-27 11:26 UTC` **brain_ppo_teacher** — PPO teacher replay_close_COIN: WR 27%, source heuristic_fallback
+- `2026-06-27 11:55 UTC` **brain_ppo_teacher** — PPO teacher replay_teardown: WR 26%, source heuristic_fallback
+- `2026-06-27 11:55 UTC` **brain_evolution** · stage **adult** — Evolution replay_teardown — stage adult, dataset 2204 pairs
+- `2026-06-27 12:27 UTC` **brain_evolution** · stage **newborn** — Halim developer off_hours: 0 mutation(s), git=ok
+- `2026-06-28 04:58 UTC` **brain_ppo_teacher** — PPO teacher replay_close_ASTS: WR 24%, source heuristic_fallback
+- `2026-06-28 05:40 UTC` **brain_ppo_teacher** — PPO teacher replay_close_MARA: WR 27%, source heuristic_fallback
+- `2026-06-28 05:45 UTC` **brain_ppo_teacher** — PPO teacher replay_close_LCID: WR 27%, source heuristic_fallback
+- `2026-06-28 05:50 UTC` **brain_ppo_teacher** — PPO teacher replay_close_ASTS: WR 20%, source heuristic_fallback
+- `2026-06-28 05:56 UTC` **brain_ppo_teacher** — PPO teacher replay_close_COIN: WR 33%, source heuristic_fallback
+- `2026-06-28 06:00 UTC` **brain_ppo_teacher** — PPO teacher replay_close_ASTS: WR 29%, source heuristic_fallback
+- `2026-06-28 06:07 UTC` **brain_ppo_teacher** — PPO teacher replay_close_COIN: WR 17%, source heuristic_fallback
+- `2026-06-28 06:13 UTC` **brain_ppo_teacher** — PPO teacher replay_close_LCID: WR 6%, source heuristic_fallback
+- `2026-06-28 06:18 UTC` **brain_ppo_teacher** — PPO teacher replay_close_ASTS: WR 0%, source heuristic_fallback
+- `2026-06-28 09:33 UTC` **brain_ppo_teacher** — PPO teacher standalone_flush: WR 19%, source heuristic_fallback
+- `2026-06-28 09:33 UTC` **brain_evolution** · stage **adult** — Evolution standalone_flush — stage adult, dataset 3658 pairs
+- `2026-06-28 09:34 UTC` **brain_ppo_teacher** — PPO teacher standalone_flush: WR 20%, source heuristic_fallback
+- `2026-06-28 09:34 UTC` **brain_evolution** · stage **toddler** — Halim developer post_standalone_flush: 0 mutation(s), git=ok
+- `2026-06-28 09:34 UTC` **brain_evolution** · stage **adult** — Evolution standalone_flush — stage adult, dataset 3658 pairs
+- `2026-06-29 07:06 UTC` **brain_ppo_teacher** — PPO teacher replay_teardown: WR 34%, source heuristic_fallback
+- `2026-06-29 07:06 UTC` **brain_evolution** · stage **adult** — Evolution replay_teardown — stage adult, dataset 4706 pairs
+- `2026-06-29 07:48 UTC` **brain_evolution** · stage **toddler** — Halim developer off_hours: 0 mutation(s), git=ok
+- `2026-06-29 08:00 UTC` **brain_evolution** · stage **toddler** — Halim developer off_hours: 0 mutation(s), git=ok
+- `2026-06-29 09:09 UTC` **brain_evolution** · stage **adult** — Evolution live_session_end — stage adult, dataset 2834 pairs
+- `2026-06-29 16:02 UTC` **brain_ppo_teacher** — PPO teacher live_session_end: WR 0%, source heuristic_fallback
+- `2026-06-29 16:02 UTC` **brain_evolution** · stage **adult** — Evolution live_session_end — stage adult, dataset 2255 pairs
+- `2026-06-30 04:52 UTC` **brain_ppo_teacher** — PPO teacher replay_teardown: WR 0%, source heuristic_fallback
+- `2026-06-30 04:52 UTC` **brain_evolution** · stage **adult** — Evolution replay_teardown — stage adult, dataset 2180 pairs
+- `2026-06-30 06:00 UTC` **engineering** — Companion pipeline + PPO↔Halim coevolution v2 + replay war relax — see [ENGINEERING_FIX_LOG.md](ENGINEERING_FIX_LOG.md)
+- `2026-06-30 06:30 UTC` **engineering** — Forced fix journaling (git pre-commit + Cursor hook) — see [ENGINEERING_FIX_LOG.md](ENGINEERING_FIX_LOG.md)
+- `2026-06-30 07:00 UTC` **engineering** — Halim entry await + proxy skip balance + repeat-loser gates — see [ENGINEERING_FIX_LOG.md](ENGINEERING_FIX_LOG.md)
+- `2026-06-30 07:30 UTC` **engineering** — Descriptive auto-commit + journal repair — see [ENGINEERING_FIX_LOG.md](ENGINEERING_FIX_LOG.md)
+- `2026-06-30 06:17 UTC` **brain_ppo_teacher** — PPO teacher standalone_flush: WR 12%, source heuristic_fallback
+- `2026-06-30 06:17 UTC` **brain_evolution** · stage **adult** — Evolution standalone_flush — stage adult, dataset 2272 pairs
+- `2026-06-30 06:17 UTC` **brain_ppo_teacher** — PPO teacher replay_teardown: WR 12%, source heuristic_fallback
+- `2026-06-30 06:17 UTC` **brain_evolution** · stage **adult** — Evolution replay_teardown — stage adult, dataset 2272 pairs
+- `2026-06-30 06:17 UTC` **brain_ppo_teacher** — PPO teacher standalone_flush: WR 12%, source heuristic_fallback
+- `2026-06-30 06:17 UTC` **brain_evolution** · stage **adult** — Evolution standalone_flush — stage adult, dataset 2272 pairs
+- `2026-06-30 06:18 UTC` **brain_ppo_teacher** — PPO teacher live_session_end: WR 13%, source heuristic_fallback
+- `2026-06-30 06:18 UTC` **brain_evolution** · stage **adult** — Evolution live_session_end — stage adult, dataset 2272 pairs
+- `2026-06-30 07:10 UTC` **brain_proxy_trained** · stage **adult** — Teacher proxy acc=98% (282 samples)
+- `2026-06-30 07:11 UTC` **brain_ppo_teacher** — PPO teacher coordinated_close: WR 18%, source heuristic_fallback
+- `2026-06-30 07:11 UTC` **brain_proxy_trained** · stage **adult** — Teacher proxy acc=98% (282 samples)
+- `2026-06-30 07:11 UTC` **brain_ppo_teacher** — PPO teacher replay_teardown: WR 19%, source heuristic_fallback
+- `2026-06-30 07:11 UTC` **brain_evolution** · stage **adult** — Evolution replay_teardown — stage adult, dataset 2282 pairs
+- `2026-06-30 08:01 UTC` **brain_proxy_trained** · stage **adult** — Teacher proxy acc=97% (303 samples)
+- `2026-06-30 08:01 UTC` **brain_proxy_trained** · stage **adult** — Teacher proxy acc=97% (303 samples)
+- `2026-06-30 08:01 UTC` **brain_ppo_teacher** — PPO teacher replay_teardown: WR 36%, source heuristic_fallback
+- `2026-06-30 08:01 UTC` **brain_evolution** · stage **adult** — Evolution replay_teardown — stage adult, dataset 2462 pairs
+- `2026-06-30 08:20 UTC` **git_auto** — sync: 82 files — ai_commander.py, brain_maturity.py, halim_entry_line.py +79 more | halim=23 models=38 replay=14 docs=1 core=3 other=3 | bra
+- `2026-06-30 08:20 UTC` **git_auto** — sync: 31 files — ai_commander.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +28 more | halim=11 models=13 docs=1 core=1 other=5 | brain=adu
+- `2026-06-30 08:20 UTC` **git_auto** — sync: 3 files — HANOON.log.migrated.1782745557, hanoon.env.enc, sync.key | other=3 | brain=adult dataset=2462 evolutions=24
+- `2026-06-30 08:21 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 08:21 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +7 more | halim=1 models=5 other=4 | brain=adult dataset
+- `2026-06-30 08:21 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, war_account_state.json +3 more | models=2 other=4 | brain=adult dataset=24
+- `2026-06-30 08:22 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime_state.json, HANOON.log.migrated.1782745557 +2 more | models=1 other=4 | brain=adult 
+- `2026-06-30 08:22 UTC` **git_auto** — sync: 7 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, halim_runtime_state.json +4 more | models=3 other=4 | brain=adult dataset=
+- `2026-06-30 08:22 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, war_account_state.json +3 more | models=2 other=4 | brain=adult dataset=24
+- `2026-06-30 08:23 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime.jsonl, halim_runtime_state.json +3 more | models=2 other=4 | brain=adult dataset=246
+- `2026-06-30 08:23 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, war_account_state.json +3 more | models=2 other=4 | brain=adult dataset=24
+- `2026-06-30 08:23 UTC` **git_auto** — sync: 7 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, halim_runtime_state.json +4 more | models=3 other=4 | brain=adult dataset=
+- `2026-06-30 08:24 UTC` **git_training** — learn: session_batch: consciousness, periodic | learn_20260630_082424 | brain=adult dataset=2462 evolutions=24
+- `2026-06-30 08:24 UTC` **git_auto** — sync: 8 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, halim_runtime.jsonl +5 more | models=4 other=4 | brain=adult dataset=2462 
+- `2026-06-30 08:24 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, war_account_state.json +3 more | models=2 other=4 | brain=adult dataset=24
+- `2026-06-30 08:25 UTC` **git_auto** — sync: 7 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, halim_runtime_state.json +4 more | models=3 other=4 | brain=adult dataset=
+- `2026-06-30 08:25 UTC` **git_auto** — sync: 7 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, copilot_state.json +4 more | halim=1 models=2 other=4 | brain=adult dataset=2462
+- `2026-06-30 08:25 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 08:26 UTC` **git_auto** — sync: 8 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, halim_runtime.jsonl +5 more | models=4 other=4 | brain=adult dataset=2462 
+- `2026-06-30 08:26 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 08:26 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime_state.json, HANOON.log.migrated.1782745557 +2 more | models=1 other=4 | brain=adult 
+- `2026-06-30 08:26 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, war_account_state.json +3 more | models=2 other=4 | brain=adult dataset=24
+- `2026-06-30 08:27 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime_state.json, HANOON.log.migrated.1782745557 +2 more | models=1 other=4 | brain=adult 
+- `2026-06-30 08:27 UTC` **git_auto** — sync: 8 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, halim_runtime.jsonl +5 more | models=4 other=4 | brain=adult dataset=2462 
+- `2026-06-30 08:27 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, war_account_state.json +3 more | models=2 other=4 | brain=adult dataset=24
+- `2026-06-30 08:28 UTC` **git_auto** — sync: 7 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, halim_runtime_state.json +4 more | models=3 other=4 | brain=adult dataset=
+- `2026-06-30 08:28 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, war_account_state.json +3 more | models=2 other=4 | brain=adult dataset=24
+- `2026-06-30 08:28 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime_state.json, HANOON.log.migrated.1782745557 +2 more | models=1 other=4 | brain=adult 
+- `2026-06-30 08:28 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 08:29 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime.jsonl, halim_runtime_state.json +3 more | models=2 other=4 | brain=adult dataset=246
+- `2026-06-30 08:29 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 08:29 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 08:30 UTC` **git_auto** — sync: 8 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, halim_runtime_state.json +5 more | models=4 other=4 | brain=adult dataset=
+- `2026-06-30 08:30 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, war_account_state.json +3 more | models=2 other=4 | brain=adult dataset=24
+- `2026-06-30 08:30 UTC` **git_auto** — sync: 8 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, halim_runtime.jsonl +5 more | models=4 other=4 | brain=adult dataset=2462 
+- `2026-06-30 08:30 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, war_account_state.json +3 more | models=2 other=4 | brain=adult dataset=24
+- `2026-06-30 08:31 UTC` **git_auto** — sync: 7 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, halim_runtime_state.json +4 more | models=3 other=4 | brain=adult dataset=
+- `2026-06-30 08:31 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, war_account_state.json +3 more | models=2 other=4 | brain=adult dataset=24
+- `2026-06-30 08:31 UTC` **git_auto** — sync: 7 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, halim_runtime_state.json +4 more | models=3 other=4 | brain=adult dataset=
+- `2026-06-30 08:31 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, war_account_state.json +3 more | models=2 other=4 | brain=adult dataset=24
+- `2026-06-30 08:32 UTC` **git_auto** — sync: 8 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, halim_runtime.jsonl +5 more | models=4 other=4 | brain=adult dataset=2462 
+- `2026-06-30 08:32 UTC` **git_auto** — sync: 7 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, halim_runtime_state.json +4 more | models=3 other=4 | brain=adult dataset=
+- `2026-06-30 08:32 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 08:33 UTC` **git_auto** — sync: 7 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, halim_runtime_state.json +4 more | models=3 other=4 | brain=adult dataset=
+- `2026-06-30 08:33 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, war_account_state.json +3 more | models=2 other=4 | brain=adult dataset=24
+- `2026-06-30 08:33 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 08:33 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 08:34 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, halim_runtime_state.json +3 more | models=2 other=4 | brain=adult dataset=
+- `2026-06-30 08:34 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime_state.json, HANOON.log.migrated.1782745557 +2 more | models=1 other=4 | brain=adult 
+- `2026-06-30 08:34 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl +3 more | models=1 docs=1 other=4 | brain=adult dataset=246
+- `2026-06-30 08:35 UTC` **git_auto** — sync: 8 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl +5 more | models=3 docs=1 other=4 | brain=adult dataset=246
+- `2026-06-30 08:35 UTC` **git_auto** — sync: 10 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +7 more | models=4 docs=2 other=4 | brain=adult dataset=24
+- `2026-06-30 08:35 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, halim_runtime_state.json +3 more | models=1 docs=1 other=4 | brain=adult dataset=2
+- `2026-06-30 08:35 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl +3 more | models=1 docs=1 other=4 | brain=adult dataset=246
+- `2026-06-30 08:36 UTC` **git_auto** — sync: 12 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +9 more | halim=2 models=5 docs=1 other=4 | brain=adult dataset=
+- `2026-06-30 08:36 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557 +2 more | docs=1 other=4 | brain=adult dataset=2462
+- `2026-06-30 08:36 UTC` **git_auto** — sync: 10 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +7 more | halim=3 models=2 docs=1 other=4 | brain=adult dataset=24
+- `2026-06-30 08:36 UTC` **brain_proxy_trained** · stage **adult** — Teacher proxy acc=95% (303 samples)
+- `2026-06-30 08:37 UTC` **git_auto** — sync: 26 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +23 more | halim=7 models=14 docs=1 other=4 | brain=adult datase
+- `2026-06-30 08:37 UTC` **brain_ppo_teacher** — PPO teacher live_session_end: WR 36%, source heuristic_fallback
+- `2026-06-30 08:37 UTC` **brain_evolution** · stage **adult** — Evolution live_session_end — stage adult, dataset 2462 pairs
+- `2026-06-30 08:37 UTC` **git_auto** — sync: 27 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +24 more | halim=8 models=14 docs=1 other=4 | brain=adult datase
+- `2026-06-30 08:37 UTC` **git_training** — learn: pre_shutdown: account_session_shutdown, snapshot_periodic | learn_20260630_083727 | brain=adult dataset=2462 evolutions=25
+- `2026-06-30 08:37 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557 +2 more | docs=1 other=4 | brain=adult dataset=2462
+- `2026-06-30 08:38 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 08:39 UTC` **git_shutdown** — shutdown: NAV=$1,000 return=-99.9% | shutdown_20260630_083909 | brain=adult dataset=2462 evolutions=25
+- `2026-06-30 08:39 UTC` **git_auto** — sync: 14 files — BRAIN_DEVELOPMENT_LOG.md, registry.jsonl, action_gold.jsonl +11 more | halim=6 models=4 other=4 | brain=adult dataset=2462 
+- `2026-06-30 08:40 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 08:40 UTC` **brain_proxy_trained** · stage **adult** — Teacher proxy acc=95% (303 samples)
+- `2026-06-30 08:40 UTC` **brain_evolution** · stage **toddler** — Halim developer post_standalone_flush: 0 mutation(s), git=ok
+- `2026-06-30 08:40 UTC` **brain_evolution** · stage **adult** — Evolution standalone_flush — stage adult, dataset 2462 pairs
+- `2026-06-30 08:40 UTC` **git_auto** — sync: 31 files — BRAIN_DEVELOPMENT_LOG.md, HALIM_MANIFEST.json, action_log.jsonl +28 more | halim=11 models=16 other=4 | brain=adult dataset
+- `2026-06-30 08:40 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, conversation_gold.jsonl +3 more | halim=2 other=4 | brain=adult dataset=2462 evo
+- `2026-06-30 08:41 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 08:43 UTC` **git_auto** — sync: 7 files — BRAIN_DEVELOPMENT_LOG.md, ai_session_limits.json, macro_context.json +4 more | models=3 other=4 | brain=adult dataset=2462 e
+- `2026-06-30 08:43 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 08:43 UTC` **git_auto** — sync: 18 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, 0dbc1fe34c91c315.json +15 more | halim=8 models=6 other=4 | brain=adult dataset
+- `2026-06-30 08:44 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, ib_report_events.jsonl, commander_gold.jsonl +6 more | halim=3 models=2 other=4 | brain=adult data
+- `2026-06-30 08:44 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 08:44 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, copilot_state.json +3 more | halim=1 models=1 other=4 | brain=adult dataset=2462
+- `2026-06-30 08:45 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime.jsonl, halim_runtime_state.json +3 more | models=2 other=4 | brain=adult dataset=246
+- `2026-06-30 08:45 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime_state.json, HANOON.log.migrated.1782745557 +2 more | models=1 other=4 | brain=adult 
+- `2026-06-30 08:45 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, war_account_state.json +3 more | models=2 other=4 | brain=adult dataset=24
+- `2026-06-30 08:45 UTC` **git_auto** — sync: 8 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, registry.jsonl +5 more | halim=2 models=2 other=4 | brain=adult dataset=2462 evo
+- `2026-06-30 08:46 UTC` **git_auto** — sync: 12 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, correction_log.jsonl +9 more | halim=2 models=6 other=4 | brain=adult dataset=2
+- `2026-06-30 08:46 UTC` **git_auto** — sync: 7 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, halim_runtime.jsonl +4 more | halim=1 models=2 other=4 | brain=adult dataset=246
+- `2026-06-30 08:46 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 08:47 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime_state.json, HANOON.log.migrated.1782745557 +2 more | models=1 other=4 | brain=adult 
+- `2026-06-30 08:47 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, ai_guidelines.txt, ai_runtime_insights.jsonl +7 more | models=6 other=4 | brain=adult dataset=246
+- `2026-06-30 08:47 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime_state.json, HANOON.log.migrated.1782745557 +2 more | models=1 other=4 | brain=adult 
+- `2026-06-30 08:48 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 08:48 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime.jsonl, halim_runtime_state.json +3 more | models=2 other=4 | brain=adult dataset=246
+- `2026-06-30 08:48 UTC` **git_auto** — sync: 12 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, correction_log.jsonl +9 more | halim=2 models=6 other=4 | brain=adult dataset=2
+- `2026-06-30 08:48 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, copilot_state.json +3 more | halim=1 models=1 other=4 | brain=adult dataset=2462
+- `2026-06-30 08:49 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime_state.json, HANOON.log.migrated.1782745557 +2 more | models=1 other=4 | brain=adult 
+- `2026-06-30 08:49 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, ai_guidelines.txt, ai_runtime_insights.jsonl +7 more | models=6 other=4 | brain=adult dataset=246
+- `2026-06-30 08:49 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime.jsonl, halim_runtime_state.json +3 more | models=2 other=4 | brain=adult dataset=246
+- `2026-06-30 08:50 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +7 more | halim=1 models=5 other=4 | brain=adult dataset
+- `2026-06-30 08:50 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, HANOON.log.migrated.1782745557 +2 more | halim=1 other=4 | brain=adult dataset=2
+- `2026-06-30 08:50 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime_state.json, HANOON.log.migrated.1782745557 +2 more | models=1 other=4 | brain=adult 
+- `2026-06-30 08:50 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 08:51 UTC` **git_auto** — sync: 11 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +8 more | halim=1 models=6 other=4 | brain=adult dataset
+- `2026-06-30 08:51 UTC` **git_auto** — sync: 7 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, halim_runtime_state.json +4 more | models=3 other=4 | brain=adult dataset=
+- `2026-06-30 08:51 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 08:52 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +7 more | halim=1 models=5 other=4 | brain=adult dataset
+- `2026-06-30 08:52 UTC` **git_training** — learn: session_batch: consciousness, periodic | learn_20260630_085219 | brain=adult dataset=2462 evolutions=26
+- `2026-06-30 08:52 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 08:52 UTC` **git_auto** — sync: 13 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, correction_log.jsonl +10 more | halim=2 models=7 other=4 | brain=adult dataset=
+- `2026-06-30 08:53 UTC` **git_auto** — sync: 7 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, copilot_state.json +4 more | halim=1 models=2 other=4 | brain=adult dataset=2462
+- `2026-06-30 08:53 UTC` **git_auto** — sync: 12 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, ai_runtime_insights.jsonl +9 more | halim=1 models=7 other=4 | brain=adult data
+- `2026-06-30 08:53 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, ai_guidelines.txt +7 more | halim=1 models=5 other=4 | brain=adult dataset=2462
+- `2026-06-30 08:54 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 08:54 UTC` **git_auto** — sync: 11 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +8 more | halim=1 models=6 other=4 | brain=adult dataset
+- `2026-06-30 08:54 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 08:54 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +7 more | halim=1 models=5 other=4 | brain=adult dataset
+- `2026-06-30 08:55 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 08:55 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +7 more | halim=1 models=5 other=4 | brain=adult dataset
+- `2026-06-30 08:55 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 08:56 UTC` **git_auto** — sync: 11 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +8 more | halim=1 models=6 other=4 | brain=adult dataset
+- `2026-06-30 08:56 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 08:56 UTC` **git_training** — learn: session_batch: consciousness | learn_20260630_085644 | brain=adult dataset=2462 evolutions=26
+- `2026-06-30 08:56 UTC` **git_auto** — sync: 14 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, correction_log.jsonl +11 more | halim=2 models=8 other=4 | brain=adult dataset=
+- `2026-06-30 08:57 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +7 more | halim=1 models=5 other=4 | brain=adult dataset
+- `2026-06-30 08:57 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +7 more | halim=1 models=5 other=4 | brain=adult dataset
+- `2026-06-30 08:57 UTC` **git_auto** — sync: 13 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, correction_log.jsonl +10 more | halim=2 models=7 other=4 | brain=adult dataset=
+- `2026-06-30 08:58 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 08:58 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, correction_log.jsonl +7 more | halim=2 models=4 other=4 | brain=adult dataset=2
+- `2026-06-30 08:58 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 08:59 UTC` **git_auto** — sync: 7 files — BRAIN_DEVELOPMENT_LOG.md, cognitive_state.json, halim_runtime_state.json +4 more | models=3 other=4 | brain=adult dataset=24
+- `2026-06-30 08:59 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime.jsonl, halim_runtime_state.json +3 more | models=2 other=4 | brain=adult dataset=246
+- `2026-06-30 08:59 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 08:59 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, HANOON.log.migrated.1782745557 +2 more | halim=1 other=4 | brain=adult dataset=2
+- `2026-06-30 09:00 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 09:00 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, halim_runtime_state.json +3 more | models=2 other=4 | brain=adult dataset=
+- `2026-06-30 09:00 UTC` **git_auto** — sync: 11 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, correction_log.jsonl +8 more | halim=2 models=5 other=4 | brain=adult dataset=2
+- `2026-06-30 09:01 UTC` **git_auto** — sync: 12 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +9 more | halim=1 models=7 other=4 | brain=adult dataset
+- `2026-06-30 09:01 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +7 more | halim=1 models=5 other=4 | brain=adult dataset
+- `2026-06-30 09:01 UTC` **git_training** — learn: session_batch: snapshot_periodic | learn_20260630_090152 | brain=adult dataset=2462 evolutions=26
+- `2026-06-30 09:02 UTC` **git_auto** — sync: 11 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +8 more | halim=1 models=6 other=4 | brain=adult dataset
+- `2026-06-30 09:02 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 09:03 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +7 more | halim=1 models=5 other=4 | brain=adult dataset
+- `2026-06-30 09:03 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, HANOON.log.migrated.1782745557 +2 more | halim=1 other=4 | brain=adult dataset=2
+- `2026-06-30 09:03 UTC` **git_auto** — sync: 16 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, ai_guidelines.txt +13 more | halim=1 models=11 other=4 | brain=adult dataset=24
+- `2026-06-30 09:03 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, HANOON.log.migrated.1782745557 +2 more | halim=1 other=4 | brain=adult dataset=2
+- `2026-06-30 09:03 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 09:04 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, ib_connectivity.jsonl, HANOON.log.migrated.1782745557 +2 more | models=1 other=4 | brain=adult dat
+- `2026-06-30 09:04 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 09:06 UTC` **git_training** — learn: session_batch: consciousness | learn_20260630_090624 | brain=adult dataset=2462 evolutions=26
+- `2026-06-30 09:12 UTC` **git_auto** — sync: 7 files — BRAIN_DEVELOPMENT_LOG.md, ai_session_limits.json, macro_context.json +4 more | models=3 other=4 | brain=adult dataset=2462 e
+- `2026-06-30 09:12 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 09:12 UTC` **git_auto** — sync: 20 files — BRAIN_DEVELOPMENT_LOG.md, registry.jsonl, action_gold.jsonl +17 more | halim=9 models=7 other=4 | brain=adult dataset=2462 
+- `2026-06-30 09:13 UTC` **git_auto** — sync: 20 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, ib_report_events.jsonl +17 more | halim=11 models=5 other=4 | brain=adult datas
+- `2026-06-30 09:13 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 09:13 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, copilot_state.json +3 more | halim=1 models=1 other=4 | brain=adult dataset=2462
+- `2026-06-30 09:13 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 09:13 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime.jsonl, halim_runtime_state.json +3 more | models=2 other=4 | brain=adult dataset=246
+- `2026-06-30 09:14 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 09:14 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime_state.json, HANOON.log.migrated.1782745557 +2 more | models=1 other=4 | brain=adult 
+- `2026-06-30 09:14 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 09:14 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, war_account_state.json +3 more | models=2 other=4 | brain=adult dataset=24
+- `2026-06-30 09:15 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, registry.jsonl +6 more | halim=2 models=3 other=4 | brain=adult dataset=2462 evo
+- `2026-06-30 09:15 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 09:15 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 09:15 UTC` **git_auto** — sync: 7 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, halim_runtime.jsonl +4 more | halim=1 models=2 other=4 | brain=adult dataset=246
+- `2026-06-30 09:16 UTC` **git_auto** — sync: 13 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, correction_log.jsonl +10 more | halim=2 models=7 other=4 | brain=adult dataset=
+- `2026-06-30 09:16 UTC` **git_auto** — sync: 11 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +8 more | halim=1 models=6 other=4 | brain=adult dataset
+- `2026-06-30 09:16 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 09:16 UTC` **git_training** — learn: session_batch: consciousness, periodic, snapshot_crash_recovery | learn_20260630_091649 | brain=adult dataset=2462 evolutions=26
+- `2026-06-30 09:17 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, halim_guardrail_audit.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dat
+- `2026-06-30 09:17 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 09:17 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +7 more | halim=1 models=5 other=4 | brain=adult dataset
+- `2026-06-30 09:18 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +7 more | halim=1 models=5 other=4 | brain=adult dataset
+- `2026-06-30 09:18 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime_state.json, HANOON.log.migrated.1782745557 +2 more | models=1 other=4 | brain=adult 
+- `2026-06-30 09:18 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime.jsonl, halim_runtime_state.json +3 more | models=2 other=4 | brain=adult dataset=246
+- `2026-06-30 09:18 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 09:19 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +7 more | halim=1 models=5 other=4 | brain=adult dataset
+- `2026-06-30 09:19 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 09:19 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +7 more | halim=1 models=5 other=4 | brain=adult dataset
+- `2026-06-30 09:20 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 09:20 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime.jsonl, halim_runtime_state.json +3 more | models=2 other=4 | brain=adult dataset=246
+- `2026-06-30 09:20 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 09:20 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime_state.json, HANOON.log.migrated.1782745557 +2 more | models=1 other=4 | brain=adult 
+- `2026-06-30 09:21 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +7 more | halim=1 models=5 other=4 | brain=adult dataset
+- `2026-06-30 09:21 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 09:21 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime.jsonl, halim_runtime_state.json +3 more | models=2 other=4 | brain=adult dataset=246
+- `2026-06-30 09:22 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, copilot_state.json +3 more | halim=1 models=1 other=4 | brain=adult dataset=2462
+- `2026-06-30 09:22 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime_state.json, HANOON.log.migrated.1782745557 +2 more | models=1 other=4 | brain=adult 
+- `2026-06-30 09:22 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, macro_context.json, HANOON.log.migrated.1782745557 +2 more | models=1 other=4 | brain=adult datase
+- `2026-06-30 09:22 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime_state.json, HANOON.log.migrated.1782745557 +2 more | models=1 other=4 | brain=adult 
+- `2026-06-30 09:23 UTC` **git_auto** — sync: 11 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, correction_log.jsonl +8 more | halim=2 models=5 other=4 | brain=adult dataset=2
+- `2026-06-30 09:23 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime.jsonl, halim_runtime_state.json +3 more | models=2 other=4 | brain=adult dataset=246
+- `2026-06-30 09:23 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 09:23 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime_state.json, HANOON.log.migrated.1782745557 +2 more | models=1 other=4 | brain=adult 
+- `2026-06-30 09:24 UTC` **git_auto** — sync: 11 files — BRAIN_DEVELOPMENT_LOG.md, ai_guidelines.txt, ai_runtime_insights.jsonl +8 more | models=7 other=4 | brain=adult dataset=246
+- `2026-06-30 09:24 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 09:24 UTC` **git_auto** — sync: 7 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, halim_runtime.jsonl +4 more | models=3 other=4 | brain=adult dataset=2462 
+- `2026-06-30 09:25 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 09:25 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +7 more | halim=1 models=5 other=4 | brain=adult dataset
+- `2026-06-30 09:25 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 09:25 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +7 more | halim=1 models=5 other=4 | brain=adult dataset
+- `2026-06-30 09:26 UTC` **git_auto** — sync: 12 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, correction_log.jsonl +9 more | halim=2 models=6 other=4 | brain=adult dataset=2
+- `2026-06-30 09:26 UTC` **git_auto** — sync: 11 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +8 more | halim=1 models=6 other=4 | brain=adult dataset
+- `2026-06-30 09:26 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 09:26 UTC` **git_training** — learn: session_batch: consciousness | learn_20260630_092657 | brain=adult dataset=2462 evolutions=26
+- `2026-06-30 09:27 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +7 more | halim=1 models=5 other=4 | brain=adult dataset
+- `2026-06-30 09:27 UTC` **git_auto** — sync: 11 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, correction_log.jsonl +8 more | halim=2 models=5 other=4 | brain=adult dataset=2
+- `2026-06-30 09:27 UTC` **git_auto** — sync: 12 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, correction_log.jsonl +9 more | halim=2 models=6 other=4 | brain=adult dataset=2
+- `2026-06-30 09:28 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +7 more | halim=1 models=5 other=4 | brain=adult dataset
+- `2026-06-30 09:28 UTC` **git_auto** — sync: 12 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +9 more | halim=1 models=7 other=4 | brain=adult dataset
+- `2026-06-30 09:28 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 09:29 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, halim_runtime_state.json +3 more | halim=1 models=1 other=4 | brain=adult datase
+- `2026-06-30 09:29 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 09:29 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 09:30 UTC` **git_auto** — sync: 11 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +8 more | halim=1 models=6 other=4 | brain=adult dataset
+- `2026-06-30 09:30 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, correction_log.jsonl +6 more | halim=2 models=3 other=4 | brain=adult dataset=24
+- `2026-06-30 09:30 UTC` **git_auto** — sync: 11 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, correction_log.jsonl +8 more | halim=2 models=5 other=4 | brain=adult dataset=2
+- `2026-06-30 09:31 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +7 more | halim=1 models=5 other=4 | brain=adult dataset
+- `2026-06-30 09:31 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, ai_guidelines.txt, ai_runtime_insights.jsonl +7 more | models=6 other=4 | brain=adult dataset=246
+- `2026-06-30 09:31 UTC` **git_auto** — sync: 7 files — BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl, halim_runtime.jsonl +4 more | models=3 other=4 | brain=adult dataset=2462 
+- `2026-06-30 09:31 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 09:32 UTC` **git_auto** — sync: 12 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, correction_log.jsonl +9 more | halim=2 models=6 other=4 | brain=adult dataset=2
+- `2026-06-30 09:32 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +7 more | halim=1 models=5 other=4 | brain=adult dataset
+- `2026-06-30 09:32 UTC` **git_auto** — sync: 12 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, correction_log.jsonl +9 more | halim=2 models=6 other=4 | brain=adult dataset=2
+- `2026-06-30 09:33 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 09:33 UTC` **git_auto** — sync: 11 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +8 more | halim=1 models=6 other=4 | brain=adult dataset
+- `2026-06-30 09:33 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 09:34 UTC` **git_auto** — sync: 8 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +5 more | halim=1 models=3 other=4 | brain=adult dataset=
+- `2026-06-30 09:34 UTC` **git_training** — learn: session_batch: consciousness, snapshot_periodic | learn_20260630_093411 | brain=adult dataset=2462 evolutions=26
+- `2026-06-30 09:34 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +7 more | halim=1 models=5 other=4 | brain=adult dataset
+- `2026-06-30 09:34 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +7 more | halim=1 models=5 other=4 | brain=adult dataset
+- `2026-06-30 09:35 UTC` **git_auto** — sync: 11 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +8 more | halim=1 models=6 other=4 | brain=adult dataset
+- `2026-06-30 09:35 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, HANOON.log.migrated.1782745557 +2 more | halim=1 other=4 | brain=adult dataset=2
+- `2026-06-30 09:35 UTC` **git_auto** — sync: 11 files — BRAIN_DEVELOPMENT_LOG.md, ai_guidelines.txt, ai_runtime_insights.jsonl +8 more | models=7 other=4 | brain=adult dataset=246
+- `2026-06-30 09:35 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 09:36 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime_state.json, HANOON.log.migrated.1782745557 +2 more | models=1 other=4 | brain=adult 
+- `2026-06-30 09:36 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 09:36 UTC` **git_auto** — sync: 11 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +8 more | halim=1 models=6 other=4 | brain=adult dataset
+- `2026-06-30 09:37 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 09:37 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +7 more | halim=1 models=5 other=4 | brain=adult dataset
+- `2026-06-30 09:37 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 09:38 UTC` **git_auto** — sync: 14 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, correction_log.jsonl +11 more | halim=2 models=8 other=4 | brain=adult dataset=
+- `2026-06-30 09:38 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 09:38 UTC` **git_auto** — sync: 12 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +9 more | halim=1 models=7 other=4 | brain=adult dataset
+- `2026-06-30 09:38 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 09:39 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +7 more | halim=1 models=5 other=4 | brain=adult dataset
+- `2026-06-30 09:39 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime_state.json, HANOON.log.migrated.1782745557 +2 more | models=1 other=4 | brain=adult 
+- `2026-06-30 09:39 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 09:40 UTC` **git_auto** — sync: 11 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +8 more | halim=1 models=6 other=4 | brain=adult dataset
+- `2026-06-30 09:40 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 09:40 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +7 more | halim=1 models=5 other=4 | brain=adult dataset
+- `2026-06-30 09:41 UTC` **git_auto** — sync: 11 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +8 more | halim=1 models=6 other=4 | brain=adult dataset
+- `2026-06-30 09:42 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 09:42 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime_state.json, HANOON.log.migrated.1782745557 +2 more | models=1 other=4 | brain=adult 
+- `2026-06-30 09:42 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 09:42 UTC` **git_auto** — sync: 8 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, copilot_state.json +5 more | halim=1 models=3 other=4 | brain=adult dataset=2462
+- `2026-06-30 09:43 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime.jsonl, halim_runtime_state.json +3 more | models=2 other=4 | brain=adult dataset=246
+- `2026-06-30 09:43 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, cognitive_state.json, learning_snapshots.jsonl +3 more | models=2 other=4 | brain=adult dataset=24
+- `2026-06-30 09:43 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime_state.json, HANOON.log.migrated.1782745557 +2 more | models=1 other=4 | brain=adult 
+- `2026-06-30 09:43 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 09:44 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime_state.json, HANOON.log.migrated.1782745557 +2 more | models=1 other=4 | brain=adult 
+- `2026-06-30 09:44 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 09:45 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime.jsonl, halim_runtime_state.json +3 more | models=2 other=4 | brain=adult dataset=246
+- `2026-06-30 09:45 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 09:45 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime_state.json, HANOON.log.migrated.1782745557 +2 more | models=1 other=4 | brain=adult 
+- `2026-06-30 09:46 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 09:46 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime_state.json, HANOON.log.migrated.1782745557 +2 more | models=1 other=4 | brain=adult 
+- `2026-06-30 09:46 UTC` **git_training** — learn: session_batch: periodic, snapshot_periodic | learn_20260630_094636 | brain=adult dataset=2462 evolutions=26
+- `2026-06-30 09:46 UTC` **git_auto** — sync: 8 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, copilot_state.json +5 more | halim=1 models=3 other=4 | brain=adult dataset=2462
+- `2026-06-30 09:47 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 09:47 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +7 more | halim=1 models=5 other=4 | brain=adult dataset
+- `2026-06-30 09:47 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 09:48 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +7 more | halim=1 models=5 other=4 | brain=adult dataset
+- `2026-06-30 09:48 UTC` **git_auto** — sync: 11 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +8 more | halim=1 models=6 other=4 | brain=adult dataset
+- `2026-06-30 09:48 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 09:48 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +7 more | halim=1 models=5 other=4 | brain=adult dataset
+- `2026-06-30 09:49 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 09:49 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +7 more | halim=1 models=5 other=4 | brain=adult dataset
+- `2026-06-30 09:49 UTC` **git_auto** — sync: 13 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, correction_log.jsonl +10 more | halim=2 models=7 other=4 | brain=adult dataset=
+- `2026-06-30 09:50 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 09:50 UTC` **git_auto** — sync: 15 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, correction_log.jsonl +12 more | halim=2 models=9 other=4 | brain=adult dataset=
+- `2026-06-30 09:50 UTC` **git_auto** — sync: 13 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, correction_log.jsonl +10 more | halim=2 models=7 other=4 | brain=adult dataset=
+- `2026-06-30 09:51 UTC` **git_auto** — sync: 11 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +8 more | halim=1 models=6 other=4 | brain=adult dataset
+- `2026-06-30 09:51 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 09:51 UTC` **git_auto** — sync: 15 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, correction_log.jsonl +12 more | halim=2 models=9 other=4 | brain=adult dataset=
+- `2026-06-30 09:52 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 09:52 UTC` **git_auto** — sync: 13 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, correction_log.jsonl +10 more | halim=2 models=7 other=4 | brain=adult dataset=
+- `2026-06-30 09:52 UTC` **git_auto** — sync: 15 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, correction_log.jsonl +12 more | halim=2 models=9 other=4 | brain=adult dataset=
+- `2026-06-30 09:53 UTC` **git_auto** — sync: 13 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, correction_log.jsonl +10 more | halim=2 models=7 other=4 | brain=adult dataset=
+- `2026-06-30 09:53 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 09:53 UTC` **git_auto** — sync: 13 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, correction_log.jsonl +10 more | halim=2 models=7 other=4 | brain=adult dataset=
+- `2026-06-30 09:54 UTC` **git_auto** — sync: 13 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, correction_log.jsonl +10 more | halim=2 models=7 other=4 | brain=adult dataset=
+- `2026-06-30 09:54 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime_state.json, HANOON.log.migrated.1782745557 +2 more | models=1 other=4 | brain=adult 
+- `2026-06-30 09:55 UTC` **git_auto** — sync: 7 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, copilot_state.json +4 more | halim=1 models=2 other=4 | brain=adult dataset=2462
+- `2026-06-30 09:55 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime.jsonl, halim_runtime_state.json +3 more | models=2 other=4 | brain=adult dataset=246
+- `2026-06-30 09:55 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 09:56 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime_state.json, HANOON.log.migrated.1782745557 +2 more | models=1 other=4 | brain=adult 
+- `2026-06-30 09:56 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 09:56 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime_state.json, HANOON.log.migrated.1782745557 +2 more | models=1 other=4 | brain=adult 
+- `2026-06-30 09:56 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 09:57 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime.jsonl, halim_runtime_state.json +3 more | models=2 other=4 | brain=adult dataset=246
+- `2026-06-30 09:57 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +7 more | halim=1 models=5 other=4 | brain=adult dataset
+- `2026-06-30 09:57 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 09:58 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +7 more | halim=1 models=5 other=4 | brain=adult dataset
+- `2026-06-30 09:58 UTC` **git_auto** — sync: 11 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +8 more | halim=1 models=6 other=4 | brain=adult dataset
+- `2026-06-30 09:58 UTC` **git_auto** — sync: 11 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +8 more | halim=1 models=6 other=4 | brain=adult dataset
+- `2026-06-30 09:58 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +7 more | halim=1 models=5 other=4 | brain=adult dataset
+- `2026-06-30 09:59 UTC` **git_auto** — sync: 6 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, copilot_state.json +3 more | halim=1 models=1 other=4 | brain=adult dataset=2462
+- `2026-06-30 09:59 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, halim_runtime_state.json, HANOON.log.migrated.1782745557 +2 more | models=1 other=4 | brain=adult 
+- `2026-06-30 09:59 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557, hanoon.env.enc +1 more | other=4 | brain=adult dataset=2462 evolut
+- `2026-06-30 10:00 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +6 more | halim=1 models=4 other=4 | brain=adult dataset=
+- `2026-06-30 10:00 UTC` **git_auto** — sync: 11 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +8 more | halim=1 models=6 other=4 | brain=adult dataset
+- `2026-06-30 10:00 UTC` **git_auto** — sync: 7 files — config.py, market_hours.py, scanner_session.py +4 more | docs=1 core=2 other=4 | brain=adult dataset=2462 evolutions=26
+- `2026-06-30 10:01 UTC` **git_auto** — sync: 7 files — broker.py, config.py, scanner_session.py +4 more | docs=1 core=2 other=4 | brain=adult dataset=2462 evolutions=26
+- `2026-06-30 10:01 UTC` **git_training** — learn: session_batch: snapshot_periodic | learn_20260630_100114 | brain=adult dataset=2462 evolutions=26
+- `2026-06-30 10:01 UTC` **git_auto** — sync: 12 files — broker.py, halim_entry_line.py, BRAIN_DEVELOPMENT_LOG.md +9 more | halim=1 models=5 docs=1 core=1 other=4 | brain=adult dat
+- `2026-06-30 10:01 UTC` **git_auto** — sync: 13 files — broker.py, scalper_runner.py, BRAIN_DEVELOPMENT_LOG.md +10 more | halim=2 models=5 docs=1 core=1 other=4 | brain=adult data
+- `2026-06-30 10:02 UTC` **git_auto** — sync: 15 files — broker.py, scalper_runner.py, BRAIN_DEVELOPMENT_LOG.md +12 more | halim=2 models=7 docs=1 core=1 other=4 | brain=adult data
+- `2026-06-30 10:02 UTC` **git_auto** — sync: 10 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult dataset=2462 
+- `2026-06-30 10:02 UTC` **git_auto** — sync: 18 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +15 more | halim=6 models=7 docs=1 other=4 | brain=adult dataset=2462
+- `2026-06-30 10:02 UTC` **brain_proxy_trained** · stage **adult** — Teacher proxy acc=98% (321 samples)
+- `2026-06-30 10:02 UTC` **brain_evolution** · stage **adult** — Evolution live_session_end — stage adult, dataset 2476 pairs
+- `2026-06-30 10:02 UTC` **git_training** — learn: pre_shutdown: account_session_shutdown | learn_20260630_100247 | brain=adult dataset=2476 evolutions=27
+- `2026-06-30 10:02 UTC` **git_auto** — sync: 25 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +22 more | halim=9 models=11 docs=1 other=4 | brain=adult dataset=247
+- `2026-06-30 10:03 UTC` **git_auto** — sync: 5 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557 +2 more | docs=1 other=4 | brain=adult dataset=2476 evol
+- `2026-06-30 10:04 UTC` **git_shutdown** — shutdown: NAV=$1,000 return=-99.9% | shutdown_20260630_100418 | brain=adult dataset=2476 evolutions=27
+- `2026-06-30 10:05 UTC` **git_auto** — sync: 8 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +5 more | halim=3 docs=1 other=4 | brain=adult dataset=2476 evolutions=2
+- `2026-06-30 10:05 UTC` **git_auto** — sync: 14 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +11 more | halim=5 models=4 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:06 UTC` **brain_proxy_trained** · stage **adult** — Teacher proxy acc=98% (321 samples)
+- `2026-06-30 10:06 UTC` **brain_evolution** · stage **toddler** — Halim developer post_standalone_flush: 0 mutation(s), git=ok
+- `2026-06-30 10:06 UTC` **brain_evolution** · stage **adult** — Evolution standalone_flush — stage adult, dataset 2476 pairs
+- `2026-06-30 10:06 UTC` **git_auto** — sync: 31 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, HALIM_MANIFEST.json +28 more | halim=10 models=16 docs=1 other=4 | brain=adult dataset
+- `2026-06-30 10:06 UTC` **git_auto** — sync: 6 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +3 more | halim=1 docs=1 other=4 | brain=adult dataset=2476 evolutions
+- `2026-06-30 10:06 UTC` **git_auto** — sync: 5 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557 +2 more | docs=1 other=4 | brain=adult dataset=2476 evol
+- `2026-06-30 10:09 UTC` **git_auto** — sync: 8 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, ai_session_limits.json +5 more | models=3 docs=1 other=4 | brain=adult dataset=2476 evo
+- `2026-06-30 10:09 UTC` **git_auto** — sync: 5 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557 +2 more | docs=1 other=4 | brain=adult dataset=2476 evol
+- `2026-06-30 10:09 UTC` **git_auto** — sync: 24 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +21 more | halim=11 models=8 docs=1 other=4 | brain=adult dataset=247
+- `2026-06-30 10:09 UTC` **git_auto** — sync: 5 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557 +2 more | docs=1 other=4 | brain=adult dataset=2476 evol
+- `2026-06-30 10:10 UTC` **git_auto** — sync: 11 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +8 more | halim=1 models=5 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:10 UTC` **git_auto** — sync: 11 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +8 more | halim=2 models=4 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:10 UTC` **git_auto** — sync: 13 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +10 more | halim=2 models=6 docs=1 other=4 | brain=adult dataset=2476
+- `2026-06-30 10:11 UTC` **git_auto** — sync: 9 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:11 UTC` **git_auto** — sync: 19 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +16 more | halim=2 models=12 docs=1 other=4 | brain=adult dataset=247
+- `2026-06-30 10:11 UTC` **git_auto** — sync: 12 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +9 more | halim=1 models=6 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:12 UTC` **git_auto** — sync: 14 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +11 more | halim=2 models=7 docs=1 other=4 | brain=adult dataset=2476
+- `2026-06-30 10:12 UTC` **git_auto** — sync: 13 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +10 more | halim=2 models=6 docs=1 other=4 | brain=adult dataset=2476
+- `2026-06-30 10:12 UTC` **git_auto** — sync: 13 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +10 more | halim=2 models=6 docs=1 other=4 | brain=adult dataset=2476
+- `2026-06-30 10:13 UTC` **git_auto** — sync: 14 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +11 more | halim=2 models=7 docs=1 other=4 | brain=adult dataset=2476
+- `2026-06-30 10:13 UTC` **git_auto** — sync: 14 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +11 more | halim=2 models=7 docs=1 other=4 | brain=adult dataset=2476
+- `2026-06-30 10:13 UTC` **git_auto** — sync: 15 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +12 more | halim=2 models=8 docs=1 other=4 | brain=adult dataset=2476
+- `2026-06-30 10:14 UTC` **git_auto** — sync: 10 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:14 UTC` **git_training** — learn: session_batch: consciousness, periodic | learn_20260630_101415 | brain=adult dataset=2476 evolutions=28
+- `2026-06-30 10:14 UTC` **git_auto** — sync: 14 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +11 more | halim=2 models=7 docs=1 other=4 | brain=adult dataset=2476
+- `2026-06-30 10:14 UTC` **git_auto** — sync: 16 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +13 more | halim=2 models=9 docs=1 other=4 | brain=adult dataset=2476
+- `2026-06-30 10:15 UTC` **git_auto** — sync: 10 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:15 UTC` **git_auto** — sync: 11 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +8 more | halim=1 models=5 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:15 UTC` **git_auto** — sync: 12 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +9 more | halim=2 models=5 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:15 UTC` **git_auto** — sync: 13 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +10 more | halim=2 models=6 docs=1 other=4 | brain=adult dataset=2476
+- `2026-06-30 10:16 UTC` **git_auto** — sync: 12 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +9 more | halim=1 models=6 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:16 UTC` **git_auto** — sync: 12 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +9 more | halim=2 models=5 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:16 UTC` **git_auto** — sync: 15 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +12 more | halim=2 models=8 docs=1 other=4 | brain=adult dataset=2476
+- `2026-06-30 10:17 UTC` **git_auto** — sync: 11 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +8 more | halim=1 models=5 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:17 UTC` **git_auto** — sync: 8 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:17 UTC` **git_auto** — sync: 10 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:18 UTC` **git_auto** — sync: 8 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:18 UTC` **git_auto** — sync: 10 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:18 UTC` **git_auto** — sync: 10 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=2 models=3 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:19 UTC` **git_auto** — sync: 9 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:19 UTC` **git_auto** — sync: 9 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:19 UTC` **git_auto** — sync: 10 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:19 UTC` **git_auto** — sync: 9 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:20 UTC` **git_auto** — sync: 8 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:20 UTC` **git_auto** — sync: 9 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:20 UTC` **git_auto** — sync: 14 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +11 more | halim=1 models=8 docs=1 other=4 | brain=adult dataset=2476
+- `2026-06-30 10:21 UTC` **git_auto** — sync: 10 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:21 UTC` **git_auto** — sync: 8 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:21 UTC` **git_auto** — sync: 9 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:22 UTC` **git_auto** — sync: 10 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:22 UTC` **git_auto** — sync: 8 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:22 UTC` **git_auto** — sync: 10 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:23 UTC` **git_auto** — sync: 8 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:23 UTC` **git_auto** — sync: 9 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:23 UTC` **git_training** — learn: session_batch: consciousness | learn_20260630_102351 | brain=adult dataset=2476 evolutions=28
+- `2026-06-30 10:24 UTC` **git_auto** — sync: 10 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:24 UTC` **git_auto** — sync: 9 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:25 UTC` **git_auto** — sync: 9 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:25 UTC` **git_auto** — sync: 10 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:25 UTC` **git_auto** — sync: 8 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:26 UTC` **git_auto** — sync: 10 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:26 UTC` **git_auto** — sync: 9 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:26 UTC` **git_auto** — sync: 9 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:27 UTC` **git_auto** — sync: 10 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=2 models=3 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:27 UTC` **git_auto** — sync: 9 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:27 UTC` **git_auto** — sync: 8 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:28 UTC` **git_auto** — sync: 10 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:28 UTC` **git_training** — learn: session_batch: snapshot_periodic | learn_20260630_102811 | brain=adult dataset=2476 evolutions=28
+- `2026-06-30 10:28 UTC` **git_auto** — sync: 8 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:28 UTC` **git_auto** — sync: 9 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:29 UTC` **git_auto** — sync: 12 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +9 more | halim=2 models=5 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:29 UTC` **git_auto** — sync: 12 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, ai_guidelines.txt +9 more | models=7 docs=1 other=4 | brain=adult dataset=2476 evoluti
+- `2026-06-30 10:29 UTC` **git_auto** — sync: 10 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:29 UTC` **git_auto** — sync: 14 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +11 more | halim=1 models=8 docs=1 other=4 | brain=adult dataset=2476
+- `2026-06-30 10:30 UTC` **git_auto** — sync: 9 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:30 UTC` **git_auto** — sync: 9 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:30 UTC` **git_auto** — sync: 8 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:31 UTC` **git_auto** — sync: 10 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:31 UTC` **git_auto** — sync: 9 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:31 UTC` **git_auto** — sync: 8 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:32 UTC` **git_auto** — sync: 13 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +10 more | halim=2 models=6 docs=1 other=4 | brain=adult dataset=2476
+- `2026-06-30 10:32 UTC` **git_training** — learn: session_batch: consciousness | learn_20260630_103211 | brain=adult dataset=2476 evolutions=28
+- `2026-06-30 10:32 UTC` **git_auto** — sync: 10 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=2 models=3 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:32 UTC` **git_auto** — sync: 10 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:33 UTC` **git_auto** — sync: 13 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +10 more | halim=2 models=6 docs=1 other=4 | brain=adult dataset=2476
+- `2026-06-30 10:33 UTC` **git_auto** — sync: 10 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=2 models=3 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:33 UTC` **git_auto** — sync: 9 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:33 UTC` **git_auto** — sync: 8 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:34 UTC` **git_auto** — sync: 10 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:34 UTC` **git_auto** — sync: 14 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +11 more | halim=2 models=7 docs=1 other=4 | brain=adult dataset=2476
+- `2026-06-30 10:34 UTC` **git_auto** — sync: 8 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:35 UTC` **git_auto** — sync: 9 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:35 UTC` **git_auto** — sync: 8 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:35 UTC` **git_auto** — sync: 10 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:36 UTC` **git_auto** — sync: 13 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +10 more | halim=2 models=6 docs=1 other=4 | brain=adult dataset=2476
+- `2026-06-30 10:36 UTC` **git_auto** — sync: 8 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:36 UTC` **git_auto** — sync: 9 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:37 UTC` **git_auto** — sync: 8 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:37 UTC` **git_auto** — sync: 10 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:37 UTC` **git_auto** — sync: 8 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:37 UTC` **git_auto** — sync: 9 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:38 UTC` **git_auto** — sync: 10 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:38 UTC` **git_auto** — sync: 10 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:39 UTC` **git_auto** — sync: 8 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:39 UTC` **git_auto** — sync: 14 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +11 more | halim=2 models=7 docs=1 other=4 | brain=adult dataset=2476
+- `2026-06-30 10:39 UTC` **git_auto** — sync: 9 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:40 UTC` **git_auto** — sync: 8 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:40 UTC` **git_auto** — sync: 12 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +9 more | halim=1 models=6 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:40 UTC` **git_auto** — sync: 12 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +9 more | halim=2 models=5 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:41 UTC` **git_auto** — sync: 9 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:41 UTC` **git_auto** — sync: 8 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:41 UTC` **git_auto** — sync: 9 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:42 UTC` **git_auto** — sync: 8 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:42 UTC` **git_auto** — sync: 10 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:42 UTC` **git_auto** — sync: 10 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:43 UTC` **git_auto** — sync: 12 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +9 more | halim=2 models=5 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:43 UTC` **git_training** — learn: session_batch: periodic, snapshot_periodic | learn_20260630_104311 | brain=adult dataset=2476 evolutions=28
+- `2026-06-30 10:43 UTC` **git_auto** — sync: 11 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +8 more | halim=2 models=4 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:43 UTC` **git_auto** — sync: 9 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:44 UTC` **git_auto** — sync: 8 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:44 UTC` **git_auto** — sync: 8 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:44 UTC` **git_auto** — sync: 7 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, coach_shadow_log.jsonl +4 more | models=2 docs=1 other=4 | brain=adult dataset=2476 evo
+- `2026-06-30 10:45 UTC` **git_auto** — sync: 12 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +9 more | halim=2 models=5 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:45 UTC` **git_auto** — sync: 11 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +8 more | halim=2 models=4 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:45 UTC` **git_auto** — sync: 13 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +10 more | halim=2 models=6 docs=1 other=4 | brain=adult dataset=2476
+- `2026-06-30 10:46 UTC` **git_auto** — sync: 8 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:46 UTC` **git_auto** — sync: 9 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:46 UTC` **git_auto** — sync: 9 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:47 UTC` **git_auto** — sync: 10 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:47 UTC` **git_auto** — sync: 9 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:47 UTC` **git_auto** — sync: 12 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +9 more | halim=2 models=5 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:47 UTC` **git_auto** — sync: 11 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +8 more | halim=2 models=4 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:48 UTC` **git_auto** — sync: 10 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:48 UTC` **git_auto** — sync: 12 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +9 more | halim=2 models=5 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:48 UTC` **git_auto** — sync: 11 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +8 more | halim=2 models=4 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:49 UTC` **git_auto** — sync: 8 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:49 UTC` **git_auto** — sync: 10 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:49 UTC` **git_auto** — sync: 10 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult dataset=2476 
+- `2026-06-30 10:50 UTC` **git_auto** — sync: 8 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:50 UTC` **git_auto** — sync: 9 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:50 UTC` **git_auto** — sync: 9 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:51 UTC` **git_auto** — sync: 9 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:51 UTC` **git_auto** — sync: 13 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +10 more | halim=2 models=5 docs=1 core=1 other=4 | brain=adult datas
+- `2026-06-30 10:51 UTC` **git_auto** — sync: 16 files — broker.py, halim_promotion_gate.py, ppo_teacher_training.py +13 more | halim=2 models=7 docs=1 core=2 other=4 | brain=adult
+- `2026-06-30 10:52 UTC` **git_auto** — sync: 9 files — broker.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dataset=2476 e
+- `2026-06-30 10:52 UTC` **git_auto** — sync: 9 files — broker.py, hybrid_distiller.py, BRAIN_DEVELOPMENT_LOG.md +6 more | halim=1 models=2 docs=1 core=1 other=4 | brain=adult data
+- `2026-06-30 10:52 UTC` **git_auto** — sync: 10 files — broker.py, hybrid_distiller.py, BRAIN_DEVELOPMENT_LOG.md +7 more | halim=1 models=3 docs=1 core=1 other=4 | brain=adult dat
+- `2026-06-30 10:53 UTC` **git_auto** — sync: 9 files — brain_maturity.py, broker.py, BRAIN_DEVELOPMENT_LOG.md +6 more | halim=1 models=2 docs=1 core=1 other=4 | brain=adult datase
+- `2026-06-30 10:53 UTC` **git_auto** — sync: 13 files — brain_maturity.py, experience_buffer.py, ppo_reward_trainer.py +10 more | halim=2 models=4 docs=1 core=2 other=4 | brain=ad
+- `2026-06-30 10:53 UTC` **git_auto** — sync: 11 files — brain_maturity.py, config.py, BRAIN_DEVELOPMENT_LOG.md +8 more | halim=2 models=3 docs=1 core=1 other=4 | brain=adult datas
+- `2026-06-30 10:53 UTC` **git_auto** — sync: 9 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=2 models=2 docs=1 other=4 | brain=adult datase
+- `2026-06-30 10:54 UTC` **git_auto** — sync: 11 files — brain_maturity.py, config.py, BRAIN_DEVELOPMENT_LOG.md +8 more | halim=1 models=3 docs=2 core=1 other=4 | brain=adult datas
+- `2026-06-30 10:54 UTC` **git_auto** — sync: 8 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult datase
+- `2026-06-30 10:54 UTC` **git_auto** — sync: 11 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +8 more | halim=1 models=5 docs=1 other=4 | brain=adult datas
+- `2026-06-30 10:55 UTC` **git_auto** — sync: 10 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult datas
+- `2026-06-30 10:55 UTC` **git_auto** — sync: 13 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +10 more | halim=2 models=6 docs=1 other=4 | brain=adult data
+- `2026-06-30 10:55 UTC` **git_auto** — sync: 9 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult datase
+- `2026-06-30 10:56 UTC` **git_auto** — sync: 8 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult datase
+- `2026-06-30 10:56 UTC` **git_auto** — sync: 10 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult datas
+- `2026-06-30 10:56 UTC` **git_auto** — sync: 8 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult datase
+- `2026-06-30 10:57 UTC` **brain_proxy_trained** · stage **adult** — Teacher proxy acc=100% (387 samples)
+- `2026-06-30 10:57 UTC` **brain_evolution** · stage **adult** — Evolution live_session_end — stage adult, dataset 2484 pairs
+- `2026-06-30 10:57 UTC` **git_training** — learn: pre_shutdown: account_session_shutdown, snapshot_periodic | learn_20260630_105704 | brain=adult dataset=2484 evolutions=29
+- `2026-06-30 10:57 UTC` **git_auto** — sync: 30 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +27 more | halim=10 models=15 docs=1 other=4 | brain=adult da
+- `2026-06-30 10:57 UTC` **git_auto** — sync: 5 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557 +2 more | docs=1 other=4 | brain=adult dataset=2
+- `2026-06-30 10:58 UTC` **git_auto** — sync: 6 files — brain_maturity.py, hybrid_distiller.py, BRAIN_DEVELOPMENT_LOG.md +3 more | docs=1 core=1 other=4 | brain=adult dataset=2484 
+- `2026-06-30 10:58 UTC` **brain_proxy_trained** · stage **adult** — Teacher proxy holdout acc=100% (random=100%, 387 samples)
+- `2026-06-30 10:58 UTC` **git_auto** — sync: 7 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +4 more | models=1 docs=2 other=4 | brain=adult dataset=
+- `2026-06-30 10:58 UTC` **git_auto** — sync: 5 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557 +2 more | docs=1 other=4 | brain=adult dataset=2
+- `2026-06-30 10:58 UTC` **git_shutdown** — shutdown: NAV=$1,000 return=-99.9% | shutdown_20260630_105850 | brain=adult dataset=2484 evolutions=29
+- `2026-06-30 11:00 UTC` **git_auto** — sync: 15 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +12 more | halim=6 models=4 docs=1 other=4 | brain=adult datase
+- `2026-06-30 11:00 UTC` **git_auto** — sync: 5 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557 +2 more | docs=1 other=4 | brain=adult dataset=2
+- `2026-06-30 11:00 UTC` **brain_proxy_trained** · stage **adult** — Teacher proxy holdout acc=100% (random=100%, 387 samples)
+- `2026-06-30 11:00 UTC` **brain_evolution** · stage **toddler** — Halim developer post_standalone_flush: 0 mutation(s), git=ok
+- `2026-06-30 11:00 UTC` **brain_evolution** · stage **adult** — Evolution standalone_flush — stage adult, dataset 2484 pairs
+- `2026-06-30 11:00 UTC` **git_auto** — sync: 35 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, HALIM_MANIFEST.json +32 more | halim=12 models=18 docs=1 other=4 | brain=adult
+- `2026-06-30 11:01 UTC` **git_auto** — sync: 5 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557 +2 more | docs=1 other=4 | brain=adult dataset=2
+- `2026-06-30 11:02 UTC` **git_auto** — sync: 6 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, ai_session_limits.json +3 more | models=1 docs=1 other=4 | brain=adult dataset=
+- `2026-06-30 11:02 UTC` **git_auto** — sync: 7 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, macro_context.json +4 more | models=2 docs=1 other=4 | brain=adult dataset=2484
+- `2026-06-30 11:02 UTC` **git_auto** — sync: 24 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +21 more | halim=11 models=8 docs=1 other=4 | brain=adult dat
+- `2026-06-30 11:02 UTC` **git_auto** — sync: 5 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557 +2 more | docs=1 other=4 | brain=adult dataset=2
+- `2026-06-30 11:03 UTC` **git_auto** — sync: 9 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult datase
+- `2026-06-30 11:03 UTC` **git_auto** — sync: 11 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +8 more | halim=3 models=3 docs=1 other=4 | brain=adult datas
+- `2026-06-30 11:03 UTC` **git_auto** — sync: 16 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +13 more | halim=1 models=10 docs=1 other=4 | brain=adult dat
+- `2026-06-30 11:04 UTC` **git_auto** — sync: 12 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +9 more | halim=2 models=5 docs=1 other=4 | brain=adult datas
+- `2026-06-30 11:04 UTC` **git_auto** — sync: 16 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +13 more | halim=2 models=9 docs=1 other=4 | brain=adult data
+- `2026-06-30 11:04 UTC` **git_auto** — sync: 12 files — brain_maturity.py, halim_entry_line.py, BRAIN_DEVELOPMENT_LOG.md +9 more | halim=1 models=4 docs=2 core=1 other=4 | brain=a
+- `2026-06-30 11:05 UTC` **git_auto** — sync: 8 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult datase
+- `2026-06-30 11:05 UTC` **git_auto** — sync: 17 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +14 more | halim=2 models=10 docs=1 other=4 | brain=adult dat
+- `2026-06-30 11:05 UTC` **git_auto** — sync: 15 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +12 more | halim=1 models=9 docs=1 other=4 | brain=adult data
+- `2026-06-30 11:06 UTC` **git_auto** — sync: 8 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult datase
+- `2026-06-30 11:06 UTC` **git_auto** — sync: 12 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +9 more | halim=2 models=5 docs=1 other=4 | brain=adult datas
+- `2026-06-30 11:06 UTC` **git_auto** — sync: 17 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +14 more | halim=2 models=10 docs=1 other=4 | brain=adult dat
+- `2026-06-30 11:07 UTC` **git_auto** — sync: 15 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +12 more | halim=1 models=9 docs=1 other=4 | brain=adult data
+- `2026-06-30 11:07 UTC` **brain_proxy_trained** · stage **adult** — Teacher proxy holdout acc=100% (random=99%, 387 samples)
+- `2026-06-30 11:07 UTC` **brain_evolution** · stage **adult** — Evolution live_session_end — stage adult, dataset 2496 pairs
+- `2026-06-30 11:07 UTC` **git_auto** — sync: 30 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +27 more | halim=10 models=15 docs=1 other=4 | brain=adult da
+- `2026-06-30 11:07 UTC` **git_training** — learn: pre_shutdown: account_session_shutdown, consciousness, periodic | learn_20260630_110721 | brain=adult dataset=2496 evolutions=31
+- `2026-06-30 11:07 UTC` **git_auto** — sync: 6 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +3 more | halim=1 docs=1 other=4 | brain=adult dataset=2496 ev
+- `2026-06-30 11:08 UTC` **git_auto** — sync: 5 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557 +2 more | docs=1 other=4 | brain=adult dataset=2
+- `2026-06-30 11:15 UTC` **git_auto** — sync: 6 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, ai_session_limits.json +3 more | models=1 docs=1 other=4 | brain=adult dataset=
+- `2026-06-30 11:16 UTC` **git_auto** — sync: 5 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557 +2 more | docs=1 other=4 | brain=adult dataset=2
+- `2026-06-30 11:16 UTC` **git_auto** — sync: 6 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, war_account_state.json +3 more | models=1 docs=1 other=4 | brain=adult dataset=
+- `2026-06-30 11:17 UTC` **git_auto** — sync: 6 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, macro_context.json +3 more | models=1 docs=1 other=4 | brain=adult dataset=2496
+- `2026-06-30 11:17 UTC` **git_auto** — sync: 18 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +15 more | halim=7 models=6 docs=1 other=4 | brain=adult data
+- `2026-06-30 11:17 UTC` **git_auto** — sync: 11 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, ib_report_events.jsonl +8 more | halim=4 models=2 docs=1 other=4 | brain=adult
+- `2026-06-30 11:18 UTC` **git_auto** — sync: 11 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +8 more | halim=1 models=5 docs=1 other=4 | brain=adult datas
+- `2026-06-30 11:18 UTC` **git_auto** — sync: 11 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +8 more | halim=3 models=3 docs=1 other=4 | brain=adult datas
+- `2026-06-30 11:19 UTC` **git_auto** — sync: 18 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +15 more | halim=2 models=11 docs=1 other=4 | brain=adult dat
+- `2026-06-30 11:19 UTC` **git_auto** — sync: 9 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult datase
+- `2026-06-30 11:20 UTC` **git_auto** — sync: 16 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +13 more | halim=1 models=10 docs=1 other=4 | brain=adult dat
+- `2026-06-30 11:20 UTC` **git_auto** — sync: 9 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult datase
+- `2026-06-30 11:20 UTC` **git_auto** — sync: 11 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +8 more | halim=2 models=4 docs=1 other=4 | brain=adult datas
+- `2026-06-30 11:21 UTC` **git_auto** — sync: 18 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +15 more | halim=2 models=11 docs=1 other=4 | brain=adult dat
+- `2026-06-30 11:21 UTC` **git_auto** — sync: 14 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +11 more | halim=1 models=8 docs=1 other=4 | brain=adult data
+- `2026-06-30 11:22 UTC` **git_auto** — sync: 10 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult datas
+- `2026-06-30 11:22 UTC` **git_auto** — sync: 9 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult datase
+- `2026-06-30 11:23 UTC` **git_auto** — sync: 19 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +16 more | halim=2 models=12 docs=1 other=4 | brain=adult dat
+- `2026-06-30 11:23 UTC` **git_auto** — sync: 15 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +12 more | halim=1 models=9 docs=1 other=4 | brain=adult data
+- `2026-06-30 11:23 UTC` **git_auto** — sync: 8 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult datase
+- `2026-06-30 11:24 UTC` **git_auto** — sync: 9 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult datase
+- `2026-06-30 11:24 UTC` **git_auto** — sync: 10 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult datas
+- `2026-06-30 11:25 UTC` **git_auto** — sync: 17 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +14 more | halim=2 models=10 docs=1 other=4 | brain=adult dat
+- `2026-06-30 11:26 UTC` **git_auto** — sync: 11 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +8 more | halim=1 models=5 docs=1 other=4 | brain=adult datas
+- `2026-06-30 11:26 UTC` **git_auto** — sync: 10 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=2 models=3 docs=1 other=4 | brain=adult datas
+- `2026-06-30 11:27 UTC` **git_auto** — sync: 10 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult datas
+- `2026-06-30 11:27 UTC` **git_auto** — sync: 9 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult datase
+- `2026-06-30 11:28 UTC` **git_auto** — sync: 8 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult datase
+- `2026-06-30 11:28 UTC` **git_auto** — sync: 18 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +15 more | halim=2 models=11 docs=1 other=4 | brain=adult dat
+- `2026-06-30 11:29 UTC` **git_auto** — sync: 9 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult datase
+- `2026-06-30 11:29 UTC` **git_auto** — sync: 8 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult datase
+- `2026-06-30 11:29 UTC` **git_auto** — sync: 10 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult datas
+- `2026-06-30 11:30 UTC` **git_auto** — sync: 9 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult datase
+- `2026-06-30 11:30 UTC` **git_auto** — sync: 9 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult datase
+- `2026-06-30 11:31 UTC` **git_auto** — sync: 10 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=2 models=3 docs=1 other=4 | brain=adult datas
+- `2026-06-30 11:31 UTC` **git_training** — learn: session_batch: consciousness, periodic | learn_20260630_113118 | brain=adult dataset=2496 evolutions=31
+- `2026-06-30 11:31 UTC` **git_auto** — sync: 12 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +9 more | halim=2 models=5 docs=1 other=4 | brain=adult datas
+- `2026-06-30 11:32 UTC` **git_auto** — sync: 8 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult datase
+- `2026-06-30 11:33 UTC` **git_auto** — sync: 16 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +13 more | halim=2 models=9 docs=1 other=4 | brain=adult data
+- `2026-06-30 11:34 UTC` **git_auto** — sync: 15 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +12 more | halim=1 models=9 docs=1 other=4 | brain=adult data
+- `2026-06-30 11:34 UTC` **git_auto** — sync: 22 files — brain_maturity.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +19 more | halim=6 models=11 docs=1 other=4 | brain=adult dat
+- `2026-06-30 11:34 UTC` **brain_proxy_trained** · stage **adult** — Teacher proxy holdout acc=100% (random=100%, 380 samples)
+- `2026-06-30 11:34 UTC` **brain_evolution** · stage **adult** — Evolution live_session_end — stage adult, dataset 2524 pairs
+- `2026-06-30 11:34 UTC` **git_training** — learn: pre_shutdown: account_session_shutdown, consciousness, snapshot_periodic | learn_20260630_113446 | brain=adult dataset=2524 evolution
+- `2026-06-30 11:34 UTC` **git_auto** — sync: 28 files — brain_maturity.py, config.py, fill_reconciler.py +25 more | halim=8 models=12 docs=1 core=3 other=4 | brain=adult dataset=2
+- `2026-06-30 11:35 UTC` **git_auto** — sync: 6 files — brain_maturity.py, scalper_runner.py, BRAIN_DEVELOPMENT_LOG.md +3 more | docs=1 core=1 other=4 | brain=adult dataset=2524 ev
+- `2026-06-30 11:37 UTC` **git_auto** — sync: 16 files — brain_maturity.py, scalper_runner.py, BRAIN_DEVELOPMENT_LOG.md +13 more | halim=6 models=4 docs=1 core=1 other=4 | brain=ad
+- `2026-06-30 11:37 UTC` **git_auto** — sync: 7 files — brain_maturity.py, position_intel.py, scalper_runner.py +4 more | docs=1 core=2 other=4 | brain=adult dataset=2524 evolution
+- `2026-06-30 11:38 UTC` **brain_proxy_trained** · stage **adult** — Teacher proxy holdout acc=100% (random=100%, 380 samples)
+- `2026-06-30 11:38 UTC` **brain_evolution** · stage **toddler** — Halim developer post_standalone_flush: 0 mutation(s), git=ok
+- `2026-06-30 11:38 UTC` **brain_evolution** · stage **adult** — Evolution standalone_flush — stage adult, dataset 2524 pairs
+- `2026-06-30 11:38 UTC` **git_auto** — sync: 36 files — account_evaluator.py, brain_maturity.py, scalper_runner.py +33 more | halim=12 models=17 docs=1 core=2 other=4 | brain=adul
+- `2026-06-30 11:38 UTC` **git_auto** — sync: 6 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +3 more | docs=2 other=4 | brain=adult dataset=2524 e
+- `2026-06-30 11:39 UTC` **git_auto** — sync: 5 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557 +2 more | docs=1 other=4 | brain=adult datase
+- `2026-06-30 11:39 UTC` **git_auto** — sync: 6 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, ai_session_limits.json +3 more | models=1 docs=1 other=4 | brain=adult datas
+- `2026-06-30 11:40 UTC` **git_auto** — sync: 7 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, macro_context.json +4 more | models=2 docs=1 other=4 | brain=adult dataset=2
+- `2026-06-30 11:40 UTC` **git_auto** — sync: 7 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, consciousness.json +4 more | models=2 docs=1 other=4 | brain=adult dataset=2
+- `2026-06-30 11:40 UTC` **git_auto** — sync: 22 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +19 more | halim=11 models=6 docs=1 other=4 | brain=adult 
+- `2026-06-30 11:41 UTC` **git_auto** — sync: 11 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +8 more | halim=1 models=5 docs=1 other=4 | brain=adult da
+- `2026-06-30 11:41 UTC` **git_auto** — sync: 9 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=2 models=2 docs=1 other=4 | brain=adult dat
+- `2026-06-30 11:41 UTC` **git_auto** — sync: 14 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +11 more | halim=3 models=6 docs=1 other=4 | brain=adult d
+- `2026-06-30 11:42 UTC` **git_auto** — sync: 13 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +10 more | halim=2 models=6 docs=1 other=4 | brain=adult d
+- `2026-06-30 11:42 UTC` **git_auto** — sync: 27 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +24 more | halim=4 models=18 docs=1 other=4 | brain=adult 
+- `2026-06-30 11:43 UTC` **git_auto** — sync: 8 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dat
+- `2026-06-30 11:43 UTC` **git_auto** — sync: 9 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dat
+- `2026-06-30 11:44 UTC` **git_auto** — sync: 10 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult da
+- `2026-06-30 11:44 UTC` **git_auto** — sync: 8 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dat
+- `2026-06-30 11:45 UTC` **git_auto** — sync: 10 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult da
+- `2026-06-30 11:45 UTC` **git_auto** — sync: 9 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dat
+- `2026-06-30 11:45 UTC` **git_training** — learn: session_batch: account_trade_closed, consciousness, periodic, pilot Veteran 24300XP WR=52%, profit_hunt:green_profit_lock:INTZ | lear
+- `2026-06-30 11:45 UTC` **git_auto** — sync: 8 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dat
+- `2026-06-30 11:46 UTC` **git_auto** — sync: 10 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult da
+- `2026-06-30 11:47 UTC` **git_auto** — sync: 9 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dat
+- `2026-06-30 11:47 UTC` **git_auto** — sync: 10 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult da
+- `2026-06-30 11:48 UTC` **git_auto** — sync: 8 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dat
+- `2026-06-30 11:48 UTC` **git_auto** — sync: 13 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +10 more | halim=2 models=6 docs=1 other=4 | brain=adult d
+- `2026-06-30 11:48 UTC` **git_auto** — sync: 13 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +10 more | halim=2 models=6 docs=1 other=4 | brain=adult d
+- `2026-06-30 11:49 UTC` **git_auto** — sync: 12 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +9 more | halim=2 models=5 docs=1 other=4 | brain=adult da
+- `2026-06-30 11:49 UTC` **git_auto** — sync: 10 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=2 models=3 docs=1 other=4 | brain=adult da
+- `2026-06-30 11:50 UTC` **git_auto** — sync: 10 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=2 models=3 docs=1 other=4 | brain=adult da
+- `2026-06-30 11:51 UTC` **git_auto** — sync: 11 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +8 more | halim=2 models=4 docs=1 other=4 | brain=adult da
+- `2026-06-30 11:51 UTC` **git_auto** — sync: 9 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=2 models=2 docs=1 other=4 | brain=adult dat
+- `2026-06-30 11:51 UTC` **git_auto** — sync: 10 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=2 models=3 docs=1 other=4 | brain=adult da
+- `2026-06-30 11:52 UTC` **git_auto** — sync: 11 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +8 more | halim=2 models=4 docs=1 other=4 | brain=adult da
+- `2026-06-30 11:53 UTC` **git_auto** — sync: 9 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=2 models=2 docs=1 other=4 | brain=adult dat
+- `2026-06-30 11:53 UTC` **git_auto** — sync: 11 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +8 more | halim=2 models=4 docs=1 other=4 | brain=adult da
+- `2026-06-30 11:53 UTC` **git_auto** — sync: 25 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +22 more | halim=3 models=17 docs=1 other=4 | brain=adult 
+- `2026-06-30 11:54 UTC` **git_auto** — sync: 10 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult da
+- `2026-06-30 11:54 UTC` **git_auto** — sync: 8 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dat
+- `2026-06-30 11:55 UTC` **git_auto** — sync: 9 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dat
+- `2026-06-30 11:55 UTC` **git_auto** — sync: 8 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dat
+- `2026-06-30 11:55 UTC` **git_auto** — sync: 11 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +8 more | halim=1 models=5 docs=1 other=4 | brain=adult da
+- `2026-06-30 11:56 UTC` **git_auto** — sync: 8 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dat
+- `2026-06-30 11:56 UTC` **git_auto** — sync: 14 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +11 more | halim=2 models=7 docs=1 other=4 | brain=adult d
+- `2026-06-30 11:56 UTC` **git_auto** — sync: 10 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=2 models=3 docs=1 other=4 | brain=adult da
+- `2026-06-30 11:57 UTC` **git_auto** — sync: 10 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult da
+- `2026-06-30 11:57 UTC` **git_auto** — sync: 11 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +8 more | halim=2 models=4 docs=1 other=4 | brain=adult da
+- `2026-06-30 11:58 UTC` **git_auto** — sync: 12 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +9 more | halim=1 models=6 docs=1 other=4 | brain=adult da
+- `2026-06-30 11:58 UTC` **git_training** — learn: session_batch: account_trade_closed, consciousness, pilot Veteran 24340XP WR=52%, snapshot_periodic | learn_20260630_115820 | brain=a
+- `2026-06-30 11:58 UTC` **git_auto** — sync: 11 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +8 more | halim=2 models=4 docs=1 other=4 | brain=adult da
+- `2026-06-30 11:59 UTC` **git_auto** — sync: 10 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=2 models=3 docs=1 other=4 | brain=adult da
+- `2026-06-30 11:59 UTC` **git_auto** — sync: 5 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557 +2 more | docs=1 other=4 | brain=adult datase
+- `2026-06-30 12:01 UTC` **git_auto** — sync: 25 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +22 more | halim=3 models=17 docs=1 other=4 | brain=adult 
+- `2026-06-30 12:01 UTC` **git_auto** — sync: 10 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult da
+- `2026-06-30 12:02 UTC` **git_auto** — sync: 12 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +9 more | halim=2 models=5 docs=1 other=4 | brain=adult da
+- `2026-06-30 12:02 UTC` **git_auto** — sync: 14 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +11 more | halim=1 models=8 docs=1 other=4 | brain=adult d
+- `2026-06-30 12:02 UTC` **git_auto** — sync: 12 files — account_evaluator.py, config.py, git_sync.py +9 more | halim=1 models=4 docs=1 core=2 other=4 | brain=adult dataset=2524 ev
+- `2026-06-30 12:03 UTC` **git_auto** — sync: 10 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +7 more | halim=1 models=3 docs=2 other=4 | brain=ad
+- `2026-06-30 12:03 UTC` **brain_proxy_trained** · stage **adult** — Teacher proxy holdout acc=100% (random=99%, 360 samples)
+- `2026-06-30 12:03 UTC` **brain_evolution** · stage **adult** — Evolution live_session_end — stage adult, dataset 2532 pairs
+- `2026-06-30 12:03 UTC` **git_training** — learn: pre_shutdown: account_session_shutdown, account_trade_closed, consciousness, pilot Veteran 24395XP WR=52%, profit_hunt:hard_stop:HXHX
+- `2026-06-30 12:03 UTC` **git_auto** — sync: 27 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +24 more | halim=10 models=12 docs=1 other=4 | brain=adult
+- `2026-06-30 12:04 UTC` **git_auto** — sync: 5 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557 +2 more | docs=1 other=4 | brain=adult datase
+- `2026-06-30 12:06 UTC` **git_auto** — sync: 8 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, ai_session_limits.json +5 more | models=3 docs=1 other=4 | brain=adult datas
+- `2026-06-30 12:06 UTC` **git_auto** — sync: 5 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557 +2 more | docs=1 other=4 | brain=adult datase
+- `2026-06-30 12:07 UTC` **git_auto** — sync: 7 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, consciousness.json +4 more | models=2 docs=1 other=4 | brain=adult dataset=2
+- `2026-06-30 12:07 UTC` **git_auto** — sync: 22 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +19 more | halim=11 models=6 docs=1 other=4 | brain=adult 
+- `2026-06-30 12:07 UTC` **git_auto** — sync: 11 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +8 more | halim=1 models=5 docs=1 other=4 | brain=adult da
+- `2026-06-30 12:08 UTC` **git_auto** — sync: 11 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +8 more | halim=3 models=3 docs=1 other=4 | brain=adult da
+- `2026-06-30 12:08 UTC` **git_auto** — sync: 14 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +11 more | halim=2 models=7 docs=1 other=4 | brain=adult d
+- `2026-06-30 12:08 UTC` **git_auto** — sync: 10 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=2 models=3 docs=1 other=4 | brain=adult da
+- `2026-06-30 12:09 UTC` **git_auto** — sync: 9 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=2 models=2 docs=1 other=4 | brain=adult dat
+- `2026-06-30 12:09 UTC` **git_auto** — sync: 11 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +8 more | halim=2 models=4 docs=1 other=4 | brain=adult da
+- `2026-06-30 12:10 UTC` **git_auto** — sync: 10 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=2 models=3 docs=1 other=4 | brain=adult da
+- `2026-06-30 12:10 UTC` **git_training** — learn: session_batch: consciousness, periodic | learn_20260630_121041 | brain=adult dataset=2532 evolutions=34
+- `2026-06-30 12:11 UTC` **git_auto** — sync: 11 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +8 more | halim=2 models=4 docs=1 other=4 | brain=adult da
+- `2026-06-30 12:11 UTC` **git_auto** — sync: 10 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=2 models=3 docs=1 other=4 | brain=adult da
+- `2026-06-30 12:12 UTC` **git_auto** — sync: 15 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +12 more | halim=4 models=6 docs=1 other=4 | brain=adult d
+- `2026-06-30 12:13 UTC` **git_auto** — sync: 16 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, ai_guidelines.txt +13 more | models=11 docs=1 other=4 | brain=adult dataset
+- `2026-06-30 12:13 UTC` **git_auto** — sync: 10 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult da
+- `2026-06-30 12:14 UTC` **git_auto** — sync: 9 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dat
+- `2026-06-30 12:15 UTC` **git_auto** — sync: 10 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult da
+- `2026-06-30 12:15 UTC` **git_auto** — sync: 8 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dat
+- `2026-06-30 12:15 UTC` **git_auto** — sync: 9 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dat
+- `2026-06-30 12:16 UTC` **git_auto** — sync: 10 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult da
+- `2026-06-30 12:16 UTC` **git_training** — learn: session_batch: account_trade_closed, consciousness, pilot Veteran 24435XP WR=52% | learn_20260630_121609 | brain=adult dataset=2532 e
+- `2026-06-30 12:16 UTC` **git_auto** — sync: 8 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dat
+- `2026-06-30 12:16 UTC` **git_auto** — sync: 11 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +8 more | halim=1 models=5 docs=1 other=4 | brain=adult da
+- `2026-06-30 12:17 UTC` **git_auto** — sync: 8 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dat
+- `2026-06-30 12:17 UTC` **git_auto** — sync: 9 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dat
+- `2026-06-30 12:18 UTC` **git_auto** — sync: 10 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult da
+- `2026-06-30 12:18 UTC` **git_auto** — sync: 8 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dat
+- `2026-06-30 12:18 UTC` **git_auto** — sync: 9 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dat
+- `2026-06-30 12:19 UTC` **git_auto** — sync: 10 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=2 models=3 docs=1 other=4 | brain=adult da
+- `2026-06-30 12:19 UTC` **git_auto** — sync: 13 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +10 more | halim=1 models=7 docs=1 other=4 | brain=adult d
+- `2026-06-30 12:20 UTC` **git_auto** — sync: 28 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +25 more | halim=3 models=20 docs=1 other=4 | brain=adult 
+- `2026-06-30 12:20 UTC` **git_auto** — sync: 8 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dat
+- `2026-06-30 12:20 UTC` **git_auto** — sync: 9 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dat
+- `2026-06-30 12:21 UTC` **git_auto** — sync: 10 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult da
+- `2026-06-30 12:22 UTC` **git_auto** — sync: 10 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult da
+- `2026-06-30 12:22 UTC` **git_auto** — sync: 9 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dat
+- `2026-06-30 12:23 UTC` **git_auto** — sync: 10 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult da
+- `2026-06-30 12:24 UTC` **git_auto** — sync: 10 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 other=4 | brain=adult da
+- `2026-06-30 12:24 UTC` **git_auto** — sync: 8 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dat
+- `2026-06-30 12:24 UTC` **git_auto** — sync: 9 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dat
+- `2026-06-30 12:25 UTC` **git_training** — learn: session_batch: account_trade_closed, consciousness, pilot Veteran 24490XP WR=52%, profit_hunt:green_profit_lock:INTZ, snapshot_period
+- `2026-06-30 12:25 UTC` **git_auto** — sync: 16 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +13 more | halim=2 models=9 docs=1 other=4 | brain=adult d
+- `2026-06-30 12:25 UTC` **git_auto** — sync: 13 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +10 more | halim=3 models=5 docs=1 other=4 | brain=adult d
+- `2026-06-30 12:26 UTC` **git_auto** — sync: 5 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557 +2 more | docs=1 other=4 | brain=adult datase
+- `2026-06-30 12:27 UTC` **git_auto** — sync: 17 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, ai_guidelines.txt +14 more | models=12 docs=1 other=4 | brain=adult dataset
+- `2026-06-30 12:29 UTC` **git_auto** — sync: 17 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +14 more | halim=2 models=10 docs=1 other=4 | brain=adult 
+- `2026-06-30 12:29 UTC` **git_auto** — sync: 5 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557 +2 more | docs=1 other=4 | brain=adult datase
+- `2026-06-30 12:30 UTC` **git_auto** — sync: 9 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dat
+- `2026-06-30 12:30 UTC` **git_training** — learn: session_batch: account_trade_closed, consciousness, pilot Veteran 24530XP WR=52% | learn_20260630_123034 | brain=adult dataset=2532 e
+- `2026-06-30 12:30 UTC` **git_auto** — sync: 16 files — account_evaluator.py, git_sync.py, BRAIN_DEVELOPMENT_LOG.md +13 more | halim=2 models=8 docs=1 core=1 other=4 | brain=adult
+- `2026-06-30 12:31 UTC` **git_auto** — sync: 18 files — account_evaluator.py, git_sync.py, BRAIN_DEVELOPMENT_LOG.md +15 more | halim=3 models=7 docs=2 core=1 other=5 | brain=adult
+- `2026-06-30 12:31 UTC` **git_auto** — sync: 6 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +3 more | halim=1 docs=1 other=4 | brain=adult dataset=2532
+- `2026-06-30 12:32 UTC` **git_auto** — sync: 12 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +9 more | halim=5 models=2 docs=1 other=4 | brain=adult data
+- `2026-06-30 12:32 UTC` **git_auto** — sync: 5 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557 +2 more | docs=1 other=4 | brain=adult datase
+- `2026-06-30 12:33 UTC` **git_auto** — sync: 11 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, ai_runtime_insights.jsonl +8 more | models=6 docs=1 other=4 | brain=adult d
+- `2026-06-30 12:33 UTC` **brain_proxy_trained** · stage **adult** — Teacher proxy holdout acc=100% (random=99%, 346 samples)
+- `2026-06-30 12:33 UTC` **brain_evolution** · stage **adult** — Evolution live_session_end — stage adult, dataset 2542 pairs
+- `2026-06-30 12:33 UTC` **git_training** — learn: pre_shutdown: account_session_shutdown, account_trade_closed, consciousness, pilot Veteran 24570XP WR=51% | learn_20260630_123338 | b
+- `2026-06-30 12:33 UTC` **git_auto** — sync: 27 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +24 more | halim=8 models=14 docs=1 other=4 | brain=adult 
+- `2026-06-30 12:34 UTC` **git_auto** — sync: 5 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, HANOON.log.migrated.1782745557 +2 more | docs=1 other=4 | brain=adult datase
+- `2026-06-30 12:35 UTC` **git_auto** — sync: 15 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +12 more | halim=6 models=4 docs=1 other=4 | brain=adult dat
+- `2026-06-30 12:35 UTC` **brain_proxy_trained** · stage **adult** — Teacher proxy holdout acc=100% (random=99%, 346 samples)
+- `2026-06-30 12:35 UTC` **git_auto** — sync: 18 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +15 more | halim=4 models=9 docs=1 other=4 | brain=adult d
+- `2026-06-30 12:35 UTC` **brain_evolution** · stage **toddler** — Halim developer post_standalone_flush: 0 mutation(s), git=ok
+- `2026-06-30 12:35 UTC` **brain_evolution** · stage **adult** — Evolution standalone_flush — stage adult, dataset 2542 pairs
+- `2026-06-30 12:36 UTC` **git_auto** — sync: 24 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, HALIM_MANIFEST.json +21 more | halim=9 models=10 docs=1 other=4 | brain=adu
+- `2026-06-30 12:36 UTC` **git_auto** — sync: 8 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, ai_session_limits.json +5 more | models=3 docs=1 other=4 | brain=adult datas
+- `2026-06-30 12:37 UTC` **git_auto** — sync: 24 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +21 more | halim=11 models=8 docs=1 other=4 | brain=adult 
+- `2026-06-30 12:37 UTC` **git_auto** — sync: 7 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +4 more | halim=1 models=1 docs=1 other=4 | brain=adult dat
+- `2026-06-30 12:37 UTC` **git_auto** — sync: 11 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +8 more | halim=2 models=4 docs=1 other=4 | brain=adult da
+- `2026-06-30 12:38 UTC` **git_auto** — sync: 9 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dat
+- `2026-06-30 12:38 UTC` **git_auto** — sync: 8 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +5 more | halim=1 models=2 docs=1 other=4 | brain=adult dat
+- `2026-06-30 12:39 UTC` **git_auto** — sync: 9 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +6 more | halim=1 models=3 docs=1 other=4 | brain=adult dat
+- `2026-06-30 12:40 UTC` **git_auto** — sync: 10 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +7 more | halim=1 models=4 docs=1 core=1 other=3 | brain=a
+- `2026-06-30 12:40 UTC` **git_training** — learn: session_batch: consciousness, periodic | learn_20260630_124029 | brain=adult dataset=2542 evolutions=36
+- `2026-06-30 12:40 UTC` **git_auto** — sync: 7 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +4 more | halim=1 models=2 other=4 | brain=adult dataset=
+- `2026-06-30 12:41 UTC` **git_auto** — sync: 13 files — BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl, coach_shadow_log.jsonl +10 more | halim=1 models=4 core=2 other=6 | brain=adult
+- `2026-06-30 12:41 UTC` **git_auto** — sync: 16 files — capital_discipline.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +13 more | halim=3 models=6 docs=1 other=6 | brain=adult 
+- `2026-06-30 12:42 UTC` **git_auto** — sync: 16 files — capital_discipline.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +13 more | halim=2 models=8 docs=1 other=5 | brain=adult 
+- `2026-06-30 12:42 UTC` **git_auto** — sync: 7 files — account_evaluator.py, capital_discipline.py, scalper_runner.py +4 more | docs=1 core=2 other=4 | brain=adult dataset=2542 ev
+- `2026-06-30 12:43 UTC` **git_auto** — sync: 27 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, action_log.jsonl +24 more | halim=4 models=18 docs=1 other=4 | brain=adult 
+- `2026-06-30 12:43 UTC` **git_auto** — sync: 9 files — account_evaluator.py, position_intel.py, BRAIN_DEVELOPMENT_LOG.md +6 more | halim=1 models=2 docs=1 core=1 other=4 | brain=a
+- `2026-06-30 12:44 UTC` **git_auto** — sync: 12 files — gitignore, account_evaluator.py, config.py +9 more | halim=1 models=3 docs=1 core=3 other=4 | brain=adult dataset=2542 evol
+- `2026-06-30 12:44 UTC` **git_auto** — sync: 12 files — gitignore, replay_live_runner.py, BRAIN_DEVELOPMENT_LOG.md +9 more | halim=1 models=3 docs=2 core=1 other=5 | brain=adult d
+- `2026-06-30 12:44 UTC` **git_auto** — sync: 10 files — gitignore, replay_live_runner.py, ARCHITECTURE.md +7 more | halim=1 models=3 docs=2 core=1 other=3 | brain=adult dataset=25
+- `2026-06-30 12:44 UTC` **git_auto** — sync: 9 files — gitignore, replay_live_runner.py, BRAIN_DEVELOPMENT_LOG.md +6 more | halim=1 models=2 docs=2 core=1 other=3 | brain=adult da
+- `2026-06-30 12:45 UTC` **git_auto** — sync: 11 files — gitignore, replay_live_runner.py, BRAIN_DEVELOPMENT_LOG.md +8 more | halim=1 models=4 docs=2 core=1 other=3 | brain=adult d
+- `2026-06-30 12:45 UTC` **git_auto** — sync: 65 files — gitignore, replay_live_runner.py, BRAIN_DEVELOPMENT_LOG.md +62 more | halim=1 models=59 docs=1 core=1 other=3 | brain=adult
+- `2026-06-30 12:45 UTC` **git_auto** — sync: 4 files — gitignore, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=2542 evolutions=36
+- `2026-06-30 12:45 UTC` **git_auto** — sync: 6 files — gitignore, fill_tracker.py, BRAIN_DEVELOPMENT_LOG.md +3 more | docs=1 core=1 other=4 | brain=adult dataset=2542 evolutions=3
+- `2026-06-30 12:46 UTC` **git_training** — learn: session_batch: account_trade_closed, consciousness, pilot Veteran 24625XP WR=52%, profit_hunt:green_profit_lock:INTZ | learn_20260630
+- `2026-06-30 12:46 UTC` **git_auto** — sync: 5 files — gitignore, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=adult dataset=2542 evoluti
+- `2026-06-30 12:46 UTC` **git_auto** — sync: 6 files — gitignore, fill_tracker.py, BRAIN_DEVELOPMENT_LOG.md +3 more | models=1 docs=1 core=1 other=3 | brain=adult dataset=2542 evo
+- `2026-06-30 12:46 UTC` **git_auto** — sync: 4 files — .gitignore, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=2542 evolutions=36
+- `2026-06-30 12:46 UTC` **git_auto** — sync: 3 files — BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc, sync.key | other=3 | brain=adult dataset=2542 evolutions=36
+- `2026-06-30 12:48 UTC` **git_auto** — sync: 2 files — hanoon.env.enc, sync.key | other=2 | brain=adult dataset=2542 evolutions=36
+- `2026-06-30 12:48 UTC` **git_auto** — sync: 3 files — BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc, sync.key | other=3 | brain=adult dataset=2542 evolutions=36
+- `2026-06-30 12:50 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, copilot_state.json, hanoon.env.enc +1 more | models=1 other=3 | brain=adult dataset=2542 evolution
+- `2026-06-30 12:50 UTC` **git_auto** — sync: 3 files — BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc, sync.key | other=3 | brain=adult dataset=2542 evolutions=36
+- `2026-06-30 12:51 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, cognitive_state.json, hanoon.env.enc +1 more | models=1 other=3 | brain=adult dataset=2542 evoluti
+- `2026-06-30 12:52 UTC` **git_auto** — sync: 3 files — BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc, sync.key | other=3 | brain=adult dataset=2542 evolutions=36
+- `2026-06-30 12:52 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, position_sync.py, hanoon.env.enc +1 more | core=1 other=3 | brain=adult dataset=2542 evolutions=36
+- `2026-06-30 12:52 UTC` **git_auto** — sync: 3 files — BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc, sync.key | other=3 | brain=adult dataset=2542 evolutions=36
+- `2026-06-30 12:52 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl, slow_coach_queue.json +2 more | halim=1 models=1 other=3 | brain=adult datas
+- `2026-06-30 12:53 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl, hanoon.env.enc +1 more | halim=1 other=3 | brain=adult dataset=2542 evolutio
+- `2026-06-30 12:53 UTC` **git_auto** — sync: 5 files — entry_pipeline.py, BRAIN_DEVELOPMENT_LOG.md, git_sync_defer.py +2 more | docs=1 core=1 other=3 | brain=adult dataset=2542 ev
+- `2026-06-30 12:53 UTC` **git_auto** — sync: 4 files — entry_pipeline.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=2542 evolutions=3
+- `2026-06-30 12:53 UTC` **git_auto** — sync: 5 files — entry_pipeline.py, git_sync.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=adult dataset=2542 evolutio
+- `2026-06-30 12:54 UTC` **git_auto** — sync: 7 files — entry_pipeline.py, git_sync.py, scalper_runner.py +4 more | models=1 docs=1 core=2 other=3 | brain=adult dataset=2542 evolut
+- `2026-06-30 12:54 UTC` **git_auto** — sync: 5 files — entry_pipeline.py, scalper_runner.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=adult dataset=2542 ev
+- `2026-06-30 12:54 UTC` **git_training** — learn: session_batch: snapshot_periodic | learn_20260630_125452 | brain=adult dataset=2542 evolutions=36
+- `2026-06-30 12:55 UTC` **git_auto** — sync: 6 files — entry_pipeline.py, scalper_runner.py, BRAIN_DEVELOPMENT_LOG.md +3 more | docs=2 core=1 other=3 | brain=adult dataset=2542 ev
+- `2026-06-30 12:56 UTC` **git_auto** — sync: 5 files — entry_pipeline.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +2 more | docs=2 other=3 | brain=adult dataset=2542 evol
+- `2026-06-30 12:56 UTC` **git_auto** — sync: 6 files — entry_pipeline.py, ARCHITECTURE.md, BRAIN_DEVELOPMENT_LOG.md +3 more | models=1 docs=2 other=3 | brain=adult dataset=2542 ev
+- `2026-06-30 12:56 UTC` **git_auto** — sync: 4 files — entry_pipeline.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=2542 evolutions=3
+- `2026-06-30 12:56 UTC` **git_auto** — sync: 6 files — entry_pipeline.py, ARCHITECTURE.md, BRAIN_DEVELOPMENT_LOG.md +3 more | halim=1 docs=2 other=3 | brain=adult dataset=2542 evo
+- `2026-06-30 12:57 UTC` **git_auto** — sync: 4 files — entry_pipeline.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=2542 evolutions=3
+- `2026-06-30 12:57 UTC` **git_auto** — sync: 4 files — entry_pipeline.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 core=1 other=2 | brain=adult dataset=2542 evolu
+- `2026-06-30 12:58 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, copilot_state.json, hanoon.env.enc +1 more | models=1 other=3 | brain=adult dataset=2542 evolution
+- `2026-06-30 12:58 UTC` **git_auto** — sync: 9 files — correction_log.jsonl, outcome_events.jsonl, ai_guidelines.txt +6 more | halim=1 models=5 other=3 | brain=adult dataset=2542 
+- `2026-06-30 12:58 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl, hanoon.env.enc +1 more | halim=1 other=3 | brain=adult dataset=2542 evolutio
+- `2026-06-30 12:58 UTC` **git_auto** — sync: 2 files — hanoon.env.enc, sync.key | other=2 | brain=adult dataset=2542 evolutions=36
+- `2026-06-30 12:59 UTC` **git_auto** — sync: 8 files — registry.jsonl, action_gold.jsonl, action_gold_hashes.jsonl +5 more | halim=4 models=1 other=3 | brain=adult dataset=2542 ev
+- `2026-06-30 12:59 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, registry.jsonl, colab_manifest.json +7 more | halim=5 models=2 other=3 | brain=adult dataset=2542
+- `2026-06-30 12:59 UTC` **git_auto** — sync: 3 files — BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc, sync.key | other=3 | brain=adult dataset=2542 evolutions=36
+- `2026-06-30 13:00 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, ai_session_limits.json, hanoon.env.enc +1 more | models=1 other=3 | brain=adult dataset=2542 evolu
+- `2026-06-30 13:00 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, macro_context.json, hanoon.env.enc +1 more | models=1 other=3 | brain=adult dataset=2542 evolution
+- `2026-06-30 13:00 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, ib_connectivity.jsonl, hanoon.env.enc +1 more | models=1 other=3 | brain=adult dataset=2542 evolut
+- `2026-06-30 13:00 UTC` **git_auto** — sync: 3 files — BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc, sync.key | other=3 | brain=adult dataset=2542 evolutions=36
+- `2026-06-30 13:01 UTC` **git_auto** — sync: 9 files — BRAIN_DEVELOPMENT_LOG.md, registry.jsonl, colab_manifest.json +6 more | halim=2 models=4 other=3 | brain=child dataset=2542 
+- `2026-06-30 13:01 UTC` **git_auto** — sync: 17 files — BRAIN_DEVELOPMENT_LOG.md, ib_report_events.jsonl, 0dbc1fe34c91c315.json +14 more | halim=10 models=4 other=3 | brain=child 
+- `2026-06-30 13:01 UTC` **git_auto** — sync: 3 files — BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc, sync.key | other=3 | brain=child dataset=2542 evolutions=36
+- `2026-06-30 13:01 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, copilot_state.json, copilot_journal.jsonl +2 more | models=2 other=3 | brain=child dataset=2542 ev
+- `2026-06-30 13:01 UTC` **git_auto** — sync: 3 files — BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc, sync.key | other=3 | brain=child dataset=2542 evolutions=36
+- `2026-06-30 13:03 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl, copilot_state.json +2 more | models=2 other=3 | brain=child dataset=2542 ev
+- `2026-06-30 13:04 UTC` **git_auto** — sync: 3 files — BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc, sync.key | other=3 | brain=child dataset=2542 evolutions=36
+- `2026-06-30 13:04 UTC` **git_training** — learn: session_batch: consciousness, periodic, snapshot_crash_recovery | learn_20260630_130439 | brain=child dataset=2542 evolutions=36
+- `2026-06-30 13:05 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl, copilot_state.json +2 more | models=2 other=3 | brain=child dataset=2542 ev
+- `2026-06-30 13:06 UTC` **git_auto** — sync: 3 files — BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc, sync.key | other=3 | brain=child dataset=2542 evolutions=36
+- `2026-06-30 13:07 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl, copilot_state.json +2 more | models=2 other=3 | brain=child dataset=2542 ev
+- `2026-06-30 13:08 UTC` **git_auto** — sync: 3 files — BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc, sync.key | other=3 | brain=child dataset=2542 evolutions=36
+- `2026-06-30 13:08 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl, registry.jsonl +2 more | halim=2 other=3 | brain=child dataset=2542 evolutio
+- `2026-06-30 13:08 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, registry.jsonl, hanoon.env.enc +1 more | halim=1 other=3 | brain=child dataset=2542 evolutions=36
+- `2026-06-30 13:08 UTC` **git_auto** — sync: 11 files — BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl, outcome_events.jsonl +8 more | halim=2 models=6 other=3 | brain=child datas
+- `2026-06-30 13:09 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, registry.jsonl, hanoon.env.enc +1 more | halim=1 other=3 | brain=child dataset=2542 evolutions=36
+- `2026-06-30 13:09 UTC` **git_auto** — sync: 3 files — BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc, sync.key | other=3 | brain=child dataset=2542 evolutions=36
+- `2026-06-30 13:09 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl, copilot_state.json +2 more | models=2 other=3 | brain=child dataset=2542 ev
+- `2026-06-30 13:10 UTC` **git_auto** — sync: 3 files — BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc, sync.key | other=3 | brain=child dataset=2542 evolutions=36
+- `2026-06-30 13:10 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, macro_context.json, hanoon.env.enc +1 more | models=1 other=3 | brain=child dataset=2542 evolution
+- `2026-06-30 13:10 UTC` **git_auto** — sync: 3 files — BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc, sync.key | other=3 | brain=child dataset=2542 evolutions=36
+- `2026-06-30 13:11 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child dataset=2542 e
+- `2026-06-30 13:11 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, start_hanoon.sh +2 more | docs=1 other=4 | brain=child dataset=2542 evolutions=36
+- `2026-06-30 13:11 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +3 more | docs=2 other=4 | brain=child dataset=2542 evoluti
+- `2026-06-30 13:11 UTC` **git_training** — learn: session_batch: account_trade_closed, consciousness, pilot Veteran 24705XP WR=51% | learn_20260630_131152 | brain=child dataset=2542 e
+- `2026-06-30 13:11 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, WAR_ACCOUNT_LIVE.md +2 more | docs=2 other=3 | brain=child dataset=2542 evolutions
+- `2026-06-30 13:12 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child dataset=2542
+- `2026-06-30 13:12 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2542 evolutions=36
+- `2026-06-30 13:12 UTC` **git_auto** — sync: 10 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +7 more | halim=5 models=1 docs=1 other=3 | brain=child dataset=25
+- `2026-06-30 13:12 UTC` **brain_proxy_trained** · stage **child** — Teacher proxy holdout acc=100% (random=100%, 328 samples)
+- `2026-06-30 13:12 UTC` **brain_evolution** · stage **child** — Evolution live_session_end — stage child, dataset 2081 pairs
+- `2026-06-30 13:12 UTC` **brain_stage_up** — Brain grew: adult → child
+- `2026-06-30 13:13 UTC` **git_auto** — sync: 20 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +17 more | halim=7 models=9 docs=1 other=3 | brain=child dataset=2
+- `2026-06-30 13:13 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:14 UTC` **git_training** — learn: pre_shutdown: account_session_shutdown | learn_20260630_131427 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:15 UTC` **git_auto** — sync: 13 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +10 more | halim=7 models=2 docs=1 other=3 | brain=child dataset=2
+- `2026-06-30 13:15 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:17 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, ai_session_limits.json +3 more | models=2 docs=1 other=3 | brain=child dataset=208
+- `2026-06-30 13:17 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:17 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, ib_connectivity.jsonl +2 more | models=1 docs=1 other=3 | brain=child dataset=2081
+- `2026-06-30 13:18 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:18 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, halim_constitution.json +2 more | models=1 docs=1 other=3 | brain=child dataset=20
+- `2026-06-30 13:18 UTC` **git_auto** — sync: 18 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, ib_report_events.jsonl +15 more | halim=10 models=4 docs=1 other=3 | brain=child 
+- `2026-06-30 13:18 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:19 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child dataset=2081
+- `2026-06-30 13:19 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +2 more | halim=1 docs=1 other=3 | brain=child dataset=2081 evoluti
+- `2026-06-30 13:19 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:21 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child dataset=2081
+- `2026-06-30 13:21 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:21 UTC` **git_training** — learn: session_batch: consciousness, periodic | learn_20260630_132155 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:23 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child dataset=2081
+- `2026-06-30 13:23 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:25 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child dataset=2081
+- `2026-06-30 13:25 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:27 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child dataset=2081
+- `2026-06-30 13:27 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, macro_context.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 13:27 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:29 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +3 more | halim=1 models=1 docs=1 other=3 | brain=child datas
+- `2026-06-30 13:29 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child dataset=2081
+- `2026-06-30 13:29 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:30 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +3 more | halim=1 models=1 docs=1 other=3 | brain=child dataset=208
+- `2026-06-30 13:30 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:30 UTC` **git_auto** — sync: 11 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, ai_guidelines.txt +8 more | models=7 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 13:31 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:31 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 13:31 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:32 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child dataset=2081 e
+- `2026-06-30 13:32 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:32 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +2 more | halim=1 docs=1 other=3 | brain=child dataset=2081 evoluti
+- `2026-06-30 13:33 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child dataset=2081 e
+- `2026-06-30 13:33 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, cognitive_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 
+- `2026-06-30 13:33 UTC` **git_auto** — sync: 14 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +11 more | halim=4 models=6 docs=1 other=3 | brain=child dat
+- `2026-06-30 13:33 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +3 more | halim=1 models=1 docs=1 other=3 | brain=child dataset=208
+- `2026-06-30 13:33 UTC` **git_auto** — sync: 8 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +5 more | halim=1 models=3 docs=1 other=3 | brain=child datas
+- `2026-06-30 13:35 UTC` **git_auto** — sync: 12 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +9 more | halim=2 models=6 docs=1 other=3 | brain=child data
+- `2026-06-30 13:35 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:35 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +3 more | halim=1 models=1 docs=1 other=3 | brain=child datas
+- `2026-06-30 13:35 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:36 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child dataset=2081 e
+- `2026-06-30 13:36 UTC` **git_auto** — sync: 7 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, ai_guidelines.txt +4 more | models=3 docs=1 other=3 | brain=child dataset=2081 evo
+- `2026-06-30 13:36 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +3 more | halim=1 models=1 docs=1 other=3 | brain=child datas
+- `2026-06-30 13:36 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:37 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 13:38 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:39 UTC` **git_training** — learn: session_batch: account_market_open, account_trade_closed, consciousness, pilot Veteran 24745XP WR=51%, pilot Veteran 24785XP WR=51%, 
+- `2026-06-30 13:39 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 13:40 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:40 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, macro_context.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 13:40 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:42 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +3 more | halim=1 models=1 docs=1 other=3 | brain=child datas
+- `2026-06-30 13:42 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:42 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child dataset=2081 e
+- `2026-06-30 13:42 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:43 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child dataset=2081 e
+- `2026-06-30 13:43 UTC` **git_auto** — sync: 13 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +10 more | halim=2 models=7 docs=1 other=3 | brain=child dat
+- `2026-06-30 13:43 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:44 UTC` **git_auto** — sync: 7 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +4 more | halim=1 models=2 docs=1 other=3 | brain=child datas
+- `2026-06-30 13:44 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:46 UTC` **git_training** — learn: session_batch: account_trade_closed, consciousness, pilot Veteran 24825XP WR=51%, pilot Veteran 24855XP WR=51%, profit_hunt:green_pro
+- `2026-06-30 13:46 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 13:46 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:48 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, cognitive_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 
+- `2026-06-30 13:48 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 13:48 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child dataset=2081 e
+- `2026-06-30 13:49 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:49 UTC` **git_auto** — sync: 12 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +9 more | halim=2 models=6 docs=1 other=3 | brain=child data
+- `2026-06-30 13:50 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:50 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, macro_context.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 13:50 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child dataset=2081
+- `2026-06-30 13:50 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:52 UTC` **git_training** — learn: session_batch: account_trade_closed, consciousness, periodic, pilot Veteran 24895XP WR=50%, snapshot_periodic | learn_20260630_135236
+- `2026-06-30 13:52 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child dataset=2081
+- `2026-06-30 13:52 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:54 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child dataset=2081
+- `2026-06-30 13:55 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:56 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child dataset=2081
+- `2026-06-30 13:56 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 13:58 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child dataset=2081
+- `2026-06-30 13:59 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:00 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, macro_context.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 14:00 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child dataset=2081
+- `2026-06-30 14:01 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:02 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child dataset=2081
+- `2026-06-30 14:03 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:03 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, cognitive_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 
+- `2026-06-30 14:04 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:04 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child dataset=2081
+- `2026-06-30 14:05 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:06 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child dataset=2081
+- `2026-06-30 14:06 UTC` **git_training** — learn: session_batch: snapshot_periodic | learn_20260630_140653 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:07 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:08 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child dataset=2081
+- `2026-06-30 14:09 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:09 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, ib_connectivity.jsonl +2 more | models=1 docs=1 other=3 | brain=child dataset=2081
+- `2026-06-30 14:09 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:10 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, macro_context.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 14:10 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:10 UTC` **git_auto** — sync: 7 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +4 more | models=3 docs=1 other=3 | brain=child dataset=2081
+- `2026-06-30 14:11 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:12 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child dataset=2081
+- `2026-06-30 14:13 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:15 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child dataset=2081
+- `2026-06-30 14:15 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:17 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child dataset=2081
+- `2026-06-30 14:17 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:18 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +3 more | halim=1 models=1 docs=1 other=3 | brain=child datas
+- `2026-06-30 14:19 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:19 UTC` **git_auto** — sync: 7 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +4 more | halim=1 models=2 docs=1 other=3 | brain=child datas
+- `2026-06-30 14:19 UTC` **git_auto** — sync: 7 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +4 more | halim=1 models=2 docs=1 other=3 | brain=child datas
+- `2026-06-30 14:19 UTC` **git_auto** — sync: 10 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, outcome_events.jsonl +7 more | halim=1 models=5 docs=1 other=3 | brain=child data
+- `2026-06-30 14:20 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:20 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, macro_context.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 14:20 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:21 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child dataset=2081
+- `2026-06-30 14:21 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:21 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +3 more | halim=1 models=1 docs=1 other=3 | brain=child datas
+- `2026-06-30 14:22 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child dataset=2081 e
+- `2026-06-30 14:22 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:22 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +3 more | halim=1 models=1 docs=1 other=3 | brain=child datas
+- `2026-06-30 14:22 UTC` **git_training** — learn: session_batch: account_trade_closed, consciousness, periodic, pilot Veteran 24935XP WR=50%, profit_hunt:green_profit_lock:BTCT, snaps
+- `2026-06-30 14:22 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:23 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +3 more | halim=1 models=1 docs=1 other=3 | brain=child datas
+- `2026-06-30 14:23 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 14:23 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:25 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 14:25 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child dataset=2081 e
+- `2026-06-30 14:25 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:26 UTC` **git_auto** — sync: 11 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +8 more | halim=2 models=5 docs=1 other=3 | brain=child data
+- `2026-06-30 14:26 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:26 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child dataset=2081 e
+- `2026-06-30 14:26 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:27 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 14:27 UTC` **git_auto** — sync: 11 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +8 more | halim=2 models=5 docs=1 other=3 | brain=child data
+- `2026-06-30 14:27 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:29 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 14:29 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:30 UTC` **git_training** — learn: session_batch: account_trade_closed, consciousness, pilot Veteran 24990XP WR=50%, pilot Veteran 25030XP WR=50%, profit_hunt:green_pro
+- `2026-06-30 14:30 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, macro_context.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 14:30 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:31 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 14:32 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +3 more | halim=1 models=1 docs=1 other=3 | brain=child datas
+- `2026-06-30 14:32 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:33 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, cognitive_state.json +3 more | models=2 docs=1 other=3 | brain=child dataset=2081 
+- `2026-06-30 14:34 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:35 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 14:36 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:36 UTC` **git_training** — learn: session_batch: snapshot_periodic | learn_20260630_143653 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:37 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 14:38 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +3 more | halim=1 models=1 docs=1 other=3 | brain=child datas
+- `2026-06-30 14:40 UTC` **git_auto** — sync: 7 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +4 more | halim=1 models=2 docs=1 other=3 | brain=child datas
+- `2026-06-30 14:40 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +3 more | halim=1 models=1 docs=1 other=3 | brain=child datas
+- `2026-06-30 14:40 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child dataset=2081 e
+- `2026-06-30 14:40 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:40 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, macro_context.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 14:41 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:41 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 14:42 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:44 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 14:44 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:45 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child dataset=2081 e
+- `2026-06-30 14:45 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:45 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +3 more | halim=1 models=1 docs=1 other=3 | brain=child datas
+- `2026-06-30 14:45 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child dataset=2081 e
+- `2026-06-30 14:46 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +3 more | halim=1 models=1 docs=1 other=3 | brain=child datas
+- `2026-06-30 14:46 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:46 UTC` **git_auto** — sync: 14 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +11 more | halim=4 models=6 docs=1 other=3 | brain=child dat
+- `2026-06-30 14:46 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:48 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 14:48 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:48 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, cognitive_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 
+- `2026-06-30 14:49 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:50 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 14:50 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:50 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, macro_context.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 14:51 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:52 UTC` **git_training** — learn: session_batch: account_trade_closed, consciousness, periodic, pilot Veteran 25070XP WR=50%, snapshot_periodic | learn_20260630_145206
+- `2026-06-30 14:55 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, ib_connectivity.jsonl +2 more | models=1 docs=1 other=3 | brain=child dataset=2081
+- `2026-06-30 14:55 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:55 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +3 more | models=2 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 14:55 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:57 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 14:58 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 14:59 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 15:00 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:00 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, macro_context.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 15:01 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:02 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 15:02 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:03 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, cognitive_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 
+- `2026-06-30 15:04 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:06 UTC` **git_training** — learn: session_batch: snapshot_periodic | learn_20260630_150653 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:09 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, ib_connectivity.jsonl +2 more | models=1 docs=1 other=3 | brain=child dataset=2081
+- `2026-06-30 15:11 UTC` **git_auto** — sync: 6 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +3 more | models=2 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 15:11 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, macro_context.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 15:12 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:13 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 15:14 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:15 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 15:16 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:17 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 15:18 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:19 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, cognitive_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 
+- `2026-06-30 15:19 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:20 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 15:20 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:21 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, macro_context.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 15:22 UTC` **git_training** — learn: session_batch: periodic, snapshot_periodic | learn_20260630_152207 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:22 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 15:22 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:24 UTC` **git_auto** — sync: 5 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 15:24 UTC` **git_auto** — sync: 4 files — war_account.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:25 UTC` **git_auto** — sync: 5 files — market_regime.py, war_account.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=child dataset=2081 evolut
+- `2026-06-30 15:25 UTC` **git_auto** — sync: 4 files — market_regime.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:25 UTC` **git_auto** — sync: 5 files — market_regime.py, trade_telemetry.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=child dataset=2081 ev
+- `2026-06-30 15:25 UTC` **git_auto** — sync: 5 files — market_regime.py, scalper_runner.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=child dataset=2081 evo
+- `2026-06-30 15:26 UTC` **git_auto** — sync: 6 files — market_regime.py, scalper_runner.py, BRAIN_DEVELOPMENT_LOG.md +3 more | models=1 docs=1 core=1 other=3 | brain=child dataset
+- `2026-06-30 15:26 UTC` **git_auto** — sync: 6 files — consciousness.py, market_regime.py, scalper_runner.py +3 more | docs=1 core=2 other=3 | brain=child dataset=2081 evolutions=
+- `2026-06-30 15:26 UTC` **git_auto** — sync: 6 files — consciousness.py, trading_copilot.py, BRAIN_DEVELOPMENT_LOG.md +3 more | docs=1 core=1 other=4 | brain=child dataset=2081 ev
+- `2026-06-30 15:26 UTC` **git_auto** — sync: 5 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +2 more | docs=2 other=3 | brain=child dataset=2081 evolu
+- `2026-06-30 15:26 UTC` **git_auto** — sync: 5 files — consciousness.py, replay_scalper_runner.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=child dataset=2
+- `2026-06-30 15:27 UTC` **git_auto** — sync: 4 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:28 UTC` **git_auto** — sync: 5 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 
+- `2026-06-30 15:28 UTC` **git_auto** — sync: 4 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:30 UTC` **git_auto** — sync: 5 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 
+- `2026-06-30 15:30 UTC` **git_auto** — sync: 4 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:31 UTC` **git_auto** — sync: 5 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, macro_context.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 
+- `2026-06-30 15:32 UTC` **git_auto** — sync: 4 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:32 UTC` **git_auto** — sync: 5 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 
+- `2026-06-30 15:32 UTC` **git_auto** — sync: 4 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:34 UTC` **git_auto** — sync: 5 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, cognitive_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=208
+- `2026-06-30 15:34 UTC` **git_auto** — sync: 5 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 
+- `2026-06-30 15:34 UTC` **git_auto** — sync: 4 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:36 UTC` **git_auto** — sync: 5 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 
+- `2026-06-30 15:36 UTC` **git_auto** — sync: 4 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:36 UTC` **git_training** — learn: session_batch: snapshot_periodic | learn_20260630_153653 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:38 UTC` **git_auto** — sync: 5 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 
+- `2026-06-30 15:38 UTC` **git_auto** — sync: 4 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:40 UTC` **git_auto** — sync: 5 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 
+- `2026-06-30 15:40 UTC` **git_auto** — sync: 4 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:41 UTC` **git_auto** — sync: 5 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, macro_context.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 
+- `2026-06-30 15:42 UTC` **git_auto** — sync: 4 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:42 UTC` **git_auto** — sync: 5 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 
+- `2026-06-30 15:42 UTC` **git_auto** — sync: 4 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:44 UTC` **git_auto** — sync: 5 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 
+- `2026-06-30 15:44 UTC` **git_auto** — sync: 4 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:46 UTC` **git_auto** — sync: 5 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 
+- `2026-06-30 15:46 UTC` **git_auto** — sync: 4 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:48 UTC` **git_auto** — sync: 5 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 
+- `2026-06-30 15:48 UTC` **git_auto** — sync: 4 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:48 UTC` **git_auto** — sync: 5 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, cognitive_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=208
+- `2026-06-30 15:49 UTC` **git_auto** — sync: 4 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:50 UTC` **git_auto** — sync: 5 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 
+- `2026-06-30 15:50 UTC` **git_auto** — sync: 4 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:51 UTC` **git_auto** — sync: 5 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, macro_context.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 
+- `2026-06-30 15:52 UTC` **git_auto** — sync: 4 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:52 UTC` **git_training** — learn: session_batch: periodic, snapshot_periodic | learn_20260630_155207 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:52 UTC` **git_auto** — sync: 5 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 
+- `2026-06-30 15:52 UTC` **git_auto** — sync: 4 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:54 UTC` **git_auto** — sync: 5 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=2081 
+- `2026-06-30 15:54 UTC` **git_auto** — sync: 4 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=2081 evolutions=37
+- `2026-06-30 15:56 UTC` **git_auto** — sync: 5 files — consciousness.py, BRAIN_DEVELOPMENT_LOG.md, cognitive_state.json +2 more | models=1 docs=1 other=3 | brain=child dataset=208
+- `2026-06-30 15:56 UTC` **git_auto** — sync: 23 files — results_1min_20260621_091449.json, results_20260621_090243.json, results_20260621_090634.json +20 more | halim=9 models=4 d
+- `2026-06-30 15:57 UTC` **git_auto** — sync: 10 files — results_1min_20260621_091449.json, results_20260621_090243.json, results_20260621_090634.json +7 more | models=1 docs=1 oth
+- `2026-06-30 15:57 UTC` **git_auto** — sync: 11 files — results_1min_20260621_091449.json, results_20260621_090243.json, results_20260621_090634.json +8 more | models=2 docs=1 oth
+- `2026-06-30 15:58 UTC` **git_auto** — sync: 12 files — results_1min_20260621_091449.json, results_20260621_090243.json, results_20260621_090634.json +9 more | models=3 docs=1 oth
+- `2026-06-30 15:59 UTC` **git_auto** — sync: 28 files — results_1min_20260621_091449.json, results_20260621_090243.json, results_20260621_090634.json +25 more | halim=10 models=9 
+- `2026-06-30 15:59 UTC` **git_auto** — sync: 10 files — results_1min_20260621_091449.json, results_20260621_090243.json, results_20260621_090634.json +7 more | models=1 docs=1 oth
+- `2026-06-30 16:01 UTC` **git_auto** — sync: 11 files — results_1min_20260621_091449.json, results_20260621_090243.json, results_20260621_090634.json +8 more | models=1 docs=1 cor
+- `2026-06-30 16:01 UTC` **git_training** — learn: session_batch: consciousness, periodic | learn_20260630_160156 | brain=adult dataset=2081 evolutions=37
+- `2026-06-30 16:02 UTC` **git_auto** — sync: 12 files — results_1min_20260621_091449.json, results_20260621_090243.json, results_20260621_090634.json +9 more | models=1 docs=1 cor
+- `2026-06-30 16:03 UTC` **git_auto** — sync: 13 files — results_1min_20260621_091449.json, results_20260621_090243.json, results_20260621_090634.json +10 more | models=2 docs=2 co
+- `2026-06-30 16:04 UTC` **git_auto** — sync: 10 files — results_1min_20260621_091449.json, results_20260621_090243.json, results_20260621_090634.json +7 more | models=1 docs=1 oth
+- `2026-06-30 16:06 UTC` **git_auto** — sync: 11 files — results_1min_20260621_091449.json, results_20260621_090243.json, results_20260621_090634.json +8 more | models=2 docs=1 oth
+- `2026-06-30 16:07 UTC` **git_auto** — sync: 10 files — results_1min_20260621_091449.json, results_20260621_090243.json, results_20260621_090634.json +7 more | models=1 docs=1 oth
+- `2026-06-30 16:08 UTC` **git_auto** — sync: 11 files — results_1min_20260621_091449.json, results_20260621_090243.json, results_20260621_090634.json +8 more | models=1 docs=1 cor
+- `2026-06-30 16:09 UTC` **git_auto** — sync: 15 files — results_1min_20260621_091449.json, results_20260621_090243.json, results_20260621_090634.json +12 more | models=2 docs=1 co
+- `2026-06-30 16:10 UTC` **git_auto** — sync: 15 files — results_1min_20260621_091449.json, results_20260621_090243.json, results_20260621_090634.json +12 more | models=1 docs=2 co
+- `2026-06-30 16:11 UTC` **git_auto** — sync: 12 files — results_1min_20260621_091449.json, results_20260621_090243.json, results_20260621_090634.json +9 more | models=2 docs=1 oth
+- `2026-06-30 16:12 UTC` **git_auto** — sync: 10 files — results_1min_20260621_091449.json, results_20260621_090243.json, results_20260621_090634.json +7 more | models=1 docs=1 oth
+- `2026-06-30 16:13 UTC` **git_auto** — sync: 11 files — results_1min_20260621_091449.json, results_20260621_090243.json, results_20260621_090634.json +8 more | models=2 docs=1 oth
+- `2026-06-30 16:14 UTC` **git_auto** — sync: 10 files — results_1min_20260621_091449.json, results_20260621_090243.json, results_20260621_090634.json +7 more | models=1 docs=1 oth
+- `2026-06-30 16:15 UTC` **git_auto** — sync: 11 files — results_1min_20260621_091449.json, results_20260621_090243.json, results_20260621_090634.json +8 more | models=2 docs=1 oth
+- `2026-06-30 16:15 UTC` **git_auto** — sync: 10 files — results_1min_20260621_091449.json, results_20260621_090243.json, results_20260621_090634.json +7 more | models=1 docs=1 oth
+- `2026-06-30 16:16 UTC` **git_training** — learn: session_batch: snapshot_periodic | learn_20260630_161624 | brain=adult dataset=2081 evolutions=37
+- `2026-06-30 16:16 UTC` **git_auto** — sync: 11 files — results_1min_20260621_091449.json, results_20260621_090243.json, results_20260621_090634.json +8 more | models=1 docs=1 cor
+- `2026-06-30 16:17 UTC` **git_auto** — sync: 18 files — results_1min_20260621_091449.json, results_20260621_090243.json, results_20260621_090634.json +15 more | models=1 docs=2 co
+- `2026-06-30 16:18 UTC` **git_auto** — sync: 10 files — results_1min_20260621_091449.json, results_20260621_090243.json, results_20260621_090634.json +7 more | models=1 docs=1 oth
+- `2026-06-30 16:19 UTC` **git_auto** — sync: 3 files — ai_session_limits.json, hanoon.env.enc, sync.key | other=3 | brain=adult dataset=2081 evolutions=37
+- `2026-06-30 16:19 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, ai_session_limits.json, macro_context.json +2 more | models=2 other=3 | brain=adult dataset=2081 e
+- `2026-06-30 16:19 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, ib_connectivity.jsonl, hanoon.env.enc +1 more | models=1 other=3 | brain=adult dataset=2081 evolut
+- `2026-06-30 16:20 UTC` **git_auto** — sync: 3 files — BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc, sync.key | other=3 | brain=adult dataset=2081 evolutions=37
+- `2026-06-30 16:20 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, halim_constitution.json, hanoon.env.enc +1 more | models=1 other=3 | brain=adult dataset=2081 evol
+- `2026-06-30 16:20 UTC` **git_auto** — sync: 18 files — BRAIN_DEVELOPMENT_LOG.md, ib_report_events.jsonl, 0dbc1fe34c91c315.json +15 more | halim=10 models=5 other=3 | brain=adult 
+- `2026-06-30 16:20 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, copilot_state.json, hanoon.env.enc +1 more | models=1 other=3 | brain=adult dataset=2081 evolution
+- `2026-06-30 16:20 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, registry.jsonl, hanoon.env.enc +1 more | halim=1 other=3 | brain=adult dataset=2081 evolutions=37
+- `2026-06-30 16:21 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl, hanoon.env.enc +1 more | halim=1 other=3 | brain=adult dataset=2081 evolutio
+- `2026-06-30 16:21 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl, registry.jsonl +2 more | halim=2 other=3 | brain=adult dataset=2081 evolutio
+- `2026-06-30 16:21 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl, hanoon.env.enc +1 more | halim=1 other=3 | brain=adult dataset=2081 evolutio
+- `2026-06-30 16:22 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl, outcome_events.jsonl +7 more | halim=2 models=5 other=3 | brain=adult datas
+- `2026-06-30 16:22 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl, registry.jsonl +2 more | halim=2 other=3 | brain=adult dataset=2081 evolutio
+- `2026-06-30 16:22 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl, hanoon.env.enc +1 more | halim=1 other=3 | brain=adult dataset=2081 evolutio
+- `2026-06-30 16:22 UTC` **git_auto** — sync: 11 files — BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl, outcome_events.jsonl +8 more | halim=2 models=6 other=3 | brain=adult datas
+- `2026-06-30 16:23 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl, hanoon.env.enc +1 more | halim=1 other=3 | brain=adult dataset=2081 evolutio
+- `2026-06-30 16:23 UTC` **git_auto** — sync: 10 files — BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl, outcome_events.jsonl +7 more | halim=2 models=5 other=3 | brain=adult datas
+- `2026-06-30 16:24 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl, hanoon.env.enc +1 more | halim=1 other=3 | brain=adult dataset=2081 evolutio
+- `2026-06-30 16:24 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl, copilot_state.json +2 more | halim=1 models=1 other=3 | brain=adult dataset=
+- `2026-06-30 16:24 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl, hanoon.env.enc +1 more | halim=1 other=3 | brain=adult dataset=2081 evolutio
+- `2026-06-30 16:26 UTC` **git_training** — learn: session_batch: account_trade_closed, consciousness, periodic, pilot Veteran 25110XP WR=50%, pilot Veteran 25150XP WR=50%, pilot Veter
+- `2026-06-30 16:28 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl, copilot_state.json +2 more | halim=1 models=1 other=3 | brain=adult dataset=
+- `2026-06-30 16:28 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl, hanoon.env.enc +1 more | halim=1 other=3 | brain=adult dataset=2081 evolutio
+- `2026-06-30 16:30 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl, macro_context.json +2 more | halim=1 models=1 other=3 | brain=adult dataset=
+- `2026-06-30 16:30 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl, hanoon.env.enc +1 more | halim=1 other=3 | brain=adult dataset=2081 evolutio
+- `2026-06-30 16:30 UTC` **git_auto** — sync: 3 files — correction_log.jsonl, hanoon.env.enc, sync.key | other=3 | brain=adult dataset=2081 evolutions=37
+- `2026-06-30 16:31 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl, hanoon.env.enc +1 more | halim=1 other=3 | brain=adult dataset=2081 evolutio
+- `2026-06-30 16:31 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl, release_hanoon.sh +2 more | halim=1 other=4 | brain=adult dataset=2081 evolu
+- `2026-06-30 16:32 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl, extract_scalper_mixins.py +2 more | halim=1 other=4 | brain=adult dataset=20
+- `2026-06-30 16:32 UTC` **git_auto** — sync: 9 files — scalper_runner.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +6 more | halim=1 docs=1 core=4 other=3 | brain=adult data
+- `2026-06-30 16:32 UTC` **git_auto** — sync: 5 files — scalper_runner.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=adult dataset=208
+- `2026-06-30 16:32 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl, hanoon.env.enc +1 more | halim=1 other=3 | brain=adult dataset=2081 evolutio
+- `2026-06-30 16:32 UTC` **git_auto** — sync: 8 files — BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl, ai_guidelines.txt +5 more | halim=1 models=3 other=4 | brain=adult dataset=2
+- `2026-06-30 16:33 UTC` **git_auto** — sync: 10 files — scalper_entry_executor.py, scalper_exit_executor.py, scalper_runner.py +7 more | halim=1 models=1 docs=1 core=4 other=3 | b
+- `2026-06-30 16:33 UTC` **git_auto** — sync: 15 files — scalper_entry_executor.py, scalper_runner.py, BRAIN_DEVELOPMENT_LOG.md +12 more | halim=2 models=7 docs=1 core=1 other=4 | 
+- `2026-06-30 16:33 UTC` **git_auto** — sync: 5 files — scalper_entry_executor.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=adult dat
+- `2026-06-30 16:33 UTC` **git_auto** — sync: 6 files — scalper_entry_executor.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +3 more | halim=1 docs=1 other=4 | brain=adult dat
+- `2026-06-30 16:33 UTC` **git_auto** — sync: 6 files — scalper_entry_executor.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +3 more | halim=1 docs=1 other=4 | brain=adult dat
+- `2026-06-30 16:34 UTC` **git_auto** — sync: 10 files — ai_commander.py, commander_learning.py, scalper_entry_executor.py +7 more | halim=1 docs=1 core=5 other=3 | brain=adult dat
+- `2026-06-30 16:34 UTC` **git_auto** — sync: 5 files — ai_commander.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=adult dataset=2081 
+- `2026-06-30 16:34 UTC` **git_auto** — sync: 6 files — ai_commander.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +3 more | halim=1 docs=1 other=4 | brain=adult dataset=2081 
+- `2026-06-30 16:34 UTC` **git_auto** — sync: 5 files — ai_commander.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=adult dataset=2081 
+- `2026-06-30 16:35 UTC` **git_auto** — sync: 6 files — ai_commander.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +3 more | halim=1 models=1 docs=1 other=3 | brain=adult data
+- `2026-06-30 16:35 UTC` **git_auto** — sync: 5 files — ai_commander.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=adult dataset=2081 
+- `2026-06-30 16:35 UTC` **git_auto** — sync: 12 files — ai_commander.py, git_sync.py, BRAIN_DEVELOPMENT_LOG.md +9 more | halim=1 docs=1 core=6 other=4 | brain=adult dataset=2081 e
+- `2026-06-30 16:35 UTC` **git_auto** — sync: 5 files — ai_commander.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=adult dataset=2081 
+- `2026-06-30 16:36 UTC` **git_auto** — sync: 11 files — ai_commander.py, git_sync.py, git_sync_commit.py +8 more | halim=1 docs=1 core=6 other=3 | brain=adult dataset=2081 evoluti
+- `2026-06-30 16:36 UTC` **git_auto** — sync: 10 files — ai_commander.py, git_sync_commit.py, git_sync_learning.py +7 more | halim=1 docs=1 core=5 other=3 | brain=adult dataset=208
+- `2026-06-30 16:36 UTC` **git_auto** — sync: 11 files — ai_commander.py, git_sync_commit.py, git_sync_learning.py +8 more | halim=1 docs=1 core=5 other=4 | brain=adult dataset=208
+- `2026-06-30 16:36 UTC` **git_auto** — sync: 10 files — ai_commander.py, git_sync_learning.py, git_sync_push.py +7 more | halim=1 docs=1 core=4 other=4 | brain=adult dataset=2081 
+- `2026-06-30 16:37 UTC` **git_auto** — sync: 8 files — ai_commander.py, git_sync.py, BRAIN_DEVELOPMENT_LOG.md +5 more | halim=1 models=1 docs=1 core=1 other=4 | brain=adult datase
+- `2026-06-30 16:37 UTC` **git_auto** — sync: 7 files — ai_commander.py, git_sync.py, BRAIN_DEVELOPMENT_LOG.md +4 more | halim=1 docs=1 core=1 other=4 | brain=adult dataset=2081 ev
+- `2026-06-30 16:37 UTC` **git_auto** — sync: 10 files — ai_commander.py, git_sync_commit.py, git_sync_learning.py +7 more | halim=1 docs=1 core=4 other=4 | brain=adult dataset=208
+- `2026-06-30 16:37 UTC` **git_auto** — sync: 7 files — ai_commander.py, git_sync.py, BRAIN_DEVELOPMENT_LOG.md +4 more | halim=1 docs=1 core=1 other=4 | brain=adult dataset=2081 ev
+- `2026-06-30 16:37 UTC` **git_auto** — sync: 6 files — ai_commander.py, git_sync_push.py, BRAIN_DEVELOPMENT_LOG.md +3 more | halim=1 docs=1 core=1 other=3 | brain=adult dataset=20
+- `2026-06-30 16:38 UTC` **git_auto** — sync: 6 files — ai_commander.py, git_sync_learning.py, BRAIN_DEVELOPMENT_LOG.md +3 more | halim=1 docs=1 core=1 other=3 | brain=adult datase
+- `2026-06-30 16:38 UTC` **git_training** — learn: session_batch: account_trade_closed, consciousness, pilot Veteran 25220XP WR=50%, profit_hunt:green_profit_lock:BIYA, profit_hunt:spi
+- `2026-06-30 16:38 UTC` **git_auto** — sync: 10 files — ai_commander.py, git_sync_commit.py, git_sync_learning.py +7 more | halim=1 docs=1 core=5 other=3 | brain=adult dataset=208
+- `2026-06-30 16:38 UTC` **git_auto** — sync: 11 files — ai_commander.py, git_sync.py, git_sync_commit.py +8 more | halim=1 docs=1 core=6 other=3 | brain=adult dataset=2081 evoluti
+- `2026-06-30 16:38 UTC` **git_auto** — sync: 10 files — ai_commander.py, git_sync_commit.py, git_sync_learning.py +7 more | halim=1 docs=1 core=5 other=3 | brain=adult dataset=208
+- `2026-06-30 16:39 UTC` **git_auto** — sync: 15 files — ai_commander.py, commander_entry.py, commander_learning.py +12 more | halim=1 docs=1 core=10 other=3 | brain=adult dataset=
+- `2026-06-30 16:39 UTC` **git_auto** — sync: 15 files — ai_commander.py, commander_entry.py, commander_exit.py +12 more | halim=1 docs=1 core=10 other=3 | brain=adult dataset=2081
+- `2026-06-30 16:39 UTC` **git_auto** — sync: 16 files — ai_commander.py, commander_entry.py, commander_exit.py +13 more | halim=2 models=1 docs=1 core=8 other=4 | brain=adult data
+- `2026-06-30 16:39 UTC` **git_auto** — sync: 12 files — ai_commander.py, commander_entry.py, commander_exit.py +9 more | docs=1 core=8 other=3 | brain=adult dataset=2081 evolution
+- `2026-06-30 16:40 UTC` **git_auto** — sync: 16 files — ai_commander.py, commander_entry.py, commander_exit.py +13 more | models=4 docs=1 core=8 other=3 | brain=adult dataset=2081
+- `2026-06-30 16:40 UTC` **git_auto** — sync: 12 files — ai_commander.py, commander_entry.py, commander_exit.py +9 more | docs=1 core=8 other=3 | brain=adult dataset=2081 evolution
+- `2026-06-30 16:40 UTC` **git_auto** — sync: 14 files — ai_commander.py, commander_entry.py, commander_exit.py +11 more | models=1 docs=1 core=9 other=3 | brain=adult dataset=2081
+- `2026-06-30 16:40 UTC` **git_auto** — sync: 12 files — ai_commander.py, commander_entry.py, commander_exit.py +9 more | docs=2 core=7 other=3 | brain=adult dataset=2081 evolution
+- `2026-06-30 16:40 UTC` **git_auto** — sync: 11 files — ai_commander.py, commander_entry.py, commander_exit.py +8 more | docs=1 core=8 other=2 | brain=adult dataset=2081 evolution
+- `2026-06-30 16:41 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, copilot_state.json, hanoon.env.enc +1 more | models=1 other=3 | brain=adult dataset=2081 evolution
+- `2026-06-30 16:41 UTC` **git_auto** — sync: 3 files — BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc, sync.key | other=3 | brain=adult dataset=2081 evolutions=37
+- `2026-06-30 16:43 UTC` **git_training** — learn: session_batch: account_trade_closed, consciousness, pilot Veteran 25250XP WR=50% | learn_20260630_164302 | brain=adult dataset=2081 e
+- `2026-06-30 16:44 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=2081 evolutions=
+- `2026-06-30 16:45 UTC` **git_auto** — sync: 5 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=adult dataset=208
+- `2026-06-30 16:45 UTC` **git_auto** — sync: 6 files — fill_reconciler.py, fill_tracker.py, scalper_runner.py +3 more | docs=1 core=2 other=3 | brain=adult dataset=2081 evolutions
+- `2026-06-30 16:45 UTC` **git_auto** — sync: 6 files — fill_reconciler.py, scalper_exit_executor.py, scalper_runner.py +3 more | docs=1 core=2 other=3 | brain=adult dataset=2081 e
+- `2026-06-30 16:45 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=2081 evolutions=
+- `2026-06-30 16:45 UTC` **git_auto** — sync: 7 files — fill_reconciler.py, scalper_entry_executor.py, scalper_exit_executor.py +4 more | docs=1 core=2 other=4 | brain=adult datase
+- `2026-06-30 16:46 UTC` **git_auto** — sync: 6 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +3 more | docs=2 other=4 | brain=adult dataset=2081 evo
+- `2026-06-30 16:46 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=2081 evolutions=
+- `2026-06-30 16:49 UTC` **git_auto** — sync: 5 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=adult dataset=208
+- `2026-06-30 16:49 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=2081 evolutions=
+- `2026-06-30 16:50 UTC` **git_auto** — sync: 5 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, cognitive_state.json +2 more | models=1 docs=1 other=3 | brain=adult dataset=2
+- `2026-06-30 16:50 UTC` **git_auto** — sync: 5 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, macro_context.json +2 more | models=1 docs=1 other=3 | brain=adult dataset=208
+- `2026-06-30 16:50 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=2081 evolutions=
+- `2026-06-30 16:52 UTC` **git_auto** — sync: 5 files — fill_reconciler.py, war_account.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=adult dataset=2081 evol
+- `2026-06-30 16:53 UTC` **git_auto** — sync: 6 files — fill_reconciler.py, war_account.py, BRAIN_DEVELOPMENT_LOG.md +3 more | models=1 docs=1 core=1 other=3 | brain=adult dataset=
+- `2026-06-30 16:53 UTC` **git_auto** — sync: 5 files — fill_reconciler.py, war_account.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=adult dataset=2081 evol
+- `2026-06-30 16:53 UTC` **git_training** — learn: session_batch: periodic, snapshot_periodic | learn_20260630_165335 | brain=adult dataset=2081 evolutions=37
+- `2026-06-30 16:53 UTC` **git_auto** — sync: 6 files — fill_reconciler.py, pilot_mode.py, war_account.py +3 more | docs=1 core=2 other=3 | brain=adult dataset=2081 evolutions=37
+- `2026-06-30 16:53 UTC` **git_auto** — sync: 7 files — fill_reconciler.py, pilot_mode.py, smart_stack.py +4 more | docs=1 core=2 other=4 | brain=adult dataset=2081 evolutions=37
+- `2026-06-30 16:54 UTC` **git_auto** — sync: 6 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +3 more | docs=2 other=4 | brain=adult dataset=2081 evo
+- `2026-06-30 16:54 UTC` **git_auto** — sync: 5 files — fill_reconciler.py, war_account.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=adult dataset=2081 evol
+- `2026-06-30 16:54 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=2081 evolutions=
+- `2026-06-30 16:55 UTC` **git_auto** — sync: 10 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +7 more | halim=5 models=1 docs=1 other=3 | brain=adult datase
+- `2026-06-30 16:55 UTC` **git_auto** — sync: 11 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +8 more | halim=5 models=2 docs=1 other=3 | brain=adult datase
+- `2026-06-30 16:55 UTC` **git_auto** — sync: 5 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, ai_session_limits.json +2 more | models=1 docs=1 other=3 | brain=adult dataset
+- `2026-06-30 16:55 UTC` **git_auto** — sync: 5 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, macro_context.json +2 more | models=1 docs=1 other=3 | brain=adult dataset=208
+- `2026-06-30 16:56 UTC` **git_auto** — sync: 5 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, ib_connectivity.jsonl +2 more | models=1 docs=1 other=3 | brain=adult dataset=
+- `2026-06-30 16:56 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=2081 evolutions=
+- `2026-06-30 16:56 UTC` **git_auto** — sync: 6 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, cognitive_state.json +3 more | models=2 docs=1 other=3 | brain=adult dataset=2
+- `2026-06-30 16:56 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=2081 evolutions=
+- `2026-06-30 16:57 UTC` **git_auto** — sync: 5 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, scalper_mixin_imports.py +2 more | docs=1 core=1 other=3 | brain=adult dataset
+- `2026-06-30 16:58 UTC` **git_auto** — sync: 6 files — fill_reconciler.py, scalper_entry_executor.py, scalper_exit_executor.py +3 more | docs=1 core=2 other=3 | brain=adult datase
+- `2026-06-30 16:58 UTC` **git_auto** — sync: 8 files — fill_reconciler.py, scalper_mixin_imports.py, scalper_session.py +5 more | docs=1 core=3 other=4 | brain=adult dataset=2081 
+- `2026-06-30 16:58 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=2081 evolutions=
+- `2026-06-30 16:58 UTC` **git_auto** — sync: 5 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +2 more | docs=2 other=3 | brain=adult dataset=2081 evo
+- `2026-06-30 16:59 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=2081 evolutions=
+- `2026-06-30 16:59 UTC` **git_auto** — sync: 5 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, macro_context.json +2 more | models=1 docs=1 other=3 | brain=adult dataset=208
+- `2026-06-30 17:00 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=2081 evolutions=
+- `2026-06-30 17:00 UTC` **git_auto** — sync: 5 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, halim_constitution.json +2 more | models=1 docs=1 other=3 | brain=adult datase
+- `2026-06-30 17:00 UTC` **git_auto** — sync: 18 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, ib_report_events.jsonl +15 more | halim=10 models=4 docs=1 other=3 | brain=ad
+- `2026-06-30 17:00 UTC` **git_auto** — sync: 9 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +6 more | halim=3 models=2 docs=1 other=3 | brain=adult dataset
+- `2026-06-30 17:00 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=2081 evolutions=
+- `2026-06-30 17:01 UTC` **git_auto** — sync: 11 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +8 more | halim=4 models=3 docs=1 other=3 | brain=adult datase
+- `2026-06-30 17:02 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=2081 evolutions=
+- `2026-06-30 17:02 UTC` **brain_proxy_trained** · stage **adult** — Teacher proxy holdout acc=95% (random=100%, 342 samples)
+- `2026-06-30 17:02 UTC` **git_auto** — sync: 12 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, council_training_dataset.jsonl +9 more | models=8 docs=1 other=3 | brain=adul
+- `2026-06-30 17:02 UTC` **brain_evolution** · stage **toddler** — Halim developer post_standalone_flush: 3 mutation(s), git=ok
+- `2026-06-30 17:02 UTC` **brain_evolution** · stage **adult** — Evolution standalone_flush — stage adult, dataset 1885 pairs
+- `2026-06-30 17:02 UTC` **brain_stage_up** — Brain grew: child → adult
+- `2026-06-30 17:02 UTC` **git_auto** — sync: 29 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, HALIM_MANIFEST.json +26 more | halim=13 models=12 docs=1 other=3 | brain=adul
+- `2026-06-30 17:03 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolutions=
+- `2026-06-30 17:03 UTC` **git_auto** — sync: 6 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, ai_session_limits.json +3 more | models=2 docs=1 other=3 | brain=adult dataset
+- `2026-06-30 17:03 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolutions=
+- `2026-06-30 17:04 UTC` **git_auto** — sync: 5 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, halim_constitution.json +2 more | models=1 docs=1 other=3 | brain=adult datase
+- `2026-06-30 17:04 UTC` **git_auto** — sync: 22 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, ib_report_events.jsonl +19 more | halim=12 models=6 docs=1 other=3 | brain=ad
+- `2026-06-30 17:04 UTC` **git_auto** — sync: 5 files — fill_reconciler.py, scalper_mixin_imports.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=adult dataset
+- `2026-06-30 17:05 UTC` **git_auto** — sync: 12 files — fill_reconciler.py, scalper_mixin_imports.py, BRAIN_DEVELOPMENT_LOG.md +9 more | halim=4 models=3 docs=1 core=1 other=3 | b
+- `2026-06-30 17:05 UTC` **git_auto** — sync: 5 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, macro_context.json +2 more | models=1 docs=1 other=3 | brain=adult dataset=188
+- `2026-06-30 17:05 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolutions=
+- `2026-06-30 17:05 UTC` **brain_proxy_trained** · stage **adult** — Teacher proxy holdout acc=95% (random=100%, 342 samples)
+- `2026-06-30 17:05 UTC` **git_auto** — sync: 15 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +12 more | halim=2 models=9 docs=1 other=3 | brain=adult datas
+- `2026-06-30 17:05 UTC` **brain_evolution** · stage **toddler** — Halim developer post_standalone_flush: 3 mutation(s), git=ok
+- `2026-06-30 17:05 UTC` **brain_evolution** · stage **adult** — Evolution standalone_flush — stage adult, dataset 1885 pairs
+- `2026-06-30 17:06 UTC` **git_auto** — sync: 17 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, HALIM_MANIFEST.json +14 more | halim=5 models=8 docs=1 other=3 | brain=adult 
+- `2026-06-30 17:06 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolutions=
+- `2026-06-30 17:08 UTC` **git_auto** — sync: 5 files — fill_reconciler.py, scalper_mixin_imports.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=adult dataset
+- `2026-06-30 17:09 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolutions=
+- `2026-06-30 17:09 UTC` **git_auto** — sync: 5 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, macro_context.json +2 more | models=1 docs=1 other=3 | brain=adult dataset=188
+- `2026-06-30 17:09 UTC` **git_auto** — sync: 9 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +6 more | halim=2 models=3 docs=1 other=3 | brain=adult dataset
+- `2026-06-30 17:09 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolutions=
+- `2026-06-30 17:10 UTC` **brain_proxy_trained** · stage **adult** — Teacher proxy holdout acc=95% (random=100%, 342 samples)
+- `2026-06-30 17:10 UTC` **git_auto** — sync: 6 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, owned_brain_state.json +3 more | models=2 docs=1 other=3 | brain=adult dataset
+- `2026-06-30 17:10 UTC` **brain_evolution** · stage **toddler** — Halim developer post_standalone_flush: 3 mutation(s), git=ok
+- `2026-06-30 17:10 UTC` **brain_evolution** · stage **adult** — Evolution standalone_flush — stage adult, dataset 1885 pairs
+- `2026-06-30 17:10 UTC` **git_auto** — sync: 23 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, HALIM_MANIFEST.json +20 more | halim=6 models=13 docs=1 other=3 | brain=adult
+- `2026-06-30 17:10 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolutions=
+- `2026-06-30 17:12 UTC` **git_auto** — sync: 5 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, halim_constitution.json +2 more | models=1 docs=1 other=3 | brain=adult datase
+- `2026-06-30 17:12 UTC` **git_auto** — sync: 20 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, ib_report_events.jsonl +17 more | halim=10 models=6 docs=1 other=3 | brain=ad
+- `2026-06-30 17:12 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolutions=
+- `2026-06-30 17:13 UTC` **git_auto** — sync: 5 files — fill_reconciler.py, scalper_mixin_imports.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=adult dataset
+- `2026-06-30 17:13 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolutions=
+- `2026-06-30 17:14 UTC` **git_auto** — sync: 11 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +8 more | halim=3 models=3 docs=2 other=3 | brain=adul
+- `2026-06-30 17:14 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolutions=
+- `2026-06-30 17:15 UTC` **git_auto** — sync: 5 files — fill_reconciler.py, scalper_mixin_imports.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=adult dataset
+- `2026-06-30 17:15 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolutions=
+- `2026-06-30 17:16 UTC` **git_auto** — sync: 5 files — fill_reconciler.py, scalper_mixin_imports.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=adult dataset
+- `2026-06-30 17:17 UTC` **git_auto** — sync: 5 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, ai_session_limits.json +2 more | models=1 docs=1 other=3 | brain=adult dataset
+- `2026-06-30 17:17 UTC` **git_auto** — sync: 5 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, macro_context.json +2 more | models=1 docs=1 other=3 | brain=adult dataset=188
+- `2026-06-30 17:17 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolutions=
+- `2026-06-30 17:17 UTC` **git_auto** — sync: 5 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, halim_constitution.json +2 more | models=1 docs=1 other=3 | brain=adult datase
+- `2026-06-30 17:17 UTC` **git_auto** — sync: 19 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, ib_report_events.jsonl +16 more | halim=10 models=5 docs=1 other=3 | brain=ad
+- `2026-06-30 17:17 UTC` **brain_proxy_trained** · stage **adult** — Teacher proxy holdout acc=95% (random=100%, 342 samples)
+- `2026-06-30 17:18 UTC` **brain_evolution** · stage **adult** — Evolution live_session_end — stage adult, dataset 1885 pairs
+- `2026-06-30 17:18 UTC` **git_auto** — sync: 22 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +19 more | halim=7 models=11 docs=1 other=3 | brain=adult data
+- `2026-06-30 17:18 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolutions=
+- `2026-06-30 17:18 UTC` **git_auto** — sync: 6 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, cognitive_state.json +3 more | models=2 docs=1 other=3 | brain=adult dataset=1
+- `2026-06-30 17:18 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolutions=
+- `2026-06-30 17:19 UTC` **git_auto** — sync: 6 files — fill_reconciler.py, scalper_mixin_imports.py, scalper_session.py +3 more | docs=1 core=2 other=3 | brain=adult dataset=1885 
+- `2026-06-30 17:19 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolutions=
+- `2026-06-30 17:22 UTC` **git_auto** — sync: 5 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, ai_session_limits.json +2 more | models=1 docs=1 other=3 | brain=adult dataset
+- `2026-06-30 17:22 UTC` **git_auto** — sync: 5 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, macro_context.json +2 more | models=1 docs=1 other=3 | brain=adult dataset=188
+- `2026-06-30 17:22 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolutions=
+- `2026-06-30 17:23 UTC` **git_auto** — sync: 5 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, halim_constitution.json +2 more | models=1 docs=1 other=3 | brain=adult datase
+- `2026-06-30 17:23 UTC` **git_auto** — sync: 18 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, ib_report_events.jsonl +15 more | halim=10 models=4 docs=1 other=3 | brain=ad
+- `2026-06-30 17:23 UTC` **git_auto** — sync: 6 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +3 more | halim=1 models=1 docs=1 other=3 | brain=adult dataset
+- `2026-06-30 17:23 UTC` **brain_proxy_trained** · stage **adult** — Teacher proxy holdout acc=95% (random=100%, 330 samples)
+- `2026-06-30 17:23 UTC` **brain_evolution** · stage **adult** — Evolution live_session_end — stage adult, dataset 1884 pairs
+- `2026-06-30 17:23 UTC` **git_auto** — sync: 21 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +18 more | halim=6 models=11 docs=1 other=3 | brain=adult data
+- `2026-06-30 17:23 UTC` **git_auto** — sync: 6 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, cognitive_state.json +3 more | models=2 docs=1 other=3 | brain=adult dataset=1
+- `2026-06-30 17:24 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1884 evolutions=
+- `2026-06-30 17:24 UTC` **git_auto** — sync: 7 files — fill_reconciler.py, scalper_mixin_imports.py, scalper_runner.py +4 more | docs=1 core=3 other=3 | brain=adult dataset=1884 e
+- `2026-06-30 17:24 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1884 evolutions=
+- `2026-06-30 17:24 UTC` **git_auto** — sync: 6 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, ai_session_limits.json +3 more | models=2 docs=1 other=3 | brain=adult dataset
+- `2026-06-30 17:24 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1884 evolutions=
+- `2026-06-30 17:25 UTC` **git_auto** — sync: 5 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, halim_constitution.json +2 more | models=1 docs=1 other=3 | brain=adult datase
+- `2026-06-30 17:25 UTC` **git_auto** — sync: 19 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, ib_report_events.jsonl +16 more | halim=10 models=5 docs=1 other=3 | brain=ad
+- `2026-06-30 17:25 UTC` **git_auto** — sync: 6 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +3 more | halim=1 models=1 docs=1 other=3 | brain=adult dataset
+- `2026-06-30 17:25 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1884 evolutions=
+- `2026-06-30 17:29 UTC` **git_auto** — sync: 6 files — fill_reconciler.py, scalper_mixin_imports.py, BRAIN_DEVELOPMENT_LOG.md +3 more | models=1 docs=1 core=1 other=3 | brain=adul
+- `2026-06-30 17:29 UTC` **git_auto** — sync: 7 files — fill_reconciler.py, scalper_entry_executor.py, scalper_mixin_imports.py +4 more | docs=1 core=3 other=3 | brain=adult datase
+- `2026-06-30 17:30 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1884 evolutions=
+- `2026-06-30 17:30 UTC` **brain_proxy_trained** · stage **adult** — Teacher proxy holdout acc=95% (random=100%, 330 samples)
+- `2026-06-30 17:30 UTC` **brain_evolution** · stage **adult** — Evolution live_session_end — stage adult, dataset 1883 pairs
+- `2026-06-30 17:30 UTC` **git_auto** — sync: 20 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +17 more | halim=7 models=9 docs=1 other=3 | brain=adult datas
+- `2026-06-30 17:31 UTC` **git_auto** — sync: 13 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, conversation_gold.jsonl +10 more | halim=5 models=4 docs=1 other=3 | brain=ad
+- `2026-06-30 17:31 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1883 evolutions=
+- `2026-06-30 17:31 UTC` **git_auto** — sync: 5 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, halim_constitution.json +2 more | models=1 docs=1 other=3 | brain=adult datase
+- `2026-06-30 17:31 UTC` **git_auto** — sync: 20 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, ib_report_events.jsonl +17 more | halim=11 models=5 docs=1 other=3 | brain=ad
+- `2026-06-30 17:32 UTC` **git_auto** — sync: 5 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=adult dataset=188
+- `2026-06-30 17:32 UTC` **git_auto** — sync: 4 files — fill_reconciler.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1883 evolutions=
+- `2026-06-30 17:35 UTC` **git_auto** — sync: 8 files — ai_commander_entry.py, ai_commander_exit.py, ai_commander_verdict.py +5 more | docs=1 core=4 other=3 | brain=adult dataset=1
+- `2026-06-30 17:35 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, ai_commander_entry.py, BRAIN_DEVELOPMENT_LOG.md +3 more | docs=2 core=1 other=3 | brain=adult data
+- `2026-06-30 17:35 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1883 evolu
+- `2026-06-30 17:36 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=adult datas
+- `2026-06-30 17:36 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1883 evolu
+- `2026-06-30 17:36 UTC` **brain_proxy_trained** · stage **adult** — Teacher proxy holdout acc=95% (random=100%, 330 samples)
+- `2026-06-30 17:37 UTC` **git_auto** — sync: 18 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +15 more | halim=6 models=8 docs=1 other=3 | brain=adult
+- `2026-06-30 17:37 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ai_session_limits.json +3 more | models=2 docs=1 other=3 | brain=adult d
+- `2026-06-30 17:37 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1883 evolu
+- `2026-06-30 17:37 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, halim_constitution.json +2 more | models=1 docs=1 other=3 | brain=adult 
+- `2026-06-30 17:37 UTC` **git_auto** — sync: 19 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ib_report_events.jsonl +16 more | halim=10 models=5 docs=1 other=3 | br
+- `2026-06-30 17:38 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=adult datas
+- `2026-06-30 17:38 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1883 evolu
+- `2026-06-30 17:38 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, ai_commander_mixin_imports.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=ad
+- `2026-06-30 17:39 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1883 evolu
+- `2026-06-30 17:39 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ai_session_limits.json +3 more | models=2 docs=1 other=3 | brain=adult d
+- `2026-06-30 17:39 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1883 evolu
+- `2026-06-30 17:39 UTC` **git_auto** — sync: 13 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +10 more | halim=6 models=3 docs=1 other=3 | brain=adult
+- `2026-06-30 17:40 UTC` **git_auto** — sync: 19 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ib_report_events.jsonl +16 more | halim=10 models=5 docs=1 other=3 | br
+- `2026-06-30 17:40 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=adult datas
+- `2026-06-30 17:40 UTC` **git_auto** — sync: 10 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +7 more | halim=5 models=1 docs=1 other=3 | brain=
+- `2026-06-30 17:40 UTC` **brain_proxy_trained** · stage **adult** — Teacher proxy holdout acc=95% (random=100%, 330 samples)
+- `2026-06-30 17:40 UTC` **brain_evolution** · stage **adult** — Evolution live_session_end — stage adult, dataset 1885 pairs
+- `2026-06-30 17:40 UTC` **git_auto** — sync: 23 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, conversation_gold.jsonl +20 more | halim=8 models=11 docs=1 other=3 | b
+- `2026-06-30 17:41 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, scalper_mixin_imports.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=adult d
+- `2026-06-30 17:41 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, scalper_entry_executor.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=adult 
+- `2026-06-30 17:41 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ai_session_limits.json +3 more | models=2 docs=1 other=3 | brain=adult d
+- `2026-06-30 17:41 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolu
+- `2026-06-30 17:41 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, halim_constitution.json +2 more | models=1 docs=1 other=3 | brain=adult 
+- `2026-06-30 17:42 UTC` **git_auto** — sync: 19 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ib_report_events.jsonl +16 more | halim=10 models=5 docs=1 other=3 | br
+- `2026-06-30 17:42 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=adult datas
+- `2026-06-30 17:42 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +2 more | halim=1 docs=1 other=3 | brain=adult dataset=18
+- `2026-06-30 17:42 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolu
+- `2026-06-30 17:42 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=adult data
+- `2026-06-30 17:43 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolu
+- `2026-06-30 17:47 UTC` **git_auto** — sync: 10 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +7 more | halim=4 models=2 docs=1 other=3 | brain=adult 
+- `2026-06-30 17:47 UTC` **git_auto** — sync: 19 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ib_report_events.jsonl +16 more | halim=10 models=5 docs=1 other=3 | br
+- `2026-06-30 17:47 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=adult datas
+- `2026-06-30 17:47 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolu
+- `2026-06-30 17:49 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=adult data
+- `2026-06-30 17:49 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +2 more | halim=1 docs=1 other=3 | brain=adult dataset=18
+- `2026-06-30 17:50 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +3 more | halim=2 docs=1 other=3 | brain=adult data
+- `2026-06-30 17:50 UTC` **git_auto** — sync: 8 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +5 more | halim=2 models=2 docs=1 other=3 | brain=a
+- `2026-06-30 17:50 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolu
+- `2026-06-30 17:51 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, tail_hanoon.sh +2 more | docs=1 other=4 | brain=adult dataset=1885 evolu
+- `2026-06-30 17:51 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolu
+- `2026-06-30 17:51 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=adult data
+- `2026-06-30 17:51 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=adult datas
+- `2026-06-30 17:52 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolu
+- `2026-06-30 17:52 UTC` **git_auto** — sync: 8 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +5 more | halim=3 models=1 docs=1 other=3 | brain=a
+- `2026-06-30 17:52 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolu
+- `2026-06-30 17:55 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=adult datas
+- `2026-06-30 17:56 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolu
+- `2026-06-30 17:57 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, cognitive_state.json +2 more | models=1 docs=1 other=3 | brain=adult dat
+- `2026-06-30 17:57 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, macro_context.json +2 more | models=1 docs=1 other=3 | brain=adult datas
+- `2026-06-30 17:57 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolu
+- `2026-06-30 17:59 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, copilot_state.json +2 more | models=1 docs=1 other=3 | brain=adult datas
+- `2026-06-30 18:00 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolu
+- `2026-06-30 18:02 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, cognitive_state.json +2 more | models=1 docs=1 other=3 | brain=adult dat
+- `2026-06-30 18:02 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolu
+- `2026-06-30 18:02 UTC` **git_auto** — sync: 9 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +6 more | halim=2 models=3 docs=1 other=3 | brain=a
+- `2026-06-30 18:02 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolu
+- `2026-06-30 18:03 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=adult data
+- `2026-06-30 18:04 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +3 more | halim=1 models=1 docs=1 other=3 | brain=a
+- `2026-06-30 18:04 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolu
+- `2026-06-30 18:07 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, cognitive_state.json +2 more | models=1 docs=1 other=3 | brain=adult dat
+- `2026-06-30 18:07 UTC` **git_auto** — sync: 9 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +6 more | halim=2 models=3 docs=1 other=3 | brain=a
+- `2026-06-30 18:07 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolu
+- `2026-06-30 18:07 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=adult data
+- `2026-06-30 18:08 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +3 more | halim=1 models=1 docs=1 other=3 | brain=a
+- `2026-06-30 18:08 UTC` **git_auto** — sync: 9 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +6 more | halim=2 models=3 docs=1 other=3 | brain=a
+- `2026-06-30 18:08 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolu
+- `2026-06-30 18:12 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, war_account.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=adult dataset=188
+- `2026-06-30 18:12 UTC` **git_auto** — sync: 7 files — ai_commander_deferred.py, scalper_mixin_imports.py, war_account.py +4 more | models=1 docs=1 core=2 other=3 | brain=adult da
+- `2026-06-30 18:12 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=adult da
+- `2026-06-30 18:12 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +2 more | docs=2 other=3 | brain=adult dataset=18
+- `2026-06-30 18:12 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolu
+- `2026-06-30 18:14 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, scalper_mixin_imports.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=adult d
+- `2026-06-30 18:15 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolu
+- `2026-06-30 18:16 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=adult da
+- `2026-06-30 18:16 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=adult dataset=1885 evolu
+- `2026-06-30 18:17 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, cognitive_state.json +2 more | models=1 docs=1 other=3 | brain=adult dat
+- `2026-06-30 18:17 UTC` **brain_proxy_trained** · stage **child** — Teacher proxy holdout acc=90% (random=98%, 329 samples)
+- `2026-06-30 18:17 UTC` **brain_ppo_teacher** — PPO teacher live_session_end: WR 17%, source heuristic_fallback
+- `2026-06-30 18:17 UTC` **brain_evolution** · stage **child** — Evolution live_session_end — stage child, dataset 1896 pairs
+- `2026-06-30 18:17 UTC` **brain_stage_up** — Brain grew: adult → child
+- `2026-06-30 18:17 UTC` **git_auto** — sync: 26 files — ai_commander_deferred.py, registry.jsonl, action_gold.jsonl +23 more | halim=8 models=15 other=3 | brain=child dataset=1896
+- `2026-06-30 18:17 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=1896 evolu
+- `2026-06-30 18:19 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ai_session_limits.json +2 more | models=1 docs=1 other=3 | brain=child d
+- `2026-06-30 18:19 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, macro_context.json +2 more | models=1 docs=1 other=3 | brain=child datas
+- `2026-06-30 18:19 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ib_connectivity.jsonl +2 more | models=1 docs=1 other=3 | brain=child da
+- `2026-06-30 18:19 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=1896 evolu
+- `2026-06-30 18:20 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, halim_constitution.json +2 more | models=1 docs=1 other=3 | brain=child 
+- `2026-06-30 18:20 UTC` **git_auto** — sync: 19 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ib_report_events.jsonl +16 more | halim=10 models=5 docs=1 other=3 | br
+- `2026-06-30 18:20 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child da
+- `2026-06-30 18:20 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +2 more | halim=1 docs=1 other=3 | brain=child dataset=18
+- `2026-06-30 18:20 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 18:21 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, conversation_gold.jsonl +3 more | halim=2 docs=1 other=3 | brain=child d
+- `2026-06-30 18:21 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +2 more | halim=1 docs=1 other=3 | brain=child dataset=18
+- `2026-06-30 18:21 UTC` **git_auto** — sync: 9 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +6 more | halim=2 models=3 docs=1 other=3 | brain=c
+- `2026-06-30 18:21 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +2 more | halim=1 docs=1 other=3 | brain=child dataset=18
+- `2026-06-30 18:21 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=1896 evolu
+- `2026-06-30 18:22 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 18:22 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=1896 evolu
+- `2026-06-30 18:22 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child da
+- `2026-06-30 18:22 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=1896 evolu
+- `2026-06-30 18:23 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 18:24 UTC` **git_auto** — sync: 9 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +6 more | halim=2 models=3 docs=1 other=3 | brain=c
+- `2026-06-30 18:24 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=1896 evolu
+- `2026-06-30 18:24 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 18:24 UTC` **git_auto** — sync: 7 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +4 more | halim=1 models=2 docs=1 other=3 | brain=c
+- `2026-06-30 18:24 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 18:25 UTC` **git_auto** — sync: 8 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +5 more | halim=2 models=2 docs=1 other=3 | brain=c
+- `2026-06-30 18:25 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 18:26 UTC` **git_auto** — sync: 8 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +5 more | halim=2 models=2 docs=1 other=3 | brain=c
+- `2026-06-30 18:26 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=1896 evolu
+- `2026-06-30 18:26 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child da
+- `2026-06-30 18:26 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=1896 evolu
+- `2026-06-30 18:28 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child da
+- `2026-06-30 18:28 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=1896 evolu
+- `2026-06-30 18:29 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 18:29 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=1896 evolu
+- `2026-06-30 18:30 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, macro_context.json +2 more | models=1 docs=1 other=3 | brain=child datas
+- `2026-06-30 18:30 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=1896 evolu
+- `2026-06-30 18:30 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child da
+- `2026-06-30 18:30 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=1896 evolu
+- `2026-06-30 18:32 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 18:32 UTC` **git_auto** — sync: 8 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +5 more | halim=2 models=2 docs=1 other=3 | brain=c
+- `2026-06-30 18:32 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child da
+- `2026-06-30 18:32 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=1896 evolu
+- `2026-06-30 18:33 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, scalper_entry_executor.py, scalper_runner.py +3 more | docs=1 core=2 other=3 | brain=child dataset
+- `2026-06-30 18:33 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, scalper_exit_executor.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=child d
+- `2026-06-30 18:34 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, scalper_exit_executor.py, BRAIN_DEVELOPMENT_LOG.md +3 more | docs=1 core=1 other=4 | brain=child d
+- `2026-06-30 18:34 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +2 more | docs=2 other=3 | brain=child dataset=18
+- `2026-06-30 18:34 UTC` **git_auto** — sync: 7 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +4 more | models=2 docs=2 other=3 | brain=child d
+- `2026-06-30 18:35 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, cognitive_state.json +2 more | models=1 docs=1 other=3 | brain=child dat
+- `2026-06-30 18:35 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=1896 evolu
+- `2026-06-30 18:35 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, scalper_runner.py, BRAIN_DEVELOPMENT_LOG.md +3 more | docs=1 core=2 other=3 | brain=child dataset=
+- `2026-06-30 18:35 UTC` **git_auto** — sync: 8 files — ai_commander_deferred.py, scalper_exit_executor.py, scalper_runner.py +5 more | docs=2 core=2 other=4 | brain=child dataset=
+- `2026-06-30 18:36 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=1896 evolu
+- `2026-06-30 18:36 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child da
+- `2026-06-30 18:37 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=1896 evolu
+- `2026-06-30 18:38 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, test_position_context_isolation.py +2 more | docs=1 other=4 | brain=chil
+- `2026-06-30 18:38 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=1896 evolu
+- `2026-06-30 18:38 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child da
+- `2026-06-30 18:39 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=1896 evolu
+- `2026-06-30 18:40 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, macro_context.json +2 more | models=1 docs=1 other=3 | brain=child datas
+- `2026-06-30 18:40 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=1896 evolu
+- `2026-06-30 18:40 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child da
+- `2026-06-30 18:41 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=1896 evolu
+- `2026-06-30 18:41 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, war_account.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=child dataset=189
+- `2026-06-30 18:42 UTC` **git_auto** — sync: 8 files — ai_commander_deferred.py, ai_commander_entry.py, scalper_entry_executor.py +5 more | docs=1 core=4 other=3 | brain=child dat
+- `2026-06-30 18:42 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=1896 evolu
+- `2026-06-30 18:42 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +3 more | docs=2 other=4 | brain=child dataset=18
+- `2026-06-30 18:42 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child da
+- `2026-06-30 18:43 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=1896 evolu
+- `2026-06-30 18:43 UTC` **git_auto** — sync: 15 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +12 more | halim=9 models=1 docs=1 other=4 | brain=child
+- `2026-06-30 18:43 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, halim_manifest.json +3 more | models=2 docs=1 other=3 | brain=child data
+- `2026-06-30 18:43 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=1896 evolu
+- `2026-06-30 18:46 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ai_session_limits.json +3 more | models=2 docs=1 other=3 | brain=child d
+- `2026-06-30 18:46 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=1896 evolu
+- `2026-06-30 18:47 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ib_connectivity.jsonl +2 more | models=1 docs=1 other=3 | brain=child da
+- `2026-06-30 18:47 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=1896 evolu
+- `2026-06-30 18:47 UTC` **git_auto** — sync: 22 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ib_report_events.jsonl +19 more | halim=11 models=7 docs=1 other=3 | br
+- `2026-06-30 18:47 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +3 more | halim=1 models=1 docs=1 other=3 | brain=child d
+- `2026-06-30 18:48 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child da
+- `2026-06-30 18:48 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +3 more | halim=2 docs=1 other=3 | brain=child data
+- `2026-06-30 18:48 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 18:48 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=1896 evolu
+- `2026-06-30 18:48 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +2 more | halim=1 docs=1 other=3 | brain=child dataset=18
+- `2026-06-30 18:49 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, scalper_mixin_imports.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=child d
+- `2026-06-30 18:49 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 18:49 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +3 more | halim=1 docs=2 other=3 | brain=child da
+- `2026-06-30 18:49 UTC` **brain_proxy_trained** · stage **child** — Teacher proxy holdout acc=90% (random=98%, 323 samples)
+- `2026-06-30 18:49 UTC` **brain_ppo_teacher** — PPO teacher live_session_end: WR 9%, source heuristic_fallback
+- `2026-06-30 18:49 UTC` **brain_evolution** · stage **child** — Evolution live_session_end — stage child, dataset 388 pairs
+- `2026-06-30 18:49 UTC` **git_auto** — sync: 26 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +23 more | halim=7 models=15 docs=1 other=3 | brain=chil
+- `2026-06-30 18:50 UTC` **git_auto** — sync: 15 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +12 more | halim=7 models=4 docs=1 other=3 | brain=child
+- `2026-06-30 18:50 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=388 evolut
+- `2026-06-30 18:56 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, git_sync_defer.py, halim_developer.py +3 more | docs=1 core=2 other=3 | brain=child dataset=388 ev
+- `2026-06-30 18:56 UTC` **git_auto** — sync: 7 files — ai_commander_deferred.py, position_sync.py, scalper_mixin_imports.py +4 more | docs=1 core=3 other=3 | brain=child dataset=3
+- `2026-06-30 18:56 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, scalper_entry_executor.py, scalper_runner.py +3 more | docs=1 core=2 other=3 | brain=child dataset
+- `2026-06-30 18:56 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +2 more | docs=2 other=3 | brain=child dataset=38
+- `2026-06-30 18:56 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=388 evolut
+- `2026-06-30 18:57 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ai_session_limits.json +3 more | models=2 docs=1 other=3 | brain=child d
+- `2026-06-30 18:57 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ib_connectivity.jsonl +2 more | models=1 docs=1 other=3 | brain=child da
+- `2026-06-30 18:57 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=388 evolut
+- `2026-06-30 18:57 UTC` **git_auto** — sync: 15 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, 0dbc1fe34c91c315.json +12 more | halim=7 models=4 docs=1 other=3 | brai
+- `2026-06-30 18:58 UTC` **git_auto** — sync: 10 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ib_report_events.jsonl +7 more | halim=4 models=2 docs=1 other=3 | brai
+- `2026-06-30 18:58 UTC` **git_auto** — sync: 7 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +4 more | halim=1 models=2 docs=1 other=3 | brain=child d
+- `2026-06-30 18:58 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 18:58 UTC` **brain_proxy_trained** · stage **child** — Teacher proxy holdout acc=90% (random=98%, 323 samples)
+- `2026-06-30 18:58 UTC` **brain_ppo_teacher** — PPO teacher live_session_end: WR 9%, source heuristic_fallback
+- `2026-06-30 18:58 UTC` **git_auto** — sync: 18 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +15 more | halim=8 models=6 docs=1 other=3 | brain
+- `2026-06-30 18:58 UTC` **brain_evolution** · stage **child** — Evolution live_session_end — stage child, dataset 377 pairs
+- `2026-06-30 18:58 UTC` **git_auto** — sync: 24 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +21 more | halim=6 models=14 docs=1 other=3 | brain=chil
+- `2026-06-30 18:59 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=377 evolut
+- `2026-06-30 18:59 UTC` **git_auto** — sync: 8 files — ai_commander_deferred.py, git_sync_learning.py, position_sync.py +5 more | docs=1 core=4 other=3 | brain=child dataset=377 e
+- `2026-06-30 19:00 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, scalper_runner.py, BRAIN_DEVELOPMENT_LOG.md +3 more | docs=2 core=1 other=3 | brain=child dataset=
+- `2026-06-30 19:00 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=377 evolut
+- `2026-06-30 19:00 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ai_session_limits.json +2 more | models=1 docs=1 other=3 | brain=child d
+- `2026-06-30 19:00 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, macro_context.json +2 more | models=1 docs=1 other=3 | brain=child datas
+- `2026-06-30 19:00 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=377 evolut
+- `2026-06-30 19:01 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, halim_constitution.json +2 more | models=1 docs=1 other=3 | brain=child 
+- `2026-06-30 19:01 UTC` **git_auto** — sync: 19 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ib_report_events.jsonl +16 more | halim=10 models=5 docs=1 other=3 | br
+- `2026-06-30 19:01 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=child da
+- `2026-06-30 19:01 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +3 more | halim=2 docs=1 other=3 | brain=child data
+- `2026-06-30 19:02 UTC` **git_auto** — sync: 11 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +8 more | halim=3 models=4 docs=1 other=3 | brain=
+- `2026-06-30 19:02 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 19:03 UTC` **git_auto** — sync: 9 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +6 more | halim=2 models=3 docs=1 other=3 | brain=c
+- `2026-06-30 19:03 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 19:03 UTC` **git_auto** — sync: 10 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +7 more | halim=2 models=4 docs=1 other=3 | brain=
+- `2026-06-30 19:03 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 19:04 UTC` **git_auto** — sync: 9 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +6 more | halim=2 models=3 docs=1 other=3 | brain=c
+- `2026-06-30 19:04 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 19:05 UTC` **git_auto** — sync: 11 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +8 more | halim=2 models=5 docs=1 other=3 | brain=
+- `2026-06-30 19:05 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 19:06 UTC` **git_auto** — sync: 8 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +5 more | halim=2 models=2 docs=1 other=3 | brain=c
+- `2026-06-30 19:06 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 19:06 UTC` **git_auto** — sync: 7 files — ai_commander_deferred.py, position_context.py, scalper_runner.py +4 more | halim=1 docs=1 core=2 other=3 | brain=child datas
+- `2026-06-30 19:07 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, scalper_runner.py, BRAIN_DEVELOPMENT_LOG.md +3 more | halim=1 docs=1 core=1 other=3 | brain=child 
+- `2026-06-30 19:07 UTC` **git_auto** — sync: 7 files — ai_commander_deferred.py, scalper_exit_executor.py, scalper_runner.py +4 more | halim=1 docs=1 core=2 other=3 | brain=child 
+- `2026-06-30 19:07 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, scalper_exit_executor.py, BRAIN_DEVELOPMENT_LOG.md +3 more | halim=1 docs=1 core=1 other=3 | brain
+- `2026-06-30 19:07 UTC` **git_auto** — sync: 7 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +4 more | halim=1 models=2 docs=1 other=3 | brain=c
+- `2026-06-30 19:07 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, scalper_exit_executor.py, BRAIN_DEVELOPMENT_LOG.md +3 more | halim=1 docs=1 core=1 other=3 | brain
+- `2026-06-30 19:08 UTC` **git_auto** — sync: 8 files — ai_commander_deferred.py, scalper_exit_executor.py, scalper_runner.py +5 more | halim=1 docs=1 core=2 other=4 | brain=child 
+- `2026-06-30 19:08 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +3 more | halim=1 docs=2 other=3 | brain=child da
+- `2026-06-30 19:08 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 19:09 UTC` **git_auto** — sync: 11 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +8 more | halim=6 models=1 docs=1 other=3 | brain=
+- `2026-06-30 19:09 UTC` **git_auto** — sync: 11 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +8 more | halim=5 models=2 docs=1 other=3 | brain=child 
+- `2026-06-30 19:09 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ai_session_limits.json +3 more | models=2 docs=1 other=3 | brain=child d
+- `2026-06-30 19:09 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ib_connectivity.jsonl +2 more | models=1 docs=1 other=3 | brain=child da
+- `2026-06-30 19:09 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=377 evolut
+- `2026-06-30 19:10 UTC` **git_auto** — sync: 9 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +6 more | halim=2 models=3 docs=1 other=3 | brain=child d
+- `2026-06-30 19:10 UTC` **git_auto** — sync: 19 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ib_report_events.jsonl +16 more | halim=10 models=5 docs=1 other=3 | br
+- `2026-06-30 19:10 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +2 more | halim=1 docs=1 other=3 | brain=child dataset=37
+- `2026-06-30 19:10 UTC` **git_auto** — sync: 8 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +5 more | halim=2 models=2 docs=1 other=3 | brain=c
+- `2026-06-30 19:10 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +3 more | halim=2 docs=1 other=3 | brain=child data
+- `2026-06-30 19:11 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 19:11 UTC` **git_auto** — sync: 9 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +6 more | halim=3 models=2 docs=1 other=3 | brain=c
+- `2026-06-30 19:12 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 19:12 UTC` **git_auto** — sync: 10 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +7 more | halim=2 models=4 docs=1 other=3 | brain=
+- `2026-06-30 19:12 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 19:13 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +3 more | halim=1 docs=1 other=4 | brain=child data
+- `2026-06-30 19:13 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 19:13 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +3 more | halim=1 docs=1 other=4 | brain=child data
+- `2026-06-30 19:13 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 19:14 UTC` **git_auto** — sync: 7 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +4 more | halim=1 models=2 docs=1 other=3 | brain=c
+- `2026-06-30 19:15 UTC` **git_auto** — sync: 9 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +6 more | halim=2 models=3 docs=1 other=3 | brain=c
+- `2026-06-30 19:15 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 19:16 UTC` **git_auto** — sync: 7 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +4 more | halim=1 models=2 docs=1 other=3 | brain=c
+- `2026-06-30 19:17 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 19:18 UTC` **git_auto** — sync: 7 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +4 more | halim=1 models=2 docs=1 other=3 | brain=c
+- `2026-06-30 19:19 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=377 evolut
+- `2026-06-30 19:19 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 19:19 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +3 more | halim=1 docs=1 other=4 | brain=child data
+- `2026-06-30 19:19 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 19:20 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, smart_stack.py, BRAIN_DEVELOPMENT_LOG.md +3 more | halim=1 docs=1 core=1 other=3 | brain=child dat
+- `2026-06-30 19:20 UTC` **git_auto** — sync: 7 files — ai_commander_deferred.py, entry_quality.py, fast_execution.py +4 more | halim=1 docs=1 core=2 other=3 | brain=child dataset=
+- `2026-06-30 19:20 UTC` **git_auto** — sync: 7 files — ai_commander_deferred.py, smart_stack.py, BRAIN_DEVELOPMENT_LOG.md +4 more | halim=1 models=1 docs=1 core=1 other=3 | brain=
+- `2026-06-30 19:20 UTC` **git_auto** — sync: 11 files — ai_commander_deferred.py, ai_commander_verdict.py, fast_execution.py +8 more | halim=2 models=2 docs=1 core=3 other=3 | bra
+- `2026-06-30 19:20 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, live_ai_pipeline.py, BRAIN_DEVELOPMENT_LOG.md +3 more | halim=1 docs=1 core=1 other=3 | brain=chil
+- `2026-06-30 19:21 UTC` **git_auto** — sync: 8 files — ai_commander_deferred.py, live_ai_pipeline.py, BRAIN_DEVELOPMENT_LOG.md +5 more | halim=1 models=2 docs=1 core=1 other=3 | b
+- `2026-06-30 19:21 UTC` **git_auto** — sync: 8 files — ai_commander_deferred.py, capital_discipline.py, fast_execution.py +5 more | halim=1 docs=1 core=3 other=3 | brain=child dat
+- `2026-07-01` **strict_profit_prob** — Smart Stack now hard-vetoes red calculative `profit_probability` on all entry paths; MTF/regime stay advisory (`SMART_STACK_STRICT_PROFIT_PROB=true` default).
+- `2026-07-01` **ib_recover_ledger** — IB position recovery no longer debits war settled cash; oversized adopts are monitor-only; negative settled auto-heals on load.
+- `2026-07-01` **position_price_isolation** — IB avgCost normalized vs market; per-ticker monitor prices/shares isolated (no T/BITO cross-talk).
+- `2026-07-01` **ai_sure_entry** — dynamic Halim+PPO+council alignment required; blind spike fast-paths disabled (`SMART_STACK_AI_SURE_ENTRY=true` default).
+- `2026-07-01` **halim_echo_escalate** — toddler Halim training echo no longer hard-blocks green quality; escalates to council + AI-sure quality timeout.
+- `2026-07-01` **quote_sanitize** — IB 10x quote drift sanitized at spike/snapshot; per-ticker snapshot cooldown (`PRICE_SNAPSHOT_COOLDOWN_SEC=8`).
+- `2026-06-30 19:21 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, ai_commander_entry.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=child data
+- `2026-06-30 19:21 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +3 more | halim=1 docs=2 other=3 | brain=child da
+- `2026-06-30 19:21 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 19:23 UTC` **git_auto** — sync: 7 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +4 more | halim=1 models=2 docs=1 other=3 | brain=c
+- `2026-06-30 19:23 UTC` **git_auto** — sync: 12 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +9 more | halim=7 models=1 docs=1 other=3 | brain=
+- `2026-06-30 19:23 UTC` **brain_ppo_teacher** — PPO teacher live_session_end: WR 25%, source heuristic_fallback
+- `2026-06-30 19:23 UTC` **brain_evolution** · stage **child** — Evolution live_session_end — stage child, dataset 315 pairs
+- `2026-06-30 19:23 UTC` **git_auto** — sync: 25 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +22 more | halim=7 models=14 docs=1 other=3 | brain=chil
+- `2026-06-30 19:23 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=315 evolut
+- `2026-06-30 19:23 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ai_session_limits.json +3 more | models=2 docs=1 other=3 | brain=child d
+- `2026-06-30 19:24 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ib_connectivity.jsonl +2 more | models=1 docs=1 other=3 | brain=child da
+- `2026-06-30 19:24 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=315 evolut
+- `2026-06-30 19:24 UTC` **git_auto** — sync: 19 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ib_report_events.jsonl +16 more | halim=10 models=5 docs=1 other=3 | br
+- `2026-06-30 19:24 UTC` **git_auto** — sync: 7 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, conversation_gold.jsonl +4 more | halim=2 models=1 docs=1 other=3 | brai
+- `2026-06-30 19:24 UTC` **git_auto** — sync: 8 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +5 more | halim=2 models=2 docs=1 other=3 | brain=c
+- `2026-06-30 19:25 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 19:26 UTC` **git_auto** — sync: 7 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +4 more | halim=1 models=2 docs=1 other=3 | brain=c
+- `2026-06-30 19:27 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=315 evolut
+- `2026-06-30 19:27 UTC` **git_auto** — sync: 8 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +5 more | halim=3 models=1 docs=1 other=3 | brain=child d
+- `2026-06-30 19:27 UTC` **git_auto** — sync: 11 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +8 more | halim=5 models=2 docs=1 other=3 | brain=child 
+- `2026-06-30 19:27 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=315 evolut
+- `2026-06-30 19:28 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, war_account.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=child dataset=315
+- `2026-06-30 19:28 UTC` **git_auto** — sync: 7 files — ai_commander_deferred.py, scalper_runner.py, war_account.py +4 more | docs=1 core=2 other=4 | brain=child dataset=315 evolut
+- `2026-06-30 19:28 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=315 evolut
+- `2026-06-30 19:28 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +3 more | docs=2 other=4 | brain=child dataset=31
+- `2026-06-30 19:28 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, test_war_multi_position.py +2 more | docs=1 other=4 | brain=child datase
+- `2026-06-30 19:29 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=315 evolut
+- `2026-06-30 19:29 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ai_session_limits.json +3 more | models=2 docs=1 other=3 | brain=child d
+- `2026-06-30 19:29 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=315 evolut
+- `2026-06-30 19:29 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ib_connectivity.jsonl +2 more | models=1 docs=1 other=3 | brain=child da
+- `2026-06-30 19:29 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=315 evolut
+- `2026-06-30 19:30 UTC` **git_auto** — sync: 9 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +6 more | halim=2 models=3 docs=1 other=3 | brain=child d
+- `2026-06-30 19:30 UTC` **git_auto** — sync: 19 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ib_report_events.jsonl +16 more | halim=10 models=5 docs=1 other=3 | br
+- `2026-06-30 19:30 UTC` **git_auto** — sync: 7 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +4 more | halim=1 models=2 docs=1 other=3 | brain=child d
+- `2026-06-30 19:30 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +2 more | halim=1 docs=1 other=3 | brain=child dataset=31
+- `2026-06-30 19:30 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 19:32 UTC` **git_auto** — sync: 11 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +8 more | halim=4 models=3 docs=1 other=3 | brain=
+- `2026-06-30 19:32 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +3 more | halim=2 docs=1 other=3 | brain=child data
+- `2026-06-30 19:32 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 19:32 UTC` **git_auto** — sync: 7 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +4 more | halim=1 models=2 docs=1 other=3 | brain=c
+- `2026-06-30 19:32 UTC` **git_auto** — sync: 10 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +7 more | halim=2 models=4 docs=1 other=3 | brain=
+- `2026-06-30 19:32 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=child dataset=315 evolut
+- `2026-06-30 19:33 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 19:34 UTC` **git_auto** — sync: 9 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +6 more | halim=2 models=3 docs=1 other=3 | brain=c
+- `2026-06-30 19:34 UTC` **git_auto** — sync: 7 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +4 more | halim=1 models=2 docs=1 other=3 | brain=c
+- `2026-06-30 19:34 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 19:36 UTC` **git_auto** — sync: 7 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +4 more | halim=1 models=2 docs=1 other=3 | brain=c
+- `2026-06-30 19:36 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 19:38 UTC` **git_auto** — sync: 7 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +4 more | halim=1 models=2 docs=1 other=3 | brain=c
+- `2026-06-30 19:38 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 19:39 UTC` **git_auto** — sync: 8 files — ai_commander_deferred.py, fill_tracker.py, position_sync.py +5 more | halim=1 docs=1 core=3 other=3 | brain=child dataset=31
+- `2026-06-30 19:39 UTC` **git_auto** — sync: 7 files — ai_commander_deferred.py, scalper_exit_executor.py, scalper_runner.py +4 more | halim=1 docs=1 core=2 other=3 | brain=child 
+- `2026-06-30 19:39 UTC` **git_auto** — sync: 7 files — ai_commander_deferred.py, scalper_exit_executor.py, BRAIN_DEVELOPMENT_LOG.md +4 more | halim=1 docs=1 core=1 other=4 | brain
+- `2026-06-30 19:39 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 19:39 UTC` **git_auto** — sync: 7 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +4 more | halim=1 docs=2 other=4 | brain=child da
+- `2026-06-30 19:40 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=child data
+- `2026-06-30 19:40 UTC` **brain_ppo_teacher** — PPO teacher live_session_end: WR 0%, source heuristic_fallback
+- `2026-06-30 19:40 UTC` **brain_evolution** · stage **toddler** — Evolution live_session_end — stage toddler, dataset 167 pairs
+- `2026-06-30 19:40 UTC` **brain_stage_up** — Brain grew: child → toddler
+- `2026-06-30 19:40 UTC` **git_auto** — sync: 30 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +27 more | halim=10 models=16 docs=1 other=3 | bra
+- `2026-06-30 19:40 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, conversation_gold.jsonl +3 more | halim=2 docs=1 other=3 | brain=toddler
+- `2026-06-30 19:40 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evol
+- `2026-06-30 19:44 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, smart_stack.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=toddler dataset=1
+- `2026-06-30 19:44 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, entry_quality.py, smart_stack.py +3 more | docs=1 core=2 other=3 | brain=toddler dataset=167 evolu
+- `2026-06-30 19:45 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evol
+- `2026-06-30 19:45 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, entry_quality.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=toddler dataset
+- `2026-06-30 19:45 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, capital_discipline.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=toddler da
+- `2026-06-30 19:45 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, capital_discipline.py, live_ai_pipeline.py +3 more | docs=1 core=2 other=3 | brain=toddler dataset
+- `2026-06-30 19:46 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, ai_commander_verdict.py, live_ai_pipeline.py +3 more | docs=1 core=2 other=3 | brain=toddler datas
+- `2026-06-30 19:46 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, ai_commander_verdict.py, fast_execution.py +3 more | docs=1 core=2 other=3 | brain=toddler dataset
+- `2026-06-30 19:46 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +3 more | docs=2 other=4 | brain=toddler dataset=
+- `2026-06-30 19:46 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evol
+- `2026-06-30 19:47 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ai_session_limits.json +3 more | models=2 docs=1 other=3 | brain=toddler
+- `2026-06-30 19:47 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evol
+- `2026-06-30 19:47 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, halim_constitution.json +2 more | models=1 docs=1 other=3 | brain=toddle
+- `2026-06-30 19:47 UTC` **git_auto** — sync: 19 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ib_report_events.jsonl +16 more | halim=10 models=5 docs=1 other=3 | br
+- `2026-06-30 19:47 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, copilot_journal.jsonl +3 more | models=2 docs=1 other=3 | brain=toddler 
+- `2026-06-30 19:48 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +3 more | halim=2 docs=1 other=3 | brain=toddler da
+- `2026-06-30 19:48 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +2 more | halim=1 docs=1 other=3 | brain=toddler dataset=
+- `2026-06-30 19:48 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=toddler da
+- `2026-06-30 19:51 UTC` **git_auto** — sync: 7 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +4 more | halim=1 models=2 docs=1 other=3 | brain=t
+- `2026-06-30 19:51 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=toddler da
+- `2026-06-30 19:54 UTC` **git_auto** — sync: 7 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +4 more | halim=1 models=2 docs=1 other=3 | brain=t
+- `2026-06-30 19:54 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +2 more | halim=1 docs=1 other=3 | brain=toddler da
+- `2026-06-30 19:56 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, halim_entry_line.py, BRAIN_DEVELOPMENT_LOG.md +3 more | halim=1 docs=1 core=1 other=3 | brain=todd
+- `2026-06-30 19:56 UTC` **git_auto** — sync: 7 files — ai_commander_deferred.py, ai_commander_entry.py, halim_entry_line.py +4 more | halim=1 docs=1 core=2 other=3 | brain=toddler
+- `2026-06-30 19:56 UTC` **git_auto** — sync: 10 files — ai_commander_deferred.py, smart_stack.py, BRAIN_DEVELOPMENT_LOG.md +7 more | halim=4 models=1 docs=1 core=1 other=3 | brain
+- `2026-06-30 19:56 UTC` **brain_ppo_teacher** — PPO teacher live_session_end: WR 0%, source heuristic_fallback
+- `2026-06-30 19:56 UTC` **brain_evolution** · stage **toddler** — Evolution live_session_end — stage toddler, dataset 167 pairs
+- `2026-06-30 19:56 UTC` **git_auto** — sync: 28 files — ai_commander_deferred.py, ai_commander_entry.py, entry_quality.py +25 more | halim=7 models=13 docs=1 core=4 other=3 | brai
+- `2026-06-30 19:57 UTC` **git_auto** — sync: 7 files — ai_commander_deferred.py, entry_quality.py, fill_tracker.py +4 more | docs=1 core=3 other=3 | brain=toddler dataset=167 evol
+- `2026-06-30 19:57 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, scalper_runner.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=toddler datase
+- `2026-06-30 19:57 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, scalper_spike_loop.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=toddler da
+- `2026-06-30 19:57 UTC` **git_auto** — sync: 7 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +4 more | docs=2 other=5 | brain=toddler dataset=
+- `2026-06-30 19:57 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evol
+- `2026-06-30 19:58 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, smart_stack.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=toddler dataset=1
+- `2026-06-30 19:58 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evol
+- `2026-06-30 19:58 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ai_session_limits.json +3 more | models=2 docs=1 other=3 | brain=toddler
+- `2026-06-30 19:58 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ib_connectivity.jsonl +2 more | models=1 docs=1 other=3 | brain=toddler 
+- `2026-06-30 19:58 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evol
+- `2026-06-30 19:59 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, halim_constitution.json +2 more | models=1 docs=1 other=3 | brain=toddle
+- `2026-06-30 19:59 UTC` **git_auto** — sync: 19 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ib_report_events.jsonl +16 more | halim=10 models=5 docs=1 other=3 | br
+- `2026-06-30 19:59 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evol
+- `2026-06-30 19:59 UTC` **git_auto** — sync: 8 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +5 more | halim=2 models=2 docs=1 other=3 | brain=t
+- `2026-06-30 19:59 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +3 more | halim=2 docs=1 other=3 | brain=toddler da
+- `2026-06-30 20:00 UTC` **git_auto** — sync: 10 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, correction_log.jsonl +7 more | halim=1 models=5 docs=1 other=3 | brain=
+- `2026-06-30 20:00 UTC` **git_auto** — sync: 10 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ai_guidelines.txt +7 more | models=6 docs=1 other=3 | brain=toddler dat
+- `2026-06-30 20:00 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evol
+- `2026-06-30 20:00 UTC` **git_auto** — sync: 11 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ai_guidelines.txt +8 more | models=7 docs=1 other=3 | brain=toddler dat
+- `2026-06-30 20:01 UTC` **git_auto** — sync: 6 files — ai_commander_deferred.py, live_ai_pipeline.py, BRAIN_DEVELOPMENT_LOG.md +3 more | docs=2 core=1 other=3 | brain=toddler data
+- `2026-06-30 20:01 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evol
+- `2026-06-30 20:01 UTC` **brain_proxy_trained** · stage **toddler** — Teacher proxy holdout acc=92% (random=97%, 335 samples)
+- `2026-06-30 20:01 UTC` **brain_evolution** · stage **toddler** — Evolution live_session_end — stage toddler, dataset 167 pairs
+- `2026-06-30 20:01 UTC` **git_auto** — sync: 22 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, conversation_gold.jsonl +19 more | halim=8 models=10 docs=1 other=3 | b
+- `2026-06-30 20:01 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evol
+- `2026-06-30 20:21 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, war_ib_sync.py +2 more | docs=1 core=1 other=3 | brain=toddler dataset=1
+- `2026-06-30 20:21 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, war_account.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=toddler dataset=1
+- `2026-06-30 20:22 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evol
+- `2026-06-30 20:23 UTC` **git_auto** — sync: 5 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, ib_truth.py +2 more | docs=1 core=1 other=3 | brain=toddler dataset=167 
+- `2026-06-30 20:23 UTC` **git_auto** — sync: 4 files — ai_commander_deferred.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evol
+- `2026-06-30 20:23 UTC` **git_auto** — sync: 6 files — account_view.py, ai_commander_deferred.py, war_ib_sync.py +3 more | docs=1 core=2 other=3 | brain=toddler dataset=167 evolut
+- `2026-06-30 20:23 UTC` **git_auto** — sync: 5 files — account_view.py, scalper_runner.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=toddler dataset=167 evo
+- `2026-06-30 20:23 UTC` **git_auto** — sync: 5 files — account_view.py, war_account.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=toddler dataset=167 evolut
+- `2026-06-30 20:24 UTC` **git_auto** — sync: 7 files — account_view.py, position_intel.py, war_account.py +4 more | docs=1 core=2 other=4 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 20:24 UTC` **git_auto** — sync: 6 files — account_view.py, position_intel.py, BRAIN_DEVELOPMENT_LOG.md +3 more | docs=1 core=1 other=4 | brain=toddler dataset=167 evo
+- `2026-06-30 20:24 UTC` **git_auto** — sync: 7 files — account_view.py, system_status.py, BRAIN_DEVELOPMENT_LOG.md +4 more | docs=1 core=1 other=5 | brain=toddler dataset=167 evol
+- `2026-06-30 20:24 UTC` **git_auto** — sync: 6 files — account_view.py, war_account.py, BRAIN_DEVELOPMENT_LOG.md +3 more | docs=2 core=1 other=3 | brain=toddler dataset=167 evolut
+- `2026-06-30 20:25 UTC` **git_auto** — sync: 4 files — account_view.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 20:25 UTC` **git_auto** — sync: 5 files — account_view.py, position_sync.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=toddler dataset=167 evol
+- `2026-06-30 20:25 UTC` **git_auto** — sync: 4 files — account_view.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 20:27 UTC` **git_auto** — sync: 6 files — account_view.py, ib_truth.py, rth_session.py +3 more | docs=1 core=2 other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 20:27 UTC` **git_auto** — sync: 8 files — account_view.py, ib_truth.py, scalper_runner.py +5 more | docs=1 core=4 other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 20:27 UTC` **git_auto** — sync: 8 files — account_view.py, war_ib_sync.py, BRAIN_DEVELOPMENT_LOG.md +5 more | docs=2 core=1 other=5 | brain=toddler dataset=167 evolut
+- `2026-06-30 20:27 UTC` **git_auto** — sync: 8 files — account_view.py, scalper_runner.py, BRAIN_DEVELOPMENT_LOG.md +5 more | models=2 docs=1 core=1 other=4 | brain=toddler datase
+- `2026-06-30 20:28 UTC` **git_auto** — sync: 4 files — account_view.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 20:28 UTC` **git_auto** — sync: 4 files — account_view.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 core=1 other=2 | brain=toddler dataset=167 evolut
+- `2026-06-30 20:28 UTC` **git_auto** — sync: 17 files — ib_report_events.jsonl, 0dbc1fe34c91c315.json, 4156158cc4709024.json +14 more | halim=9 models=5 other=3 | brain=toddler da
+- `2026-06-30 20:28 UTC` **git_auto** — sync: 8 files — BRAIN_DEVELOPMENT_LOG.md, ib_report_events.jsonl, registry.jsonl +5 more | halim=2 models=3 other=3 | brain=toddler dataset=
+- `2026-06-30 20:28 UTC` **git_auto** — sync: 8 files — BRAIN_DEVELOPMENT_LOG.md, ai_guidelines.txt, cognitive_state.json +5 more | models=5 other=3 | brain=toddler dataset=167 evo
+- `2026-06-30 20:29 UTC` **git_auto** — sync: 3 files — BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc, sync.key | other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 20:30 UTC` **git_auto** — sync: 4 files — war_ib_sync.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 20:30 UTC` **git_auto** — sync: 5 files — scalper_runner.py, war_ib_sync.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=toddler dataset=167 evol
+- `2026-06-30 20:31 UTC` **git_auto** — sync: 13 files — scalper_runner.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +10 more | halim=6 models=3 docs=1 other=3 | brain=toddler data
+- `2026-06-30 20:31 UTC` **git_auto** — sync: 5 files — scalper_exit_executor.py, scalper_runner.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=toddler datase
+- `2026-06-30 20:31 UTC` **git_auto** — sync: 6 files — rth_session.py, scalper_exit_executor.py, war_account.py +3 more | docs=1 core=2 other=3 | brain=toddler dataset=167 evoluti
+- `2026-06-30 20:31 UTC` **git_auto** — sync: 8 files — halim_companion.py, rth_session.py, scalper_runner.py +5 more | docs=1 core=3 other=4 | brain=toddler dataset=167 evolutions
+- `2026-06-30 20:31 UTC` **git_auto** — sync: 6 files — halim_companion.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +3 more | docs=2 other=4 | brain=toddler dataset=167 ev
+- `2026-06-30 20:32 UTC` **git_auto** — sync: 4 files — halim_companion.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evolutions
+- `2026-06-30 20:32 UTC` **git_auto** — sync: 4 files — halim_companion.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 core=1 other=2 | brain=toddler dataset=167 evo
+- `2026-06-30 20:32 UTC` **git_auto** — sync: 3 files — BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc, sync.key | other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 20:34 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, ai_session_limits.json, hanoon.env.enc +1 more | models=1 other=3 | brain=toddler dataset=167 evol
+- `2026-06-30 20:34 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, macro_context.json, hanoon.env.enc +1 more | models=1 other=3 | brain=toddler dataset=167 evolutio
+- `2026-06-30 20:35 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, ib_connectivity.jsonl, hanoon.env.enc +1 more | models=1 other=3 | brain=toddler dataset=167 evolu
+- `2026-06-30 20:35 UTC` **git_auto** — sync: 3 files — BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc, sync.key | other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 20:38 UTC` **git_auto** — sync: 4 files — ib_truth.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 20:39 UTC` **git_auto** — sync: 5 files — ib_truth.py, BRAIN_DEVELOPMENT_LOG.md, trade_horizon.py +2 more | docs=1 core=1 other=3 | brain=toddler dataset=167 evolutio
+- `2026-06-30 20:39 UTC` **git_auto** — sync: 5 files — ib_truth.py, BRAIN_DEVELOPMENT_LOG.md, swing_shadow.py +2 more | docs=1 core=1 other=3 | brain=toddler dataset=167 evolution
+- `2026-06-30 20:39 UTC` **git_auto** — sync: 8 files — fill_tracker.py, halim_companion.py, ib_truth.py +5 more | docs=1 core=4 other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 20:39 UTC` **git_auto** — sync: 7 files — account_view.py, daily_ib_learning.py, fill_tracker.py +4 more | docs=1 core=3 other=3 | brain=toddler dataset=167 evolution
+- `2026-06-30 20:39 UTC` **git_auto** — sync: 7 files — account_view.py, BRAIN_DEVELOPMENT_LOG.md, start_hanoon.sh +4 more | docs=1 other=6 | brain=toddler dataset=167 evolutions=5
+- `2026-06-30 20:40 UTC` **git_auto** — sync: 6 files — account_view.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +3 more | docs=3 other=3 | brain=toddler dataset=167 evolu
+- `2026-06-30 20:40 UTC` **git_auto** — sync: 6 files — account_view.py, war_ib_sync.py, BRAIN_DEVELOPMENT_LOG.md +3 more | docs=1 core=1 other=4 | brain=toddler dataset=167 evolut
+- `2026-06-30 20:40 UTC` **git_auto** — sync: 6 files — account_view.py, swing_shadow.py, trade_horizon.py +3 more | docs=1 core=2 other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 20:40 UTC` **git_auto** — sync: 4 files — account_view.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 20:42 UTC` **git_auto** — sync: 5 files — account_view.py, BRAIN_DEVELOPMENT_LOG.md, ib_data_catalog.py +2 more | docs=1 core=1 other=3 | brain=toddler dataset=167 ev
+- `2026-06-30 20:42 UTC` **git_auto** — sync: 6 files — account_view.py, ib_truth.py, BRAIN_DEVELOPMENT_LOG.md +3 more | docs=1 core=2 other=3 | brain=toddler dataset=167 evolution
+- `2026-06-30 20:42 UTC` **git_auto** — sync: 5 files — account_view.py, ib_truth.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=toddler dataset=167 evolution
+- `2026-06-30 20:42 UTC` **git_auto** — sync: 6 files — account_view.py, halim_companion.py, ib_truth.py +3 more | docs=1 core=2 other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 20:42 UTC` **git_auto** — sync: 7 files — account_view.py, halim_companion.py, market_context.py +4 more | docs=1 core=3 other=3 | brain=toddler dataset=167 evolution
+- `2026-06-30 20:43 UTC` **git_auto** — sync: 7 files — account_evaluator.py, account_view.py, scalper_session.py +4 more | docs=1 core=2 other=4 | brain=toddler dataset=167 evolut
+- `2026-06-30 20:43 UTC` **git_auto** — sync: 7 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +4 more | docs=3 other=4 | brain=toddler dataset=167 
+- `2026-06-30 20:43 UTC` **git_auto** — sync: 4 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evolutio
+- `2026-06-30 20:46 UTC` **git_auto** — sync: 5 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, ib_extended.py +2 more | docs=1 core=1 other=3 | brain=toddler dataset=167 e
+- `2026-06-30 20:46 UTC` **git_auto** — sync: 5 files — account_evaluator.py, ib_truth.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=toddler dataset=167 evol
+- `2026-06-30 20:46 UTC` **git_auto** — sync: 6 files — account_evaluator.py, broker.py, war_account.py +3 more | docs=1 core=2 other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 20:46 UTC` **git_auto** — sync: 6 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, ppo_swing_train.py +3 more | docs=1 core=2 other=3 | brain=toddler dataset=1
+- `2026-06-30 20:47 UTC` **git_auto** — sync: 9 files — account_evaluator.py, scalper_runner.py, scalper_session.py +6 more | docs=1 core=4 other=4 | brain=toddler dataset=167 evol
+- `2026-06-30 20:47 UTC` **git_auto** — sync: 6 files — account_evaluator.py, ib_data_catalog.py, BRAIN_DEVELOPMENT_LOG.md +3 more | docs=1 core=1 other=4 | brain=toddler dataset=1
+- `2026-06-30 20:47 UTC` **git_auto** — sync: 5 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +2 more | docs=2 other=3 | brain=toddler dataset=167 
+- `2026-06-30 20:47 UTC` **git_auto** — sync: 5 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, HORIZON_ROADMAP.md +2 more | docs=2 other=3 | brain=toddler dataset=167 evol
+- `2026-06-30 20:47 UTC` **git_auto** — sync: 5 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, IB_DATA_CATALOG.md +2 more | docs=2 other=3 | brain=toddler dataset=167 evol
+- `2026-06-30 20:50 UTC` **git_auto** — sync: 6 files — account_evaluator.py, scalper_exit_executor.py, BRAIN_DEVELOPMENT_LOG.md +3 more | docs=2 core=1 other=3 | brain=toddler dat
+- `2026-06-30 20:50 UTC` **git_auto** — sync: 5 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, ib_client_guard.py +2 more | docs=1 core=1 other=3 | brain=toddler dataset=1
+- `2026-06-30 20:50 UTC` **git_auto** — sync: 6 files — account_evaluator.py, ib_client_guard.py, BRAIN_DEVELOPMENT_LOG.md +3 more | docs=1 core=1 other=4 | brain=toddler dataset=1
+- `2026-06-30 20:50 UTC` **git_auto** — sync: 9 files — account_evaluator.py, connector.py, BRAIN_DEVELOPMENT_LOG.md +6 more | docs=2 core=1 other=6 | brain=toddler dataset=167 evo
+- `2026-06-30 20:51 UTC` **git_auto** — sync: 4 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evolutio
+- `2026-06-30 20:51 UTC` **git_auto** — sync: 6 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, download_ib_replay_data.py +3 more | models=1 docs=1 other=4 | brain=toddler
+- `2026-06-30 20:51 UTC` **git_auto** — sync: 5 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, weekend_replay_train.sh +2 more | docs=1 other=4 | brain=toddler dataset=167
+- `2026-06-30 20:51 UTC` **git_auto** — sync: 4 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evolutio
+- `2026-06-30 20:52 UTC` **git_auto** — sync: 5 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, macro_context.json +2 more | models=1 docs=1 other=3 | brain=toddler dataset
+- `2026-06-30 20:52 UTC` **git_auto** — sync: 4 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evolutio
+- `2026-06-30 20:52 UTC` **git_auto** — sync: 10 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +7 more | halim=2 models=4 docs=1 other=3 | brain=toddler da
+- `2026-06-30 20:53 UTC` **git_auto** — sync: 17 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, ib_report_events.jsonl +14 more | halim=10 models=3 docs=1 other=3 | brain=
+- `2026-06-30 20:53 UTC` **git_auto** — sync: 4 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evolutio
+- `2026-06-30 20:53 UTC` **git_auto** — sync: 5 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, ib_hub.py +2 more | docs=1 core=1 other=3 | brain=toddler dataset=167 evolut
+- `2026-06-30 20:53 UTC` **git_auto** — sync: 6 files — account_evaluator.py, ib_data_catalog.py, ib_truth.py +3 more | docs=1 core=2 other=3 | brain=toddler dataset=167 evolutions
+- `2026-06-30 20:54 UTC` **git_auto** — sync: 4 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evolutio
+- `2026-06-30 20:54 UTC` **git_auto** — sync: 5 files — account_evaluator.py, ib_truth.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=toddler dataset=167 evol
+- `2026-06-30 20:54 UTC` **git_auto** — sync: 6 files — account_evaluator.py, ib_extended.py, ib_truth.py +3 more | docs=1 core=2 other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 20:54 UTC` **git_auto** — sync: 5 files — account_evaluator.py, ib_extended.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=toddler dataset=167 e
+- `2026-06-30 20:54 UTC` **git_auto** — sync: 9 files — account_evaluator.py, halim_companion.py, ib_data_catalog.py +6 more | docs=1 core=5 other=3 | brain=toddler dataset=167 evo
+- `2026-06-30 20:55 UTC` **git_auto** — sync: 8 files — account_evaluator.py, scalper_session.py, BRAIN_DEVELOPMENT_LOG.md +5 more | docs=1 core=1 other=6 | brain=toddler dataset=1
+- `2026-06-30 20:55 UTC` **git_auto** — sync: 5 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +2 more | docs=2 other=3 | brain=toddler dataset=167 
+- `2026-06-30 20:55 UTC` **git_auto** — sync: 6 files — account_evaluator.py, scalper_runner.py, scalper_session.py +3 more | docs=1 core=2 other=3 | brain=toddler dataset=167 evol
+- `2026-06-30 20:55 UTC` **git_auto** — sync: 4 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evolutio
+- `2026-06-30 21:00 UTC` **git_auto** — sync: 5 files — account_evaluator.py, market_context.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=toddler dataset=16
+- `2026-06-30 21:01 UTC` **git_auto** — sync: 6 files — account_evaluator.py, fill_tracker.py, market_context.py +3 more | docs=1 core=2 other=3 | brain=toddler dataset=167 evoluti
+- `2026-06-30 21:01 UTC` **git_auto** — sync: 7 files — account_evaluator.py, account_view.py, scalper_runner.py +4 more | docs=1 core=3 other=3 | brain=toddler dataset=167 evoluti
+- `2026-06-30 21:01 UTC` **git_auto** — sync: 7 files — account_evaluator.py, position_intel.py, position_sync.py +4 more | docs=1 core=3 other=3 | brain=toddler dataset=167 evolut
+- `2026-06-30 21:02 UTC` **git_auto** — sync: 6 files — account_evaluator.py, halim_companion.py, scalper_exit_executor.py +3 more | docs=1 core=2 other=3 | brain=toddler dataset=1
+- `2026-06-30 21:02 UTC` **git_auto** — sync: 7 files — account_evaluator.py, daily_self_evaluation.py, scalper_session.py +4 more | docs=1 core=3 other=3 | brain=toddler dataset=1
+- `2026-06-30 21:02 UTC` **git_auto** — sync: 6 files — account_evaluator.py, market_context.py, scalper_exit_executor.py +3 more | docs=1 core=2 other=3 | brain=toddler dataset=16
+- `2026-06-30 21:02 UTC` **git_auto** — sync: 6 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +3 more | models=1 docs=2 other=3 | brain=toddler dat
+- `2026-06-30 21:02 UTC` **git_auto** — sync: 5 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, test_account_view.py +2 more | docs=1 other=4 | brain=toddler dataset=167 ev
+- `2026-06-30 21:02 UTC` **git_auto** — sync: 4 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evolutio
+- `2026-06-30 21:03 UTC` **git_auto** — sync: 6 files — account_evaluator.py, fill_tracker.py, BRAIN_DEVELOPMENT_LOG.md +3 more | docs=1 core=1 other=4 | brain=toddler dataset=167 
+- `2026-06-30 21:03 UTC` **git_auto** — sync: 5 files — account_evaluator.py, fill_tracker.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=toddler dataset=167 
+- `2026-06-30 21:03 UTC` **git_auto** — sync: 4 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evolutio
+- `2026-06-30 21:06 UTC` **git_auto** — sync: 5 files — account_evaluator.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +2 more | docs=2 core=1 other=2 | brain=toddler datas
+- `2026-06-30 21:07 UTC` **git_auto** — sync: 3 files — BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc, sync.key | other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 21:07 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, cognitive_state.json, hanoon.env.enc +1 more | models=1 other=3 | brain=toddler dataset=167 evolut
+- `2026-06-30 21:08 UTC` **git_auto** — sync: 3 files — BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc, sync.key | other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 21:22 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, cognitive_state.json, hanoon.env.enc +1 more | models=1 other=3 | brain=toddler dataset=167 evolut
+- `2026-06-30 21:23 UTC` **git_auto** — sync: 3 files — BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc, sync.key | other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 21:30 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, horizon_tags.py, hanoon.env.enc +1 more | core=1 other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 21:30 UTC` **git_auto** — sync: 5 files — trade_horizon.py, BRAIN_DEVELOPMENT_LOG.md, capital_phase.py +2 more | docs=1 core=1 other=3 | brain=toddler dataset=167 evo
+- `2026-06-30 21:30 UTC` **git_auto** — sync: 6 files — broker.py, trade_horizon.py, war_account.py +3 more | docs=1 core=2 other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 21:30 UTC` **git_auto** — sync: 5 files — broker.py, war_account.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=toddler dataset=167 evolutions=5
+- `2026-06-30 21:30 UTC` **git_auto** — sync: 7 files — broker.py, paper_mode.py, pilot_mode.py +4 more | docs=1 core=3 other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 21:31 UTC` **git_auto** — sync: 5 files — account_view.py, broker.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=toddler dataset=167 evolutions=
+- `2026-06-30 21:31 UTC` **git_auto** — sync: 6 files — account_view.py, BRAIN_DEVELOPMENT_LOG.md, swing_executor.py +3 more | docs=1 core=2 other=3 | brain=toddler dataset=167 evo
+- `2026-06-30 21:31 UTC` **git_auto** — sync: 6 files — account_view.py, scalper_entry_executor.py, swing_learning.py +3 more | docs=1 core=2 other=3 | brain=toddler dataset=167 ev
+- `2026-06-30 21:31 UTC` **git_auto** — sync: 4 files — account_view.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 21:31 UTC` **git_auto** — sync: 8 files — account_view.py, ppo_swing_train.py, scalper_entry_executor.py +5 more | docs=1 core=4 other=3 | brain=toddler dataset=167 e
+- `2026-06-30 21:32 UTC` **git_auto** — sync: 10 files — account_view.py, smart_stack.py, war_account.py +7 more | docs=1 core=2 other=7 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 21:32 UTC` **git_auto** — sync: 6 files — account_view.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +3 more | docs=2 other=4 | brain=toddler dataset=167 evolu
+- `2026-06-30 21:32 UTC` **git_auto** — sync: 4 files — account_view.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 21:34 UTC` **git_auto** — sync: 5 files — account_view.py, BRAIN_DEVELOPMENT_LOG.md, swing_intel.py +2 more | docs=1 core=1 other=3 | brain=toddler dataset=167 evolut
+- `2026-06-30 21:34 UTC` **git_auto** — sync: 6 files — account_view.py, swing_intel.py, BRAIN_DEVELOPMENT_LOG.md +3 more | docs=1 core=2 other=3 | brain=toddler dataset=167 evolut
+- `2026-06-30 21:35 UTC` **git_auto** — sync: 6 files — account_view.py, swing_intel.py, BRAIN_DEVELOPMENT_LOG.md +3 more | docs=1 core=2 other=3 | brain=toddler dataset=167 evolut
+- `2026-06-30 21:35 UTC` **git_auto** — sync: 5 files — account_view.py, swing_executor.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=toddler dataset=167 evo
+- `2026-06-30 21:35 UTC` **git_auto** — sync: 6 files — account_view.py, scalper_runner.py, swing_shadow.py +3 more | docs=1 core=2 other=3 | brain=toddler dataset=167 evolutions=5
+- `2026-06-30 21:35 UTC` **git_auto** — sync: 9 files — account_view.py, swing_executor.py, swing_shadow.py +6 more | docs=2 core=2 other=5 | brain=toddler dataset=167 evolutions=5
+- `2026-06-30 21:35 UTC` **git_auto** — sync: 4 files — account_view.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 21:37 UTC` **git_auto** — sync: 5 files — account_view.py, BRAIN_DEVELOPMENT_LOG.md, cognitive_state.json +2 more | models=1 docs=1 other=3 | brain=toddler dataset=16
+- `2026-06-30 21:38 UTC` **git_auto** — sync: 4 files — account_view.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 21:38 UTC` **git_auto** — sync: 5 files — account_view.py, BRAIN_DEVELOPMENT_LOG.md, green_trade_doctrine.py +2 more | docs=1 core=1 other=3 | brain=toddler dataset=1
+- `2026-06-30 21:39 UTC` **git_auto** — sync: 4 files — account_view.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 21:39 UTC` **git_auto** — sync: 6 files — account_view.py, war_account.py, war_entry_gates.py +3 more | docs=1 core=2 other=3 | brain=toddler dataset=167 evolutions=5
+- `2026-06-30 21:39 UTC` **git_auto** — sync: 6 files — account_view.py, ai_commander_entry.py, ai_commander_verdict.py +3 more | docs=1 core=2 other=3 | brain=toddler dataset=167 
+- `2026-06-30 21:39 UTC` **git_auto** — sync: 7 files — account_view.py, scalper_entry_executor.py, scalper_exit_executor.py +4 more | docs=1 core=3 other=3 | brain=toddler dataset
+- `2026-06-30 21:40 UTC` **git_auto** — sync: 7 files — account_view.py, scalper_spike_loop.py, swing_intel.py +4 more | docs=1 core=2 other=4 | brain=toddler dataset=167 evolution
+- `2026-06-30 21:40 UTC` **git_auto** — sync: 6 files — account_view.py, swing_intel.py, BRAIN_DEVELOPMENT_LOG.md +3 more | docs=2 core=1 other=3 | brain=toddler dataset=167 evolut
+- `2026-06-30 21:40 UTC` **git_auto** — sync: 5 files — account_view.py, BRAIN_DEVELOPMENT_LOG.md, test_green_trade_doctrine.py +2 more | docs=1 other=4 | brain=toddler dataset=167
+- `2026-06-30 21:44 UTC` **git_auto** — sync: 6 files — account_view.py, green_trade_doctrine.py, BRAIN_DEVELOPMENT_LOG.md +3 more | docs=1 core=1 other=4 | brain=toddler dataset=1
+- `2026-06-30 21:44 UTC` **git_auto** — sync: 5 files — account_view.py, green_trade_doctrine.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=toddler dataset=1
+- `2026-06-30 21:44 UTC` **git_auto** — sync: 6 files — account_view.py, green_trade_doctrine.py, scalper_exit_executor.py +3 more | docs=1 core=2 other=3 | brain=toddler dataset=1
+- `2026-06-30 21:44 UTC` **git_auto** — sync: 5 files — account_view.py, scalper_exit_executor.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=toddler dataset=
+- `2026-06-30 21:45 UTC` **git_auto** — sync: 8 files — account_view.py, green_trade_doctrine.py, BRAIN_DEVELOPMENT_LOG.md +5 more | docs=2 core=1 other=5 | brain=toddler dataset=1
+- `2026-06-30 21:45 UTC` **git_auto** — sync: 5 files — account_view.py, BRAIN_DEVELOPMENT_LOG.md, test_green_trade_doctrine.py +2 more | docs=1 other=4 | brain=toddler dataset=167
+- `2026-06-30 21:45 UTC` **git_auto** — sync: 4 files — account_view.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 21:47 UTC` **git_auto** — sync: 5 files — account_view.py, BRAIN_DEVELOPMENT_LOG.md, swing_doctrine.py +2 more | docs=1 core=1 other=3 | brain=toddler dataset=167 evo
+- `2026-06-30 21:47 UTC` **git_auto** — sync: 5 files — account_view.py, green_trade_doctrine.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=toddler dataset=1
+- `2026-06-30 21:47 UTC` **git_auto** — sync: 6 files — account_view.py, green_trade_doctrine.py, swing_intel.py +3 more | docs=1 core=2 other=3 | brain=toddler dataset=167 evoluti
+- `2026-06-30 21:47 UTC` **git_auto** — sync: 6 files — account_view.py, swing_doctrine.py, swing_intel.py +3 more | docs=1 core=2 other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 21:47 UTC` **git_auto** — sync: 6 files — account_view.py, swing_executor.py, BRAIN_DEVELOPMENT_LOG.md +3 more | docs=1 core=1 other=4 | brain=toddler dataset=167 evo
+- `2026-06-30 21:48 UTC` **git_auto** — sync: 5 files — account_view.py, swing_executor.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=toddler dataset=167 evo
+- `2026-06-30 21:48 UTC` **git_auto** — sync: 4 files — account_view.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 21:48 UTC` **git_auto** — sync: 3 files — BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc, sync.key | other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 21:51 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, cognitive_state.json, hanoon.env.enc +1 more | models=1 other=3 | brain=toddler dataset=167 evolut
+- `2026-06-30 21:51 UTC` **git_auto** — sync: 3 files — BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc, sync.key | other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 21:52 UTC` **git_auto** — sync: 6 files — scalper_runner.py, BRAIN_DEVELOPMENT_LOG.md, cognitive_state.json +3 more | models=1 docs=1 core=1 other=3 | brain=toddler d
+- `2026-06-30 21:53 UTC` **git_auto** — sync: 4 files — scalper_runner.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evolutions=
+- `2026-06-30 21:53 UTC` **git_auto** — sync: 6 files — scalper_runner.py, BRAIN_DEVELOPMENT_LOG.md, start_hanoon.sh +3 more | docs=1 other=5 | brain=toddler dataset=167 evolutions
+- `2026-06-30 21:53 UTC` **git_auto** — sync: 7 files — scalper_runner.py, scalper_spike_loop.py, BRAIN_DEVELOPMENT_LOG.md +4 more | docs=3 core=1 other=3 | brain=toddler dataset=1
+- `2026-06-30 21:53 UTC` **git_auto** — sync: 4 files — scalper_runner.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=167 evolutions=
+- `2026-06-30 21:53 UTC` **git_auto** — sync: 4 files — scalper_runner.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 core=1 other=2 | brain=toddler dataset=167 evol
+- `2026-06-30 21:54 UTC` **git_auto** — sync: 3 files — BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc, sync.key | other=3 | brain=toddler dataset=167 evolutions=51
+- `2026-06-30 21:54 UTC` **git_auto** — sync: 8 files — BRAIN_DEVELOPMENT_LOG.md, registry.jsonl, colab_manifest.json +5 more | halim=2 models=3 other=3 | brain=toddler dataset=167
+- `2026-06-30 21:54 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, ai_session_limits.json, macro_context.json +2 more | models=2 other=3 | brain=toddler dataset=167 
+- `2026-06-30 21:54 UTC` **brain_proxy_trained** · stage **toddler** — Teacher proxy holdout acc=92% (random=97%, 335 samples)
+- `2026-06-30 21:54 UTC` **brain_evolution** · stage **toddler** — Halim developer post_standalone_flush: 3 mutation(s), git=ok
+- `2026-06-30 21:54 UTC` **brain_evolution** · stage **toddler** — Evolution standalone_flush — stage toddler, dataset 106 pairs
+- `2026-06-30 21:54 UTC` **git_auto** — sync: 29 files — BRAIN_DEVELOPMENT_LOG.md, HALIM_MANIFEST.json, registry.jsonl +26 more | halim=11 models=15 other=3 | brain=toddler dataset
+- `2026-06-30 21:55 UTC` **git_auto** — sync: 7 files — BRAIN_DEVELOPMENT_LOG.md, registry.jsonl, colab_manifest.json +4 more | halim=2 models=2 other=3 | brain=toddler dataset=106
+- `2026-06-30 21:55 UTC` **git_auto** — sync: 12 files — BRAIN_DEVELOPMENT_LOG.md, registry.jsonl, action_gold.jsonl +9 more | halim=6 models=3 other=3 | brain=toddler dataset=106 
+- `2026-06-30 21:55 UTC` **git_auto** — sync: 3 files — BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc, sync.key | other=3 | brain=toddler dataset=106 evolutions=52
+- `2026-06-30 21:55 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, ib_extended_cache.json, hanoon.env.enc +1 more | models=1 other=3 | brain=toddler dataset=106 evol
+- `2026-06-30 21:55 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, halim_constitution.json, hanoon.env.enc +1 more | models=1 other=3 | brain=toddler dataset=106 evo
+- `2026-06-30 21:56 UTC` **git_auto** — sync: 16 files — BRAIN_DEVELOPMENT_LOG.md, ib_report_events.jsonl, 0dbc1fe34c91c315.json +13 more | halim=10 models=3 other=3 | brain=toddle
+- `2026-06-30 21:56 UTC` **git_auto** — sync: 3 files — BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc, sync.key | other=3 | brain=toddler dataset=106 evolutions=52
+- `2026-06-30 21:57 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, cognitive_state.json, hanoon.env.enc +1 more | models=1 other=3 | brain=toddler dataset=106 evolut
+- `2026-06-30 21:57 UTC` **git_auto** — sync: 3 files — BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc, sync.key | other=3 | brain=toddler dataset=106 evolutions=52
+- `2026-06-30 21:57 UTC` **git_auto** — sync: 4 files — startup_log.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=106 evolutions=52
+- `2026-06-30 21:57 UTC` **git_auto** — sync: 6 files — notify.py, startup_log.py, BRAIN_DEVELOPMENT_LOG.md +3 more | docs=1 core=1 other=4 | brain=toddler dataset=106 evolutions=5
+- `2026-06-30 21:57 UTC` **git_auto** — sync: 8 files — notify.py, scalper_runner.py, scalper_session.py +5 more | docs=1 core=2 other=5 | brain=toddler dataset=106 evolutions=52
+- `2026-06-30 21:58 UTC` **git_auto** — sync: 7 files — notify.py, startup_log.py, BRAIN_DEVELOPMENT_LOG.md +4 more | docs=2 core=1 other=4 | brain=toddler dataset=106 evolutions=5
+- `2026-06-30 21:58 UTC` **git_auto** — sync: 4 files — notify.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=106 evolutions=52
+- `2026-06-30 21:58 UTC` **git_auto** — sync: 6 files — notify.py, BRAIN_DEVELOPMENT_LOG.md, ai_session_limits.json +3 more | models=2 docs=1 other=3 | brain=toddler dataset=106 ev
+- `2026-06-30 21:59 UTC` **git_auto** — sync: 5 files — notify.py, BRAIN_DEVELOPMENT_LOG.md, ib_connectivity.jsonl +2 more | models=1 docs=1 other=3 | brain=toddler dataset=106 evo
+- `2026-06-30 21:59 UTC` **git_auto** — sync: 4 files — notify.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=106 evolutions=52
+- `2026-06-30 21:59 UTC` **git_auto** — sync: 9 files — notify.py, BRAIN_DEVELOPMENT_LOG.md, registry.jsonl +6 more | halim=2 models=3 docs=1 other=3 | brain=toddler dataset=106 ev
+- `2026-06-30 21:59 UTC` **git_auto** — sync: 4 files — notify.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=106 evolutions=52
+- `2026-06-30 21:59 UTC` **git_auto** — sync: 5 files — notify.py, BRAIN_DEVELOPMENT_LOG.md, ib_extended_cache.json +2 more | models=1 docs=1 core=1 other=2 | brain=toddler dataset
+- `2026-06-30 21:59 UTC` **git_auto** — sync: 4 files — BRAIN_DEVELOPMENT_LOG.md, halim_constitution.json, hanoon.env.enc +1 more | models=1 other=3 | brain=toddler dataset=106 evo
+- `2026-06-30 22:00 UTC` **git_auto** — sync: 16 files — BRAIN_DEVELOPMENT_LOG.md, ib_report_events.jsonl, 0dbc1fe34c91c315.json +13 more | halim=10 models=3 other=3 | brain=toddle
+- `2026-06-30 22:00 UTC` **git_auto** — sync: 3 files — BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc, sync.key | other=3 | brain=toddler dataset=106 evolutions=52
+- `2026-06-30 22:01 UTC` **git_auto** — sync: 7 files — connector.py, ib_extended.py, notify.py +4 more | docs=1 core=2 other=4 | brain=toddler dataset=106 evolutions=52
+- `2026-06-30 22:01 UTC` **git_auto** — sync: 6 files — connector.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +3 more | models=1 docs=2 other=3 | brain=toddler dataset=106
+- `2026-06-30 22:01 UTC` **git_auto** — sync: 4 files — connector.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=106 evolutions=52
+- `2026-06-30 22:02 UTC` **git_auto** — sync: 4 files — connector.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 core=1 other=2 | brain=toddler dataset=106 evolution
+- `2026-06-30 22:03 UTC` **git_auto** — sync: 3 files — BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc, sync.key | other=3 | brain=toddler dataset=106 evolutions=52
+- `2026-06-30 22:04 UTC` **git_auto** — sync: 5 files — BRAIN_DEVELOPMENT_LOG.md, ai_session_limits.json, macro_context.json +2 more | models=2 other=3 | brain=toddler dataset=106 
+- `2026-06-30 22:05 UTC` **git_auto** — sync: 3 files — BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc, sync.key | other=3 | brain=toddler dataset=106 evolutions=52
+- `2026-06-30 22:07 UTC` **git_auto** — sync: 5 files — scalper_session.py, shutdown_control.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=toddler dataset=10
+- `2026-06-30 22:07 UTC` **git_auto** — sync: 5 files — scalper_runner.py, scalper_session.py, BRAIN_DEVELOPMENT_LOG.md +2 more | docs=1 core=1 other=3 | brain=toddler dataset=106 
+- `2026-06-30 22:07 UTC` **git_auto** — sync: 6 files — scalper_runner.py, BRAIN_DEVELOPMENT_LOG.md, stop_hanoon.sh +3 more | docs=1 other=5 | brain=toddler dataset=106 evolutions=
+- `2026-06-30 22:08 UTC` **git_auto** — sync: 5 files — scalper_runner.py, BRAIN_DEVELOPMENT_LOG.md, ENGINEERING_FIX_LOG.md +2 more | docs=2 other=3 | brain=toddler dataset=106 evo
+- `2026-06-30 22:08 UTC` **git_auto** — sync: 4 files — scalper_runner.py, BRAIN_DEVELOPMENT_LOG.md, hanoon.env.enc +1 more | docs=1 other=3 | brain=toddler dataset=106 evolutions=
