@@ -1,49 +1,49 @@
 {
   "mode": "HANOON",
-  "account_equity": 982275.37,
-  "available_cash": 982275.37,
+  "account_equity": 982275.49,
+  "available_cash": 982275.49,
   "position_value": 0.0,
-  "nav": 982275.37,
+  "nav": 982275.49,
   "deployed_pct": 0.0,
   "current_ticker": "NONE",
   "position": "NONE",
   "win_rate": 0.0,
   "trades_today": 8,
-  "top_pick": "YHC",
-  "top_score": 86.6,
+  "top_pick": "TZA",
+  "top_score": 82.2,
   "next_best": "INLF",
   "next_best_score": 59.9,
   "scan_results": [
     {
       "ticker": "EDBL",
-      "price": 0.2374,
+      "price": 0.2231,
       "score": 102.0,
       "reason": "scanner:MOST_ACTIVE#0"
     },
     {
       "ticker": "BIYA",
-      "price": 0.545,
+      "price": 0.4937,
       "score": 97.6,
       "reason": "scanner:MOST_ACTIVE#2"
     },
     {
       "ticker": "YHC",
-      "price": 0.17,
+      "price": 0.1569,
       "score": 86.6,
       "reason": "scanner:MOST_ACTIVE#7"
     },
     {
       "ticker": "MSTU",
-      "price": 1.65,
+      "price": 1.6203,
       "score": 84.4,
       "reason": "scanner:MOST_ACTIVE#8"
     },
     {
       "ticker": "TZA",
-      "price": 3.81,
+      "price": 3.82,
       "score": 82.2,
       "reason": "scanner:MOST_ACTIVE#9"
     }
   ],
-  "timestamp": "2026-06-30T14:31:49.435411+00:00"
+  "timestamp": "2026-06-30T14:38:19.446506+00:00"
 }
