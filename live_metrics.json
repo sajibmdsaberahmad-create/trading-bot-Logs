@@ -9,41 +9,42 @@
   "position": "NONE",
   "win_rate": 0.0,
   "trades_today": 0,
-  "top_pick": "ABVX",
-  "top_score": 84.6,
+  "top_pick": "SVRE",
+  "top_score": 97.8,
   "next_best": null,
   "next_best_score": 0.0,
   "scan_results": [
     {
       "ticker": "JEM",
-      "price": 5.05,
+      "price": 4.82,
       "score": 100.0,
       "reason": "scanner:TOP_PERC_GAIN#0"
     },
     {
       "ticker": "SVRE",
-      "price": 5.99,
+      "price": 6.13,
       "score": 97.8,
       "reason": "scanner:TOP_PERC_GAIN#1"
     },
     {
       "ticker": "CELZ",
-      "price": 1.712,
+      "price": 1.92,
       "score": 95.6,
       "reason": "scanner:TOP_PERC_GAIN#2"
     },
     {
       "ticker": "BIYA",
-      "price": 0.442,
+      "price": 0.4558,
       "score": 91.2,
       "reason": "scanner:TOP_PERC_GAIN#4"
     },
     {
       "ticker": "AVXX",
-      "price": 7.83,
+      "price": 7.84,
       "score": 89.0,
       "reason": "scanner:TOP_PERC_GAIN#5"
     }
   ],
-  "timestamp": "2026-06-30T13:06:00.406520+00:00"
+  "timestamp": "2026-06-30T13:08:27.439031+00:00",
+  "ai_narrative": ""
 }
