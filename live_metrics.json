@@ -1,34 +1,34 @@
 {
   "mode": "HANOON",
-  "account_equity": 981635.52,
-  "available_cash": 981635.52,
+  "account_equity": 981635.51,
+  "available_cash": 981635.51,
   "position_value": 0.0,
-  "nav": 981635.52,
+  "nav": 981635.51,
   "deployed_pct": 0.0,
   "current_ticker": "NONE",
   "position": "NONE",
   "win_rate": 0.0,
   "trades_today": 2,
-  "top_pick": "EDBL",
-  "top_score": 99.8,
+  "top_pick": "INTZ",
+  "top_score": 91.0,
   "next_best": "EDBL",
   "next_best_score": 493.5,
   "scan_results": [
     {
       "ticker": "INLF",
-      "price": 0.0603,
+      "price": 0.0617,
       "score": 102.0,
       "reason": "scanner:MOST_ACTIVE#0"
     },
     {
       "ticker": "EDBL",
-      "price": 0.3279,
+      "price": 0.3127,
       "score": 99.8,
       "reason": "scanner:MOST_ACTIVE#1"
     },
     {
       "ticker": "BIYA",
-      "price": 0.4542,
+      "price": 0.4568,
       "score": 97.6,
       "reason": "scanner:MOST_ACTIVE#2"
     },
@@ -40,11 +40,10 @@
     },
     {
       "ticker": "SOXS",
-      "price": 3.53,
+      "price": 3.54,
       "score": 93.2,
       "reason": "scanner:MOST_ACTIVE#4"
     }
   ],
-  "timestamp": "2026-06-30T13:40:36.162860+00:00",
-  "ai_narrative": ""
+  "timestamp": "2026-06-30T13:42:03.263375+00:00"
 }
