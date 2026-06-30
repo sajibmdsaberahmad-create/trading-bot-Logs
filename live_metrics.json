@@ -1,28 +1,28 @@
 {
   "mode": "HANOON",
-  "account_equity": 982449.73,
-  "available_cash": 982449.73,
+  "account_equity": 982448.92,
+  "available_cash": 982448.92,
   "position_value": 0.0,
-  "nav": 982449.73,
+  "nav": 982448.92,
   "deployed_pct": 0.0,
   "current_ticker": "NONE",
   "position": "NONE",
   "win_rate": 0.0,
   "trades_today": 9,
-  "top_pick": "YHC",
-  "top_score": 91.0,
+  "top_pick": "SOXS",
+  "top_score": 102.0,
   "next_best": "INLF",
   "next_best_score": 57.2,
   "scan_results": [
     {
       "ticker": "EDBL",
-      "price": 0.2219,
+      "price": 0.221,
       "score": 99.8,
       "reason": "scanner:MOST_ACTIVE#1"
     },
     {
       "ticker": "BIYA",
-      "price": 0.3365,
+      "price": 0.3413,
       "score": 97.6,
       "reason": "scanner:MOST_ACTIVE#2"
     },
@@ -34,16 +34,16 @@
     },
     {
       "ticker": "BITO",
-      "price": 7.92,
+      "price": 7.93,
       "score": 86.6,
       "reason": "scanner:MOST_ACTIVE#7"
     },
     {
       "ticker": "MSTU",
-      "price": 1.56,
+      "price": 1.5699,
       "score": 80.0,
       "reason": "scanner:MOST_ACTIVE#10"
     }
   ],
-  "timestamp": "2026-06-30T15:37:39.572593+00:00"
+  "timestamp": "2026-06-30T15:53:07.735247+00:00"
 }
