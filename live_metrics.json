@@ -1,16 +1,16 @@
 {
   "mode": "HANOON",
-  "account_equity": 978596.04,
-  "available_cash": 978596.04,
-  "position_value": 349.74,
-  "nav": 978596.04,
-  "deployed_pct": 0.0,
-  "current_ticker": "BIYA",
-  "position": "784 BIYA",
+  "account_equity": 976028.06,
+  "available_cash": 976028.06,
+  "position_value": 2910.6,
+  "nav": 976028.06,
+  "deployed_pct": 0.3,
+  "current_ticker": "TZA",
+  "position": "770 TZA",
   "win_rate": 0.0,
-  "trades_today": 1,
-  "top_pick": "TZA",
-  "top_score": 91.0,
+  "trades_today": 2,
+  "top_pick": "BITO",
+  "top_score": 86.6,
   "next_best": null,
   "next_best_score": 0.0,
   "scan_results": [
@@ -22,28 +22,28 @@
     },
     {
       "ticker": "BIYA",
-      "price": 0.4461,
+      "price": 0.4512,
       "score": 99.8,
       "reason": "scanner:MOST_ACTIVE#1"
     },
     {
       "ticker": "EDBL",
-      "price": 0.2125,
+      "price": 0.2082,
       "score": 97.6,
       "reason": "scanner:MOST_ACTIVE#2"
     },
     {
       "ticker": "INLF",
-      "price": 0.0591,
+      "price": 0.0584,
       "score": 95.4,
       "reason": "scanner:MOST_ACTIVE#3"
     },
     {
       "ticker": "YHC",
-      "price": 0.0994,
+      "price": 0.0948,
       "score": 93.2,
       "reason": "scanner:MOST_ACTIVE#4"
     }
   ],
-  "timestamp": "2026-06-30T17:50:19.028584+00:00"
+  "timestamp": "2026-06-30T17:52:03.524046+00:00"
 }
