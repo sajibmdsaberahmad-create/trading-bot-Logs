@@ -1,34 +1,34 @@
 {
   "mode": "HANOON",
-  "account_equity": 980949.64,
-  "available_cash": 980949.64,
-  "position_value": 1138.29,
-  "nav": 980949.64,
-  "deployed_pct": 0.1,
-  "current_ticker": "CELZ",
-  "position": "414 CELZ",
+  "account_equity": 980945.73,
+  "available_cash": 980945.73,
+  "position_value": 2048.69,
+  "nav": 980945.73,
+  "deployed_pct": 0.2,
+  "current_ticker": "BITO",
+  "position": "259 BITO",
   "win_rate": 0.0,
-  "trades_today": 2,
-  "top_pick": "EDBL",
-  "top_score": 99.8,
+  "trades_today": 3,
+  "top_pick": "INLF",
+  "top_score": 87.4,
   "next_best": null,
   "next_best_score": 0.0,
   "scan_results": [
     {
       "ticker": "EDBL",
-      "price": 0.2142,
+      "price": 0.215,
       "score": 99.8,
       "reason": "scanner:MOST_ACTIVE#1"
     },
     {
       "ticker": "BIYA",
-      "price": 0.3485,
+      "price": 0.3493,
       "score": 97.6,
       "reason": "scanner:MOST_ACTIVE#2"
     },
     {
       "ticker": "TZA",
-      "price": 3.82,
+      "price": 3.81,
       "score": 91.0,
       "reason": "scanner:MOST_ACTIVE#5"
     },
@@ -40,10 +40,10 @@
     },
     {
       "ticker": "BITO",
-      "price": 7.9,
+      "price": 7.91,
       "score": 86.6,
       "reason": "scanner:MOST_ACTIVE#7"
     }
   ],
-  "timestamp": "2026-06-30T16:22:11.763849+00:00"
+  "timestamp": "2026-06-30T16:22:36.278280+00:00"
 }
