@@ -1,7 +1,7 @@
 {
   "mode": "HANOON",
-  "account_equity": 984466.58,
-  "available_cash": 984466.58,
+  "account_equity": 984466.49,
+  "available_cash": 984466.49,
   "position_value": 0.0,
   "nav": 1000.0,
   "deployed_pct": 0.0,
@@ -9,41 +9,42 @@
   "position": "NONE",
   "win_rate": 0.0,
   "trades_today": 0,
-  "top_pick": "ASTS",
-  "top_score": 70.8,
+  "top_pick": "SOFI",
+  "top_score": 92.0,
   "next_best": null,
   "next_best_score": 0.0,
   "scan_results": [
     {
       "ticker": "SOFI",
-      "price": 18.17,
+      "price": 18.18,
       "score": 92.0,
       "reason": "scanner:live#0"
     },
     {
+      "ticker": "PLTR",
+      "price": 116.4,
+      "score": 89.8,
+      "reason": "scanner:live#1"
+    },
+    {
       "ticker": "MARA",
-      "price": 13.93,
-      "score": 80.7,
-      "reason": "scanner:live#2 war_penalty"
+      "price": 13.89,
+      "score": 87.6,
+      "reason": "scanner:live#2"
     },
     {
       "ticker": "RIOT",
-      "price": 27.75,
-      "score": 77.4,
-      "reason": "scanner:live#3 war_penalty"
+      "price": 27.8,
+      "score": 85.4,
+      "reason": "scanner:live#3"
     },
     {
-      "ticker": "ASTS",
-      "price": 89.12,
-      "score": 70.8,
-      "reason": "scanner:live#6 war_penalty"
-    },
-    {
-      "ticker": "CHPT",
-      "price": 6.1,
-      "score": 70.0,
-      "reason": "scanner:live#10"
+      "ticker": "COIN",
+      "price": 149.55,
+      "score": 83.2,
+      "reason": "scanner:live#4"
     }
   ],
-  "timestamp": "2026-06-30T08:25:11.915702+00:00"
+  "timestamp": "2026-06-30T08:36:56.116640+00:00",
+  "ai_narrative": ""
 }
